@@ -1,0 +1,22 @@
+players/martiancyborg/neon
+{
+	{
+		map players/martiancyborg/neon.tga
+		nolightmap
+	}
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+	}
+}
+players/martianenforcer/neon
+{
+	{
+		map players/martianenforcer/neon.tga
+		nolightmap
+	}
+	{
+		map players/martianenforcer/default_normal.tga
+		normalmap
+	}
+}

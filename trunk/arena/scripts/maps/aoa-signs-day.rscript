@@ -1,0 +1,36 @@
+textures/arena3/light1
+{
+	{
+		lensflare
+	}
+}
+textures/martian/light3
+{
+	{
+		lensflare
+	}
+}
+textures/arena6/rimlight2
+{
+	{
+		map gfx/flash2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 4 static 1
+		scroll static 10 static 0
+		alphashift 20 0.05 0.5
+	}
+	
+}
+textures/xendoor3
+{
+	{
+		map gfx/xendoor3mask.tga
+	}
+	{
+		map gfx/zenofx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 20 0.1 1
+	}
+}

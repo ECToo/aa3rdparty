@@ -1,0 +1,33 @@
+players/pretty/pretty
+{
+	{
+		map players/pretty/pretty.tga
+		nolightmap
+	}
+	{
+		map players/pretty/pretty_normal.tga
+		normalmap
+	}	
+}
+players/pretty/red
+{
+	{
+		map players/pretty/red.tga
+		nolightmap
+	}
+	{
+		map players/pretty/pretty_normal.tga
+		normalmap
+	}	
+}
+players/pretty/blue
+{
+	{
+		map players/pretty/blue.tga
+		nolightmap
+	}
+	{
+		map players/pretty/pretty_normal.tga
+		normalmap
+	}	
+}

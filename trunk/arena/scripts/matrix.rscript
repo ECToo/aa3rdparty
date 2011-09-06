@@ -1,0 +1,72 @@
+players/femforcer/trinity2
+{
+	{
+		map players/femforcer/trinity2.tga
+	}
+	{
+		map gfx/matrix.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static -15 static -15 
+		scroll static 0 static 3	
+		alphashift 0 1 1
+		nolightmap
+	}
+	{
+		map players/femforcer/trinity2.tga
+		alphamask
+	}
+}
+players/femforcer/trinity3
+{
+	{
+		map players/femforcer/trinity.tga
+	}
+	{
+		map gfx/matrix.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static -15 static -15 
+		scroll static 0 static 3	
+		alphashift 0 .3 .3
+		nolightmap
+	}
+	{
+		map players/femforcer/trinity3.tga
+		alphamask
+	}
+}
+players/enforcer/morpheus2
+{
+	{
+		map players/enforcer/morpheus2.tga
+	}
+	{
+		map gfx/matrix.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static -15 static -15 
+		scroll static 0 static 3	
+		alphashift 0 1 1
+		nolightmap
+	}
+	{
+		map players/enforcer/morpheus2.tga
+		alphamask
+	}
+}
+players/enforcer/morpheus3
+{
+	{
+		map players/enforcer/morpheus.tga
+	}
+	{
+		map gfx/matrix.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static -15 static -15 
+		scroll static 0 static 3	
+		alphashift 0 .3 .3
+		nolightmap
+	}
+	{
+		map players/enforcer/morpheus3.tga
+		alphamask
+	}
+}

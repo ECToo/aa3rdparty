@@ -1,0 +1,112 @@
+players/cd2000/default
+{
+	{
+		map players/cd2000/default.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/default_normal.tga
+		normalmap
+	}	
+}
+players/cd2000/dark
+{
+	{
+		map players/cd2000/dark.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/default_normal.tga
+		normalmap
+	}	
+}
+players/cd2000/red
+{
+	{
+		map players/cd2000/red.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/default_normal.tga
+		normalmap
+	}	
+}
+
+players/cd2000/blue
+{
+	{
+		map players/cd2000/blue.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/default_normal.tga
+		normalmap
+	}	
+}
+
+players/cd2000/overkill
+{
+	{
+		map players/cd2000/overkill.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/default_normal.tga
+		normalmap
+	}	
+}
+players/cd2000/overkill2
+{
+	{
+		map players/cd2000/overkill2.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/default_normal.tga
+		normalmap
+	}	
+}
+players/cd2000/overkill3
+{
+	{
+		map players/cd2000/overkill3.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/default_normal.tga
+		normalmap
+	}	
+}
+players/cd2000/blood
+{
+	{
+		map players/cd2000/blood.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/default_normal.tga
+		normalmap
+	}	
+}
+players/cd2000/snot
+{
+	{
+		map players/cd2000/snot.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/default_normal.tga
+		normalmap
+	}	
+}
+players/cd2000/steel
+{
+	{
+		map players/cd2000/steel.tga
+		nolightmap
+	}
+	{
+		map players/cd2000/steel_normal.tga
+		normalmap
+	}	
+}

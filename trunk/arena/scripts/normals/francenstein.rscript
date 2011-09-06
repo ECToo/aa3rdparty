@@ -1,0 +1,11 @@
+players/enforcer/francenstein
+{
+	{
+		map players/enforcer/francenstein.tga
+		nolightmap
+	}
+	{
+		map players/enforcer/francenstein_normal.tga
+		normalmap
+	}	
+}

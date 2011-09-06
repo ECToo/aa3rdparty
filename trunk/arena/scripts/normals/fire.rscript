@@ -1,0 +1,22 @@
+players/martiancyborg/fire
+{
+	{
+		map players/martiancyborg/fire.tga
+		nolightmap
+	}
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+	}
+}
+players/martianenforcer/fire
+{
+	{
+		map players/martianenforcer/fire.tga
+		nolightmap
+	}
+	{
+		map players/martianenforcer/default_normal.tga
+		normalmap
+	}
+}

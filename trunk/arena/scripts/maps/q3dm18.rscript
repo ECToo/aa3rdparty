@@ -1,0 +1,44 @@
+textures/newstuf3/q3brickwindow_mid
+{
+	{
+		map gfx/greenlightning.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 2 static 2
+		scroll static 1 static 2
+		alphashift 5 0.05 0.3
+	}
+	
+}
+textures/newstuf3/q3brickwindow_top
+{
+	{
+		map gfx/greenlightning.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 2 static 2
+		scroll static 1 static 2
+		alphashift 5 0.05 0.3
+	}
+	
+}
+textures/gothic/cornerlight
+{
+	{
+		map gfx/bluelightning.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 2 static 2
+		scroll static 1 static 2
+		alphashift 5 0.05 0.3
+	}
+	
+}
+textures/gothic/cornerlight2
+{
+	{
+		map gfx/bluelightning.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 2 static 2
+		scroll static 1 static 2
+		alphashift 5 0.05 0.3
+	}
+	
+}

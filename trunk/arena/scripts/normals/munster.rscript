@@ -1,0 +1,11 @@
+players/enforcer/munster
+{
+	{
+		map players/enforcer/munster.tga
+		nolightmap
+	}
+	{
+		map players/enforcer/munster_normal.tga
+		normalmap
+	}	
+}

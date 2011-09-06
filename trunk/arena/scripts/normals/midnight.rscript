@@ -1,0 +1,22 @@
+players/martiancyborg/midnight
+{
+	{
+		map players/martiancyborg/midnight.tga
+		nolightmap
+	}
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+	}
+}
+players/martianenforcer/midnight
+{
+	{
+		map players/martianenforcer/midnight.tga
+		nolightmap
+	}
+	{
+		map players/martianenforcer/default_normal.tga
+		normalmap
+	}
+}

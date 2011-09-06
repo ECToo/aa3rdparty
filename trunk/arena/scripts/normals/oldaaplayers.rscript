@@ -1,0 +1,418 @@
+players/brainlet/default
+{
+	{
+		map players/brainlet/default.tga
+		nolightmap
+	}
+	{
+		map players/brainlet/default_normal.tga
+		normalmap
+	}	
+}
+players/brainlet/red
+{
+	{
+		map players/brainlet/red.tga
+		nolightmap
+	}
+	{
+		map players/brainlet/default_normal.tga
+		normalmap
+	}	
+}
+players/brainlet/blue
+{
+	{
+		map players/brainlet/blue.tga
+		nolightmap
+	}
+	{
+		map players/brainlet/default_normal.tga
+		normalmap
+	}	
+}
+players/contruct/default
+{
+	{
+		map players/contruct/default.tga
+		nolightmap
+	}
+	{
+		map players/contruct/default_normal.tga
+		normalmap
+	}	
+}
+players/contruct/red
+{
+	{
+		map players/contruct/red.tga
+		nolightmap
+	}
+	{
+		map players/contruct/default_normal.tga
+		normalmap
+	}	
+}
+players/contruct/blue
+{
+	{
+		map players/contruct/blue.tga
+		nolightmap
+	}
+	{
+		map players/contruct/default_normal.tga
+		normalmap
+	}	
+}
+players/cyborg/default
+{
+	{
+		map players/cyborg/default.tga
+		nolightmap
+	}
+	{
+		map players/cyborg/default_normal.tga
+		normalmap
+	}	
+}
+players/cyborg/red
+{
+	{
+		map players/cyborg/red.tga
+		nolightmap
+	}
+	{
+		map players/cyborg/default_normal.tga
+		normalmap
+	}	
+}
+players/cyborg/blue
+{
+	{
+		map players/cyborg/blue.tga
+		nolightmap
+	}
+	{
+		map players/cyborg/default_normal.tga
+		normalmap
+	}	
+}
+players/infantry/default
+{
+	{
+		map players/infantry/default.tga
+		nolightmap
+	}
+	{
+		map players/infantry/default_normal.tga
+		normalmap
+	}	
+}
+players/infantry/red
+{
+	{
+		map players/infantry/red.tga
+		nolightmap
+	}
+	{
+		map players/infantry/default_normal.tga
+		normalmap
+	}	
+}
+players/infantry/blue
+{
+	{
+		map players/infantry/blue.tga
+		nolightmap
+	}
+	{
+		map players/infantry/default_normal.tga
+		normalmap
+	}	
+}
+players/laurennolegs/default
+{
+	{
+		map players/laurennolegs/default.tga
+		nolightmap
+	}
+	{
+		map players/laurennolegs/default_normal.tga
+		normalmap
+	}	
+}
+players/laurennolegs/red
+{
+	{
+		map players/laurennolegs/red.tga
+		nolightmap
+	}
+	{
+		map players/laurennolegs/default_normal.tga
+		normalmap
+	}	
+}
+players/laurennolegs/blue
+{
+	{
+		map players/laurennolegs/blue.tga
+		nolightmap
+	}
+	{
+		map players/laurennolegs/default_normal.tga
+		normalmap
+	}	
+}
+players/martian/default
+{
+	{
+		map players/martian/default.tga
+		nolightmap
+	}
+	{
+		map players/martian/default_normal.tga
+		normalmap
+	}	
+}
+players/martian/red
+{
+	{
+		map players/martian/red.tga
+		nolightmap
+	}
+	{
+		map players/martian/default_normal.tga
+		normalmap
+	}	
+}
+players/martian/blue
+{
+	{
+		map players/martian/blue.tga
+		nolightmap
+	}
+	{
+		map players/martian/default_normal.tga
+		normalmap
+	}	
+}
+players/martian/redbot
+{
+	{
+		map players/martian/redbot.tga
+		nolightmap
+	}
+	{
+		map players/martian/default_normal.tga
+		normalmap
+	}	
+}
+players/martian/bluebot
+{
+	{
+		map players/martian/bluebot.tga
+		nolightmap
+	}
+	{
+		map players/martian/default_normal.tga
+		normalmap
+	}	
+}
+players/martian/mogera
+{
+	{
+		map players/martian/mogera.tga
+		nolightmap
+	}
+	{
+		map players/martian/default_normal.tga
+		normalmap
+	}	
+}
+players/martian/destoroyah
+{
+	{
+		map players/martian/destoroyah.tga
+		nolightmap
+	}
+	{
+		map players/martian/default_normal.tga
+		normalmap
+	}	
+}
+players/martian/aliengrunt
+{
+	{
+		map players/martian/aliengrunt.tga
+		nolightmap
+	}
+	{
+		map players/martian/default_normal.tga
+		normalmap
+	}	
+}
+players/martianxforcer/default
+{
+	{
+		map players/martianxforcer/default.tga
+		nolightmap
+	}
+	{
+		map players/martianxforcer/default_normal.tga
+		normalmap
+	}	
+}
+players/martianxforcer/red
+{
+	{
+		map players/martianxforcer/red.tga
+		nolightmap
+	}
+	{
+		map players/martianxforcer/default_normal.tga
+		normalmap
+	}	
+}
+players/martianxforcer/blue
+{
+	{
+		map players/martianxforcer/blue.tga
+		nolightmap
+	}
+	{
+		map players/martianxforcer/default_normal.tga
+		normalmap
+	}	
+}
+players/robot/default
+{
+	{
+		map players/robot/default.tga
+		nolightmap
+	}
+	{
+		map players/robot/default_normal.tga
+		normalmap
+	}	
+}
+players/robot/red
+{
+	{
+		map players/robot/red.tga
+		nolightmap
+	}
+	{
+		map players/robot/default_normal.tga
+		normalmap
+	}	
+}
+players/robot/blue
+{
+	{
+		map players/robot/blue.tga
+		nolightmap
+	}
+	{
+		map players/robot/default_normal.tga
+		normalmap
+	}	
+}
+players/rustbot/default
+{
+	{
+		map players/rustbot/default.tga
+		nolightmap
+	}
+	{
+		map players/rustbot/default_normal.tga
+		normalmap
+	}	
+}
+players/rustbot/red
+{
+	{
+		map players/rustbot/red.tga
+		nolightmap
+	}
+	{
+		map players/rustbot/default_normal.tga
+		normalmap
+	}	
+}
+players/rustbot/blue
+{
+	{
+		map players/rustbot/blue.tga
+		nolightmap
+	}
+	{
+		map players/rustbot/default_normal.tga
+		normalmap
+	}	
+}
+players/war/default
+{
+	{
+		map players/war/default.tga
+		nolightmap
+	}
+	{
+		map players/war/default_normal.tga
+		normalmap
+	}	
+}
+players/war/red
+{
+	{
+		map players/war/red.tga
+		nolightmap
+	}
+	{
+		map players/war/default_normal.tga
+		normalmap
+	}	
+}
+players/war/blue
+{
+	{
+		map players/war/blue.tga
+		nolightmap
+	}
+	{
+		map players/war/default_normal.tga
+		normalmap
+	}	
+}
+players/xforcer/default
+{
+	{
+		map players/xforcer/default.tga
+		nolightmap
+	}
+	{
+		map players/xforcer/default_normal.tga
+		normalmap
+	}	
+}
+players/xforcer/red
+{
+	{
+		map players/xforcer/red.tga
+		nolightmap
+	}
+	{
+		map players/xforcer/default_normal.tga
+		normalmap
+	}	
+}
+players/xforcer/blue
+{
+	{
+		map players/xforcer/blue.tga
+		nolightmap
+	}
+	{
+		map players/xforcer/default_normal.tga
+		normalmap
+	}	
+}

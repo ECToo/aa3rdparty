@@ -1,0 +1,11 @@
+players/xforcer/titan
+{
+	{
+		map players/xforcer/titan.tga
+		nolightmap
+	}
+	{
+		map players/xforcer/titan_normal.tga
+		normalmap
+	}	
+}

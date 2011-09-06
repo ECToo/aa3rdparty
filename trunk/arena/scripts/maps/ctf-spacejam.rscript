@@ -1,0 +1,48 @@
+textures/metal/light1
+{
+	{
+		lensflare
+	}
+}
+textures/arena1/metalbrick5
+{
+	{
+		lensflare
+	}
+}
+textures/ramp1
+{
+	{
+		map textures/ramp1.tga
+	}
+	{
+		map gfx/fire.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA 
+		scroll static 0 static 6	
+		nolightmap
+	}
+	{
+		map textures/ramp2.tga.tga
+		alphamask
+	}
+}
+textures/arena6/rimlight2
+{
+	{
+		map gfx/flash2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 4 static 1
+		scroll static 10 static 0
+		alphashift 20 0.05 0.5
+	}
+	
+}
+textures/arena6/plate5
+{
+	{
+		map gfx/plate5fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 5 0.05 0.4
+		nolightmap
+	}
+}

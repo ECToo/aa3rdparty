@@ -1,0 +1,44 @@
+players/drfreak/drfreak
+{
+	{
+		map players/drfreak/drfreak.tga
+		nolightmap
+	}
+	{
+		map players/drfreak/drfreak_normal.tga
+		normalmap
+	}	
+}
+players/drfreak/bmovie
+{
+	{
+		map players/drfreak/bmovie.tga
+		nolightmap
+	}
+	{
+		map players/drfreak/drfreak_normal.tga
+		normalmap
+	}	
+}
+players/drfreak/red
+{
+	{
+		map players/drfreak/red.tga
+		nolightmap
+	}
+	{
+		map players/drfreak/drfreak_normal.tga
+		normalmap
+	}	
+}
+players/drfreak/blue
+{
+	{
+		map players/drfreak/blue.tga
+		nolightmap
+	}
+	{
+		map players/drfreak/drfreak_normal.tga
+		normalmap
+	}	
+}

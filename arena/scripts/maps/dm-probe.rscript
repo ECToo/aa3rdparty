@@ -1,0 +1,24 @@
+textures/arena3/light1
+{
+	{
+		lensflare
+	}
+}
+textures/arena4/light1
+{
+	{
+		lensflare
+	}
+}
+textures/metal/light1_s
+{
+	{
+		lensflare
+	}
+}
+textures/martian/light3
+{
+	{
+		lensflare
+	}
+}

@@ -1,0 +1,83 @@
+textures/arena3/ceiling1
+{
+	{
+		lensflare
+	}
+}
+textures/metal/light1
+{
+	{
+		lensflare
+	}
+}
+textures/metal/light3_s
+{
+	{
+		lensflare
+	}
+}
+textures/metal/light4
+{
+	{
+		lensflare
+	}
+}
+textures/arena2/grida
+{
+	{
+		map gfx/bluelightning.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 2 static 2
+		scroll static 1 static 2
+		alphashift 5 0.05 0.3
+	}
+	
+}
+textures/arena2/metal1
+{
+	{
+		
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static .5 static .5
+		scroll static 0 static 0
+		alphashift 0 0.08 0.08
+		envmap
+	}	
+}
+textures/arena2/metal2
+{
+	{
+		
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static .15 static .15
+		scroll static 0 static 0
+		alphashift 0 0.15 0.15
+		envmap
+	}	
+}
+textures/metal/metal4
+{
+	{
+		
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.4 0.4
+		envmap
+	}	
+}
+textures/metal/bigconduit
+{
+	{
+		
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 0 static 0
+		scroll static 0 static 0
+		alphashift 0 0.13 0.13
+		envmap
+	}	
+}

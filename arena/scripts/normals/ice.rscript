@@ -1,0 +1,22 @@
+players/martiancyborg/ice
+{
+	{
+		map players/martiancyborg/ice.tga
+		nolightmap
+	}
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+	}
+}
+players/martianenforcer/ice
+{
+	{
+		map players/martianenforcer/ice.tga
+		nolightmap
+	}
+	{
+		map players/martianenforcer/default_normal.tga
+		normalmap
+	}
+}

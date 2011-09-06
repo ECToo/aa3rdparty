@@ -1,0 +1,88 @@
+players/hunter/hunter
+{
+	{
+		map players/hunter/hunter.tga
+		nolightmap
+	}
+	{
+		map players/hunter/hunter_normal.tga
+		normalmap
+	}	
+}
+players/hunter/gold
+{
+	{
+		map players/hunter/gold.tga
+		nolightmap
+	}
+	{
+		map players/hunter/hunter_normal.tga
+		normalmap
+	}	
+}
+players/hunter/green
+{
+	{
+		map players/hunter/green.tga
+		nolightmap
+	}
+	{
+		map players/hunter/hunter_normal.tga
+		normalmap
+	}	
+}
+players/hunter/red
+{
+	{
+		map players/hunter/red.tga
+		nolightmap
+	}
+	{
+		map players/hunter/hunter_normal.tga
+		normalmap
+	}	
+}
+players/hunter/blue
+{
+	{
+		map players/hunter/blue.tga
+		nolightmap
+	}
+	{
+		map players/hunter/hunter_normal.tga
+		normalmap
+	}	
+}
+players/hunter/overkill
+{
+	{
+		map players/hunter/overkill.tga
+		nolightmap
+	}
+	{
+		map players/hunter/hunter_normal.tga
+		normalmap
+	}	
+}
+players/hunter/darkhunter
+{
+	{
+		map players/hunter/darkhunter.tga
+		nolightmap
+	}
+	{
+		map players/hunter/darkhunter_normal.tga
+		normalmap
+	}	
+}
+players/hunter/snowtiger
+{
+	{
+		map players/hunter/snowtiger.tga
+		nolightmap
+	}
+	{
+		map players/hunter/snowtiger_normal.tga
+		normalmap
+	}		
+}

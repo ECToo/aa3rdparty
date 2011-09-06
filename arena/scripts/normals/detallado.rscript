@@ -1,0 +1,121 @@
+players/brainlet/detallado
+{
+	{
+		map players/brainlet/detallado.tga
+		nolightmap
+	}
+	{
+		map players/brainlet/detallado_normal.tga
+		normalmap
+	}	
+}
+players/construct/detallado
+{
+	{
+		map players/construct/detallado.tga
+		nolightmap
+	}
+	{
+		map players/construct/detallado_normal.tga
+		normalmap
+	}	
+}
+players/xforcer/detallado
+{
+	{
+		map players/xforcer/detallado.tga
+		nolightmap
+	}
+	{
+		map players/xforcer/detallado_normal.tga
+		normalmap
+	}	
+}
+players/martian/detallado
+{
+	{
+		map players/martian/detallado.tga
+		nolightmap
+	}
+	{
+		map players/martian/detallado_normal.tga
+		normalmap
+	}	
+}
+players/cyborg/detallado
+{
+	{
+		map players/cyborg/detallado.tga
+		nolightmap
+	}
+	{
+		map players/cyborg/detallado_normal.tga
+		normalmap
+	}	
+}
+players/martianxforcer/detallado
+{
+	{
+		map players/martianxforcer/detallado.tga
+		nolightmap
+	}
+	{
+		map players/martianxforcer/detallado_normal.tga
+		normalmap
+	}	
+}
+players/infantry/detallado
+{
+	{
+		map players/infantry/detallado.tga
+		nolightmap
+	}
+	{
+		map players/infantry/detallado_normal.tga
+		normalmap
+	}	
+}
+players/laurennolegs/detallado
+{
+	{
+		map players/laurennolegs/detallado.tga
+		nolightmap
+	}
+	{
+		map players/laurennolegs/detallado_normal.tga
+		normalmap
+	}	
+}
+players/robot/detallado
+{
+	{
+		map players/robot/detallado.tga
+		nolightmap
+	}
+	{
+		map players/robot/detallado_normal.tga
+		normalmap
+	}	
+}
+players/rustbot/detallado
+{
+	{
+		map players/rustbot/detallado.tga
+		nolightmap
+	}
+	{
+		map players/rustbot/detallado_normal.tga
+		normalmap
+	}	
+}
+players/war/detallado
+{
+	{
+		map players/war/detallado.tga
+		nolightmap
+	}
+	{
+		map players/war/detallado_normal.tga
+		normalmap
+	}	
+}

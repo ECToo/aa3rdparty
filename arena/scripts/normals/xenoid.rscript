@@ -1,0 +1,77 @@
+players/xenoid/xeno1
+{
+	{
+		map players/xenoid/xeno1.tga
+		nolightmap
+	}
+	{
+		map players/xenoid/xeno1_normal.tga
+		normalmap
+	}	
+}
+players/xenoid/xeno2
+{
+	{
+		map players/xenoid/xeno2.tga
+		nolightmap
+	}
+	{
+		map players/xenoid/xeno1_normal.tga
+		normalmap
+	}	
+}
+players/xenoid/xeno3
+{
+	{
+		map players/xenoid/xeno3.tga
+		nolightmap
+	}
+	{
+		map players/xenoid/xeno1_normal.tga
+		normalmap
+	}	
+}
+players/xenoid/gut
+{
+	{
+		map players/xenoid/gut.tga
+		nolightmap
+	}
+	{
+		map players/xenoid/xeno1_normal.tga
+		normalmap
+	}	
+}
+players/xenoid/slime
+{
+	{
+		map players/xenoid/slime.tga
+		nolightmap
+	}
+	{
+		map players/xenoid/xeno1_normal.tga
+		normalmap
+	}	
+}
+players/xenoid/blue2
+{
+	{
+		map players/xenoid/blue2.tga
+		nolightmap
+	}
+	{
+		map players/xenoid/xeno1_normal.tga
+		normalmap
+	}	
+}
+players/xenoid/red2
+{
+	{
+		map players/xenoid/red2.tga
+		nolightmap
+	}
+	{
+		map players/xenoid/xeno1_normal.tga
+		normalmap
+	}	
+}

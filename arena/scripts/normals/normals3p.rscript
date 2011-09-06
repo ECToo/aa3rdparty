@@ -1,0 +1,793 @@
+players/brainlet/battlescar
+{
+	{
+		map players/brainlet/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/brainlet/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/brainlet/distorto
+{
+	{
+		map players/brainlet/distorto.tga
+		nolightmap
+	}
+	{
+		map players/brainlet/distorto_normal.tga
+		normalmap
+	}	
+}
+players/xforcer/riddick
+{
+	{
+		map players/xforcer/riddick.tga
+		nolightmap
+	}
+	{
+		map players/xforcer/riddick_normal.tga
+		normalmap
+	}	
+}
+players/xforcer/battlescar
+{
+	{
+		map players/xforcer/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/xforcer/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/xforcer/distorto
+{
+	{
+		map players/xforcer/distorto.tga
+		nolightmap
+	}
+	{
+		map players/xforcer/distorto_normal.tga
+		normalmap
+	}	
+}
+players/xforcer/harry
+{
+	{
+		map players/xforcer/harry.tga
+		nolightmap
+	}
+	{
+		map players/xforcer/harry_normal.tga
+		normalmap
+	}	
+}
+players/construct/battlescar
+{
+	{
+		map players/construct/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/construct/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/construct/ice
+{
+	{
+		map players/construct/ice.tga
+		nolightmap
+	}
+	{
+		map players/construct/default_normal.tga
+		normalmap
+	}	
+}
+players/construct/distorto
+{
+	{
+		map players/construct/distorto.tga
+		nolightmap
+	}
+	{
+		map players/construct/distorto_normal.tga
+		normalmap
+	}	
+}
+players/construct/superman
+{
+	{
+		map players/construct/superman.tga
+		nolightmap
+	}
+	{
+		map players/construct/superman_normal.tga
+		normalmap
+	}	
+}
+players/construct/hawk
+{
+	{
+		map players/construct/hawk.tga
+		nolightmap
+	}
+	{
+		map players/construct/hawk_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/battlescar
+{
+	{
+		map players/femforcer/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/distorto
+{
+	{
+		map players/femforcer/distorto.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/distorto_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/blackwidow
+{
+	{
+		map players/femforcer/blackwidow.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/blackwidow_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/blue
+{
+	{
+		map players/femforcer/blue.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/default_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/red
+{
+	{
+		map players/femforcer/red.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/default_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/default
+{
+	{
+		map players/femforcer/default.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/default_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/cherry
+{
+	{
+		map players/femforcer/cherry.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/cherry_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/heartbreaker
+{
+	{
+		map players/femforcer/heartbreaker.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/heartbreaker_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/steelblue
+{
+	{
+		map players/femforcer/steelblue.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/steelblue_normal.tga
+		normalmap
+	}	
+}
+players/femforcer/trinity
+{
+	{
+		map players/femforcer/trinity.tga
+		nolightmap
+	}
+	{
+		map players/femforcer/trinity_normal.tga
+		normalmap
+	}	
+}
+players/infantry/battlescar
+{
+	{
+		map players/infantry/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/infantry/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/infantry/distorto
+{
+	{
+		map players/infantry/distorto.tga
+		nolightmap
+	}
+	{
+		map players/infantry/distorto_normal.tga
+		normalmap
+	}	
+}
+players/infantry/bug
+{
+	{
+		map players/infantry/bug.tga
+		nolightmap
+	}
+	{
+		map players/infantry/bug_normal.tga
+		normalmap
+	}	
+}
+players/infantry/pumkinhead
+{
+	{
+		map players/infantry/pumkinhead.tga
+		nolightmap
+	}
+	{
+		map players/infantry/pumkinhead_normal.tga
+		normalmap
+	}	
+}
+players/laurennolegs/battlescar
+{
+	{
+		map players/laurennolegs/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/laurennolegs/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/laurennolegs/distorto
+{
+	{
+		map players/laurennolegs/distorto.tga
+		nolightmap
+	}
+	{
+		map players/laurennolegs/distorto_normal.tga
+		normalmap
+	}	
+}
+players/laurennolegs/biker
+{
+	{
+		map players/laurennolegs/biker.tga
+		nolightmap
+	}
+	{
+		map players/laurennolegs/biker_normal.tga
+		normalmap
+	}	
+}
+players/martian/battlescar
+{
+	{
+		map players/martian/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/martian/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/martian/distorto
+{
+	{
+		map players/martian/distorto.tga
+		nolightmap
+	}
+	{
+		map players/martian/distorto_normal.tga
+		normalmap
+	}	
+}
+players/martian/mantis
+{
+	{
+		map players/martian/mantis.tga
+		nolightmap
+	}
+	{
+		map players/martian/mantis_normal.tga
+		normalmap
+	}	
+}
+players/martian/predator
+{
+	{
+		map players/martian/predator.tga
+		nolightmap
+	}
+	{
+		map players/martian/predator_normal.tga
+		normalmap
+	}	
+}
+players/martian/predator2
+{
+	{
+		map players/martian/predator2.tga
+		nolightmap
+	}
+	{
+		map players/martian/predator2_normal.tga
+		normalmap
+	}	
+}
+
+players/martian/reptile
+{
+	{
+		map players/martian/reptile.tga
+		nolightmap
+	}
+	{
+		map players/martian/reptile_normal.tga
+		normalmap
+	}	
+}
+players/cyborg/battlescar
+{
+	{
+		map players/cyborg/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/cyborg/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/cyborg/distorto
+{
+	{
+		map players/cyborg/distorto.tga
+		nolightmap
+	}
+	{
+		map players/cyborg/distorto_normal.tga
+		normalmap
+	}	
+}
+players/martianxforcer/battlescar
+{
+	{
+		map players/martianxforcer/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/martianxforcer/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/martianxforcer/distorto
+{
+	{
+		map players/martianxforcer/distorto.tga
+		nolightmap
+	}
+	{
+		map players/martianxforcer/distorto_normal.tga
+		normalmap
+	}	
+}
+players/robot/battlescar
+{
+	{
+		map players/robot/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/robot/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/robot/distorto
+{
+	{
+		map players/robot/distorto.tga
+		nolightmap
+	}
+	{
+		map players/robot/distorto_normal.tga
+		normalmap
+	}	
+}
+players/robot/xbox360
+{
+	{
+		map players/robot/xbox360.tga
+		nolightmap
+	}
+	{
+		map players/robot/xbox360_normal.tga
+		normalmap
+	}	
+}
+players/war/battlescar
+{
+	{
+		map players/war/battlescar.tga
+		nolightmap
+	}
+	{
+		map players/war/battlescar_normal.tga
+		normalmap
+	}	
+}
+players/war/distorto
+{
+	{
+		map players/war/distorto.tga
+		nolightmap
+	}
+	{
+		map players/war/distorto_normal.tga
+		normalmap
+	}	
+}
+players/grey2/scatter
+{
+	{
+		map players/grey2/scatter.tga
+		nolightmap
+	}
+	{
+		map players/grey2/scatter_normal.tga
+		normalmap
+	}	
+}
+players/grey2/wart
+{
+	{
+		map players/grey2/wart.tga
+		nolightmap
+	}
+	{
+		map players/grey2/wart_normal.tga
+		normalmap
+	}	
+}
+players/grey2/sandstone
+{
+	{
+		map players/grey2/sandstone.tga
+		nolightmap
+	}
+	{
+		map players/grey2/sandstone_normal.tga
+		normalmap
+	}	
+}
+players/grey2/predator
+{
+	{
+		map players/grey2/predator.tga
+		nolightmap
+	}
+	{
+		map players/grey2/predator_normal.tga
+		normalmap
+	}	
+}
+players/grey2/predator2
+{
+	{
+		map players/grey2/predator2.tga
+		nolightmap
+	}
+	{
+		map players/grey2/predator2_normal.tga
+		normalmap
+	}	
+}
+players/grey2/grey
+{
+	{
+		map players/grey2/grey.tga
+		nolightmap
+	}
+	{
+		map players/grey2/grey_normal.tga
+		normalmap
+	}	
+}
+players/grey2/green
+{
+	{
+		map players/grey2/green.tga
+		nolightmap
+	}
+	{
+		map players/grey2/grey_normal.tga
+		normalmap
+	}	
+}
+players/grey2/grey2
+{
+	{
+		map players/grey2/grey2.tga
+		nolightmap
+	}
+	{
+		map players/grey2/grey2_normal.tga
+		normalmap
+	}	
+}
+players/grey2/green2
+{
+	{
+		map players/grey2/green2.tga
+		nolightmap
+	}
+	{
+		map players/grey2/grey2_normal.tga
+		normalmap
+	}	
+}
+players/grey2/blue
+{
+	{
+		map players/grey2/blue.tga
+		nolightmap
+	}
+	{
+		map players/grey2/grey2_normal.tga
+		normalmap
+	}	
+}
+players/grey2/red
+{
+	{
+		map players/grey2/red.tga
+		nolightmap
+	}
+	{
+		map players/grey2/grey2_normal.tga
+		normalmap
+	}	
+}
+players/grey2/purple
+{
+	{
+		map players/grey2/purple.tga
+		nolightmap
+	}
+	{
+		map players/grey2/grey2_normal.tga
+		normalmap
+	}	
+}
+players/grey2/cartoon
+{
+	{
+		map players/grey2/cartoon.tga
+		nolightmap
+	}
+	{
+		map players/grey2/grey2_normal.tga
+		normalmap
+	}	
+}
+players/lezard/meangreen
+{
+	{
+		map players/lezard/meangreen.tga
+		nolightmap
+	}
+	{
+		map players/lezard/meangreen_normal.tga
+		normalmap
+	}	
+}
+players/lezard/moss
+{
+	{
+		map players/lezard/moss.tga
+		nolightmap
+	}
+	{
+		map players/lezard/moss_normal.tga
+		normalmap
+	}	
+}
+players/lezard/rockgreen
+{
+	{
+		map players/lezard/rockgreen.tga
+		nolightmap
+	}
+	{
+		map players/lezard/rock_normal.tga
+		normalmap
+	}	
+}
+players/lezard/rockred
+{
+	{
+		map players/lezard/rockred.tga
+		nolightmap
+	}
+	{
+		map players/lezard/rock_normal.tga
+		normalmap
+	}	
+}
+players/lezard/rock
+{
+	{
+		map players/lezard/rock.tga
+		nolightmap
+	}
+	{
+		map players/lezard/rock_normal.tga
+		normalmap
+	}	
+}
+players/lezard/acrylic
+{
+	{
+		map players/lezard/acrylic.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/blue
+{
+	{
+		map players/lezard/blue.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/blue2
+{
+	{
+		map players/lezard/blue2.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/darkblue
+{
+	{
+		map players/lezard/darkblue.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/red
+{
+	{
+		map players/lezard/red.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/red2
+{
+	{
+		map players/lezard/red2.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/green
+{
+	{
+		map players/lezard/green.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/default
+{
+	{
+		map players/lezard/default.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/tchernobyl
+{
+	{
+		map players/lezard/tchernobyl.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/green2
+{
+	{
+		map players/lezard/green2.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}
+players/lezard/soft
+{
+	{
+		map players/lezard/soft.tga
+		nolightmap
+	}
+	{
+		map players/lezard/default_normal.tga
+		normalmap
+	}	
+}

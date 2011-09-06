@@ -1,0 +1,17 @@
+
+*********************************************************************************************************************
+
+dm-martianfactory
+dm-module 
+tca-module
+
+all these maps were created by crayon (enkithan@hotmail.com) for the Alien Arena game (http://red.planetarena.org/).
+
+*How to install ?*
+
+--just unzip the file in your base alien arena directory; "C:\Alien Arena 2006 UE" if you have the uranium edition.--
+
+
+have fun ! :)
+
+*********************************************************************************************************************

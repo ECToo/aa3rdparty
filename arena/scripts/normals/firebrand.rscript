@@ -1,0 +1,110 @@
+players/firebrand/overkill
+{
+	{
+		map players/firebrand/overkill.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/overkill_normal.tga
+		normalmap
+	}	
+}
+players/firebrand/naked
+{
+	{
+		map players/firebrand/naked.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/dark_normal.tga
+		normalmap
+	}	
+}
+players/firebrand/slom
+{
+	{
+		map players/firebrand/slom.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/dark_normal.tga
+		normalmap
+	}	
+}
+players/firebrand/svc
+{
+	{
+		map players/firebrand/svc.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/dark_normal.tga
+		normalmap
+	}	
+}
+players/firebrand/azure
+{
+	{
+		map players/firebrand/azure.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/dark_normal.tga
+		normalmap
+	}	
+}
+players/firebrand/malibu
+{
+	{
+		map players/firebrand/malibu.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/dark_normal.tga
+		normalmap
+	}	
+}
+players/firebrand/red
+{
+	{
+		map players/firebrand/red.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/dark_normal.tga
+		normalmap
+	}	
+}
+players/firebrand/blue
+{
+	{
+		map players/firebrand/blue.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/dark_normal.tga
+		normalmap
+	}	
+}
+players/firebrand/dark
+{
+	{
+		map players/firebrand/dark.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/dark_normal.tga
+		normalmap
+	}	
+}
+players/firebrand/dc
+{
+	{
+		map players/firebrand/dc.tga
+		nolightmap
+	}
+	{
+		map players/firebrand/dark_normal.tga
+		normalmap
+	}	
+}

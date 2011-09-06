@@ -1,0 +1,55 @@
+textures/complex/control_1
+{
+	{
+		map gfx/control_1.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 9 0.3 0.7
+		nolightmap
+	}	
+}
+textures/complex/control_2
+{
+	{
+		map gfx/control_2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 5 0.3 0.7
+		nolightmap
+	}	
+}
+textures/complex/control_3
+{
+	{
+		map gfx/control_3.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 6 0.3 0.7
+		nolightmap
+	}	
+}
+textures/complex/control_4
+{
+	{
+		map gfx/control_4.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 7 0.3 0.7
+		nolightmap
+	}	
+}
+textures/complex/light_2
+{
+	{
+		map gfx/light_2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 8 0.3 0.7
+		nolightmap
+	}	
+}

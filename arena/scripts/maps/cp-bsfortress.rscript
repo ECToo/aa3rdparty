@@ -1,0 +1,30 @@
+textures/arena10/rockdirt1ng
+{
+	{
+		map gfx/grass.tga
+		scale static 4 static 4
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/arena9/weapongrate
+{
+    {
+        map gfx/beam2.tga
+        scale static 4 static 4
+        colormap 1 1 1
+        beam
+        beamtype 1
+    }
+}
+textures/arena6/flamejet
+{
+	{
+		map textures/arena6/flamejet.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 150 .2 .9
+		nolightmap
+	}
+
+}

@@ -69,3 +69,23 @@ textures/blanks/blank5
 	qer_editorimage textures/blanks/blank5.tga
 	qer_trans 0.5
 }
+
+textures/arena6/ice
+{
+	qer_editorimage textures/arena6/ice.tga
+	qer_trans 0.5
+}
+
+
+textures/evil/e8xgirder
+{
+	qer_editorimage textures/evil/e8xgirder.tga
+	qer_trans 0.5
+}
+
+
+textures/rage/support_beam
+{
+	qer_editorimage textures/rage/support_beam.tga
+	qer_trans 0.5
+}

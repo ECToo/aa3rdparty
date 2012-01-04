@@ -9,173 +9,143 @@ An item fires all of its targets when it is picked up.  If the toucher can't car
 
 
 /*QUAKED item_armor_shard (.3 .3 1) (-16 -16 -16) (16 16 16)
-model="models/items/armor/shard/tris.md2"
 */
 
 
 /*QUAKED item_armor_combat (.3 .3 1) (-16 -16 -16) (16 16 16)
-model="models/items/armor/combat/tris.md2" 
 */
 
 
 /*QUAKED item_armor_body (.3 .3 1) (-16 -16 -16) (16 16 16)
-model="models/items/armor/body/tris.md2"
 */
 
 
 /*QUAKED item_armor_jacket (.3 .3 1) (-16 -16 -16) (16 16 16)
-model="models/items/armor/jacket/tris.md2"
 */
 
 
 /*QUAKED item_health_small (.3 .3 1) (-16 -16 -16) (16 16 16)
-model="models/items/healing/small/tris.md2" 
 */
 
 
 /*QUAKED item_health (.3 .3 1) (-16 -16 -16) (16 16 16)
-model="models/items/healing/medium/tris.md2"
 */
 
 
 /*QUAKED item_health_large (.3 .3 1) (-16 -16 -16) (16 16 16) 
-model="models/items/healing/large/tris.md2"
 */
 
 
 /*QUAKED item_health_mega (1 .5 .5) (-16 -16 -16) (16 16 16) 
-model="models/items/mega_h/tris.md2"
 */
 
 
 /*QUAKED weapon_shotgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Smart Gun
-model="models/weapons/g_shotg/tris.md2"
 */
 
 
 /*QUAKED weapon_supershotgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Chaingun
-model="models/weapons/g_shotg2/tris.md2"
 */
 
 
 /*QUAKED weapon_rocketlauncher (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Rocket Launcher
-model="models/weapons/g_rocket/tris.md2"
 */
 
 
 /*QUAKED weapon_hyperblaster (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Disruptor
-model="models/weapons/g_hyperb/tris.md2"
 */
 
 
 /*QUAKED weapon_railgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Beamgun
-model="models/weapons/g_rail/tris.md2"
 */
 
 
 /*QUAKED weapon_chaingun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Flame Thrower
-model="models/weapons/g_chain/tris.md2"
 */
 
 
 /*QUAKED weapon_bfg (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Vaporizer
-model="models/weapons/g_bfg/tris.md2"
 */
 
 
 /*QUAKED ammo_shells (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Smart Grenades
-model="models/items/ammo/shells/medium/tris.md2"
 */
 
 
 /*QUAKED ammo_bullets (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Bullets
-model="models/items/ammo/bullets/medium/tris.md2"
 */
 
 
 /*QUAKED ammo_grenades (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Napalm
-model="models/items/ammo/grenades/medium/tris.md2"
 */
 
 
 /*QUAKED ammo_cells (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Cells
-model="models/items/ammo/cells/medium/tris.md2"
 */
 
 
 /*QUAKED ammo_rockets (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Rockets
-model="models/items/ammo/rockets/medium/tris.md2"
 */
 
 
 /*QUAKED item_quad (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Quad Damage
-model="models/items/quaddama/tris.md2"
 */
 
 
 /*QUAKED item_invulnerability (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Invulnerability
-model="models/items/invulner/tris.md2"
 */
 
 
 /*QUAKED item_haste (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Players can jump forward quickly
-model="models/items/haste/tris.md2"
 */
 
 
 /*QUAKED item_adrenaline (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Gives 100% health
-model="models/items/adrenaline/tris.md2"
 */
 
 /*QUAKED item_sproing (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Players can jump high
-model="models/items/sproing/tris.md2"
 */
 
 
 /*QUAKED item_strafer (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Strafing vehicle
-model="vehicles/strafer/tris.md2"
 */
 
 
 /*QUAKED item_bomber (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Bombing vehicle
-model="vehicles/bomber/tris.md2"
 */
 
 
 /*QUAKED item_hover (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Hovering vehicle
-model="vehicles/hover/tris.md2"
 */
 
 
 /*QUAKED item_flag_red (1 0 0) (-16 -16 -16) (16 16 16)
 Only in CTF games
-model="models/items/flags/flag1.md2"
 */
 
 
 /*QUAKED item_flag_blue (0 0 1) (-16 -16 -16) (16 16 16)
 Only in CTF games
-model="models/items/flags/flag2.md2"
 */
 
 
@@ -183,19 +153,16 @@ model="models/items/flags/flag2.md2"
 potential spawning position for deathmatch games.
 The first time a player enters the game, they will be at an 'initial' spot.
 Targets will be fired when someone spawns in on them.
-model="players/martianenforcer/tris.md2"
 */
 
 
 /*QUAKED info_player_start (1 0 0) (-16 -16 -24) (16 16 32)
 equivelant to info_player_deathmatch
-model="players/martianenforcer/tris.md2"
 */
 
 
 /*QUAKED info_player_intermission (1 0 1) (-16 -16 -24) (16 16 32)
 The intermission will be viewed from this point.  Target an info_notnull for the view direction.
-model="models/misc/pod/tris.md2"
 */
 
 
@@ -309,7 +276,6 @@ Plats are always drawn in the extended position so they will light correctly.
 
 "targetname" name of this plat
 "lip"		default 8, protrusion above rest position
-"height"	total height of movement, defaults to model height
 "speed"		overrides default 200.
 "accel"		acceleration
 "dmg"		overrides default 2
@@ -355,7 +321,6 @@ The train spawns at the first target it is pointing at.
 
 
 /*QUAKED func_wall (0 .5 .8) ?
-A bmodel that just sits there, doing nothing.  Can be used for conditional walls and models.
 "_minlight"		constantLight radius
 */
 

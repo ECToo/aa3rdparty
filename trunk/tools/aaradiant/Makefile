@@ -178,7 +178,7 @@ else
 ifeq ($(OS),Win32)
 	CPPFLAGS_COMMON += -DWIN32 -D_WIN32 -D_inline=inline
 	CFLAGS_COMMON += -mms-bitfields
-	LDFLAGS_DLL = -Wl,--add-stdcall-alias
+	LDFLAGS_DLL = --dll -Wl,--add-stdcall-alias
 	LIBS_COMMON = -lws2_32 -luser32 -lgdi32 -lole32
 	EXE ?= exe
 	A = a
@@ -343,7 +343,6 @@ endif
 
 .PHONY: binaries
 binaries: \
-	binaries-tools \
 	binaries-radiant \
 
 .PHONY: binaries-radiant-all
@@ -381,42 +380,6 @@ binaries-radiant-plugins: \
 .PHONY: binaries-radiant
 binaries-radiant-core: \
 	$(INSTALLDIR)/radiant.$(EXE) \
-
-.PHONY: binaries-tools
-binaries-tools: \
-	binaries-tools-quake2 \
-	binaries-tools-quake3 \
-
-.PHONY: binaries-tools-quake2
-binaries-tools-quake2: \
-	binaries-q2map \
-	binaries-qdata3 \
-	binaries-h2data \
-
-.PHONY: binaries-q2map
-binaries-q2map: \
-	$(INSTALLDIR)/q2map.$(EXE) \
-
-.PHONY: binaries-qdata3
-binaries-qdata3: \
-	$(INSTALLDIR)/qdata3.$(EXE) \
-
-.PHONY: binaries-h2data
-binaries-h2data: \
-	$(INSTALLDIR)/heretic2/h2data.$(EXE)
-
-.PHONY: binaries-tools-quake3
-binaries-tools-quake3: \
-	binaries-q3data \
-	binaries-q3map2 \
-
-.PHONY: binaries-q3data
-binaries-q3data: \
-	$(INSTALLDIR)/q3data.$(EXE) \
-
-.PHONY: binaries-q3map2
-binaries-q3map2: \
-	$(INSTALLDIR)/q3map2.$(EXE) \
 
 
 .PHONY: clean

@@ -13,7 +13,7 @@ CFLAGS             ?=
 CXXFLAGS           ?=
 CPPFLAGS           ?=
 LIBS               ?=
-RADIANT_ABOUTMSG   ?= Custom build
+RADIANT_ABOUTMSG   ?= aaRadiant
 
 # warning: this directory may NOT contain any files other than the ones written by this Makefile!
 # NEVER SET THIS TO A SYSTEM WIDE "bin" DIRECTORY!
@@ -178,7 +178,7 @@ else
 ifeq ($(OS),Win32)
 	CPPFLAGS_COMMON += -DWIN32 -D_WIN32 -D_inline=inline
 	CFLAGS_COMMON += -mms-bitfields
-	LDFLAGS_DLL = --dll -Wl,--add-stdcall-alias
+	LDFLAGS_DLL = -dll -Wl,--add-stdcall-alias
 	LIBS_COMMON = -lws2_32 -luser32 -lgdi32 -lole32
 	EXE ?= exe
 	A = a

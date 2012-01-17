@@ -1,13 +1,3 @@
-/*QUAKED item_***** ( 0 0 0 ) (-16 -16 -16) (16 16 16) 
-DO NOT USE THIS CLASS, IT JUST HOLDS GENERAL INFORMATION.
-
-If an item is the target of another entity, it will not spawn in until fired.
-
-An item fires all of its targets when it is picked up.  If the toucher can't carry it, the targets won't be fired.
-
-*/
-
-
 /*QUAKED item_armor_shard (.3 .3 1) (-16 -16 -16) (16 16 16)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model="models/items/armor/shard/tris.md2"
@@ -214,47 +204,36 @@ model="models/items/flags/flag2.md2"
 */
 
 
-/*QUAKED info_player_deathmatch (1 0 1) (-16 -16 -24) (16 16 32) initial
+/*QUAKED info_player_deathmatch (1 0 1) (-16 -16 -24) (16 16 32) INITIAL
 potential spawning position for deathmatch games.
-The first time a player enters the game, they will be at an 'initial' spot.
-Targets will be fired when someone spawns in on them.
+
+The first time a player enters the game, they will spawn at 'initial' spot.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model="players/martianenforcer/tris.md2"
 */
 
 
-/*QUAKED info_player_start (1 0 0) (-16 -16 -24) (16 16 32)
-equivelant to info_player_deathmatch
-*/
-
-
 /*QUAKED info_player_intermission (1 0 1) (-16 -16 -24) (16 16 32)
-viewpoint at the end of the game
-*/
-
-
-/*QUAKED func_group (0 0 0) ?
-Used to group brushes together just for editor convenience.  They are turned into normal brushes by the utilities.
+Podium position at the end of the round.
 */
 
 
 /*QUAKED info_null (0 0.5 0) (-4 -4 -4) (4 4 4)
-Used as a positional target for calculations in the utilities (spotlights, etc), but removed during gameplay.
+Used as a positional target for spotlights, 
 */
 
 
 /*QUAKED info_notnull (0 0.5 0) (-4 -4 -4) (4 4 4)
-Used as a positional target for in-game calculation, like jumppad targets.
-target_position does the same thing
+This is the same as info_null except some entities require info_notnull
 */
 
 
-/*QUAKED light (0 1 0) (-8 -8 -8) (8 8 8) linear
+/*QUAKED light (0 1 0) (-8 -8 -8) (8 8 8) LINEAR
 Non-displayed light.
 "_color" color of light
 "_cone" default is 10
 "light" overrides the default 300 intensity.
-Linear checbox gives linear falloff instead of inverse square
+Linear checkbox gives linear fall off instead of inverse square.
 Lights pointed at a target will be spotlights.
 "radius" overrides the default 64 unit radius of a spotlight at the target point.
 */
@@ -267,7 +246,7 @@ Point teleporters at these.
 
 
 /*QUAKED misc_teleporter (1 0 0) (-32 -32 -24) (32 32 -16)
-Point teleporters at these.
+Point these at misc_teleporter_dest
 "target" Teleport Destination
 */
 
@@ -437,7 +416,21 @@ Multiple identical looping sounds will just increase volume without any speed co
 
 
 /*QUAKED target_laser (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON
-When triggered, fires a laser.  You can either set a target or a direction.
+When triggered, fires a laser.  Must target an info_notnull for direction. 
+
+There are three different lasers:
+
+Lightning: spawnflags 8
+Vaporbeam: spawnflags 16
+Laserbeam: no spawnflags
+
+Notes: 
+The beam doesn't end at the info_notnull.
+
+Colours don't work.
+
+Add 1 to spawnflags to make the laser START ON
+Example: spawnflags 9 for lightning beam that starts on.
 */
 
 
@@ -526,18 +519,18 @@ Blue Spider Node (for TCA games)
 
 
 /*QUAKED target_steam (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON
-When triggered, you can see steam
+Emits steam.
 "angle"		determines the steam direction
 */
 
 
 /*QUAKED target_fire (1 0 0) (-8 -8 -8) (8 8 8) START_ON
-When triggered, burns a fire.
+Emits fire.
 */
 
 
 /*QUAKED npc_deathray (0 0.5 0) (-16 -16 -16) (16 16 16)
-this item fires rays so that players lost life
+The deathray fires at players, except the person who triggers it.
 "angle"		determines the direction
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model="models/misc/deathray/deathray.md2"
@@ -545,7 +538,7 @@ model="models/misc/deathray/deathray.md2"
 
 
 /*QUAKED npc_cow (0 0.5 0) (-16 -16 -16) (16 16 16)
-the startpoint of the cows. only in CP games
+Start position of cows in cattle prod games.
 "angle"		determines the direction the cows start
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model="models/cow/tris.md2"
@@ -589,11 +582,19 @@ adds a mapmodel
 "model"		Select a mesh/model
 */
 
-/*QUAKED func_water (0 .5 .8) ? START_OPEN
 
-func_water is a moveable water brush.
-It must be targeted to operate.
-Use a non-water texture at your own risk.
+/*QUAKED misc_watersplash (1 0 0) (-8 -8 -8) (8 8 8)
+Creates a particle splash effect. Doesn't need to be targeted.
+*/
+
+
+/*QUAKED misc_electroflash (0 0.5 0) (-8 -8 -8) (8 8 8)
+Makes an electricity sound.
+*/
+
+
+/*QUAKED func_water (0 .5 .8) ? START_OPEN 
+A moveable water brush. Must be targeted to operate.
 
 START_OPEN causes the water to move to its destination
 when spawned and operate in reverse.
@@ -623,7 +624,7 @@ The brush should be have a surface with at least one current content enabled.
 
 
 /*QUAKED trigger_always (.5 .5 .5) (-8 -8 -8) (8 8 8)
-This trigger will always fire.  It is activated by the world. this entitie
+This trigger will always fire.  It is activated by the world.
 "target" Name of entity to trigger"
 */
 
@@ -636,13 +637,3 @@ This fixed size trigger cannot be touched, it can only be fired by other events.
 */
 
 
-/*QUAKED misc_watersplash (1 0 0) (-8 -8 -8) (8 8 8)
-Creates a particle splash effect when used.
-"targetname"	Name of this entity
-"dmg"		Damage of this entity
-*/
-
-
-/*QUAKED misc_electroflash (0 0.5 0) (-8 -8 -8) (8 8 8)
-you here electroflash
-*/

@@ -24,7 +24,7 @@ textures/arena9/greenglass
 
 textures/arena9/hexglass
 {
-	qer_editorimage textures/xenos/brnbigc.tga
+	qer_editorimage textures/arena9/hexglass.tga
 	qer_trans 0.5
 }
 
@@ -108,3 +108,111 @@ textures/rage/grid1
 	qer_trans 0.5
 }
 
+textures/arena9/chainlinkfence
+{
+	qer_editorimage textures/arena9/chainlinkfence.tga
+	qer_trans 0.5
+}
+
+
+textures/arena9/cable1
+{
+	qer_editorimage textures/arena9/cable1.tga
+	qer_trans 0.5
+}
+
+textures/arena9/cable2
+{
+	qer_editorimage textures/arena9/cable2.tga
+	qer_trans 0.5
+}
+
+textures/arena9/cable3
+{
+	qer_editorimage textures/arena9/cable3.tga
+	qer_trans 0.5
+}
+
+textures/arena9/cable4
+{
+	qer_editorimage textures/arena9/cable4.tga
+	qer_trans 0.5
+}
+
+textures/arena9/cable4
+{
+	qer_editorimage textures/arena9/cable4.tga
+	qer_trans 0.5
+}
+
+textures/arena9/metalgrate1
+{
+	qer_editorimage textures/arena9/metalgrate1.tga
+	qer_trans 0.5
+}
+
+textures/arena9/wires1
+{
+	qer_editorimage textures/arena9/wires1.tga
+	qer_trans 0.5
+}
+
+textures/arena9/wires2
+{
+	qer_editorimage textures/arena9/wires2.tga
+	qer_trans 0.5
+}
+
+textures/arena9/wires3
+{
+	qer_editorimage textures/arena9/wires3.tga
+	qer_trans 0.5
+}
+
+textures/arena9/wires4
+{
+	qer_editorimage textures/arena9/wires4.tga
+	qer_trans 0.5
+}
+
+textures/arena9/wires5
+{
+	qer_editorimage textures/arena9/wires5.tga
+	qer_trans 0.5
+}
+
+textures/arena9/wires6
+{
+	qer_editorimage textures/arena9/wires6.tga
+	qer_trans 0.5
+}
+
+textures/arena9/wires7
+{
+	qer_editorimage textures/arena9/wires7.tga
+	qer_trans 0.5
+}
+
+textures/arena9/wires8
+{
+	qer_editorimage textures/arena9/wires8.tga
+	qer_trans 0.5
+}
+
+textures/martian/coiledwire
+{
+	qer_editorimage textures/martian/coiledwire.tga
+	qer_trans 0.5
+}
+
+textures/martian/chains
+{
+	qer_editorimage textures/martian/chains.tga
+	qer_trans 0.5
+}
+
+textures/evil/e6metalfan
+{
+	qer_editorimage textures/evil/e6metalfan.tga
+	qer_trans 0.5
+}

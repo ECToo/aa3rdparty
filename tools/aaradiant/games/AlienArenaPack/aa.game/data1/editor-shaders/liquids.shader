@@ -34,12 +34,6 @@ textures/arena8/slime
 	qer_trans 0.5
 }
 
-textures/xenos/slime15
-{
-	qer_editorimage textures/xenos/slime15.tga
-	qer_trans 0.5
-}
-
 textures/arena2/lava
 {
 	qer_editorimage textures/arena2/lava.tga

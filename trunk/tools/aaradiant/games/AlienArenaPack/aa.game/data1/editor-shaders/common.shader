@@ -25,7 +25,7 @@ textures/common/hint
 textures/common/0_sky1
 {
 	qer_editorimage textures/common/0_sky1.tga
-	qer_trans 0
+	qer_trans 1.0
 }
 
 textures/common/areaportal

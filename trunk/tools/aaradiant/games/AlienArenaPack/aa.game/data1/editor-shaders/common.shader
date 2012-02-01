@@ -25,7 +25,7 @@ textures/common/hint
 textures/common/0_sky1
 {
 	qer_editorimage textures/common/0_sky1.tga
-	qer_trans 1
+	qer_trans 1.0
 }
 
 textures/common/areaportal
@@ -37,7 +37,7 @@ textures/common/areaportal
 textures/common/origin
 {
 	qer_editorimage textures/common/origin.tga
-	qer_trans 0.2
+	qer_trans 0.3
 }
 
 

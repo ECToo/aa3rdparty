@@ -1,9 +1,3 @@
-textures/xenos/nukage1
-{
-	qer_editorimage textures/xenos/nukage1.tga
-	qer_trans 0.5
-}
-
 textures/water/bluewater
 {
 	qer_editorimage textures/water/bluewater.tga

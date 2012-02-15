@@ -1,4 +1,26 @@
 <?xml version="1.0"?>
 <project version="2.0">
-<var name="q2map">&quot;[RadiantPath]q2map&quot; -fs_basepath &quot;[EnginePath]&quot;<cond value="[MonitorAddress]"> -connect [MonitorAddress]</cond></var>
+<var name="qbsp3">&quot;[RadiantPath]qbsp3&quot;</var>
+<var name="qrad3">&quot;[RadiantPath]qrad3&quot;</var>
+<var name="qvis3">&quot;[RadiantPath]qvis3&quot;</var>
+<build name="Structure: Poor light, Fast VIS">
+<command>[qbsp3] &quot;[MapFile]&quot;</command>
+<command>[qvis3] -fast &quot;[MapFile]&quot;</command>
+<command>[qrad3] -bounce 0 -subdiv 1024 &quot;[MapFile]&quot;</command>
+</build>
+<build name="Texture: Medium Light, Fast VIS">
+<command>[qbsp3] &quot;[MapFile]&quot;</command>
+<command>[qvis3] -fast &quot;[MapFile]&quot;</command>
+<command>[qrad3] -bounce 1 -subdiv 512 &quot;[MapFile]&quot;</command>
+</build>
+<build name="Lighting: Good Light, Normal VIS">
+<command>[qbsp3] &quot;[MapFile]&quot;</command>
+<command>[qvis3] &quot;[MapFile]&quot;</command>
+<command>[qrad3] -bounce 2 -subdiv 512 &quot;[MapFile]&quot;</command>
+</build>
+<build name="Release: Best Light, Normal VIS">
+<command>[qbsp3] &quot;[MapFile]&quot;</command>
+<command>[qvis3] &quot;[MapFile]&quot;</command>
+<command>[qrad3] -bounce 8 &quot;[MapFile]&quot;</command>
+</build>
 </project>

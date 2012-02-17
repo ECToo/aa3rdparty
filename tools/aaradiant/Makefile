@@ -379,7 +379,7 @@ binaries-radiant-plugins: \
 
 .PHONY: binaries-radiant
 binaries-radiant-core: \
-	$(INSTALLDIR)/radiant.$(EXE) \
+	$(INSTALLDIR)/aaradiant.$(EXE) \
 
 
 .PHONY: clean
@@ -570,10 +570,10 @@ $(INSTALLDIR)/q3data.$(EXE): \
 	libmathlib.$(A) \
 	$(if $(findstring $(OS),Win32),icons/q3data.o,) \
 
-$(INSTALLDIR)/radiant.$(EXE): LDFLAGS_EXTRA := $(MWINDOWS)
-$(INSTALLDIR)/radiant.$(EXE): LIBS_EXTRA := $(LIBS_GL) $(LIBS_DL) $(LIBS_XML) $(LIBS_GLIB) $(LIBS_GTK) $(LIBS_GTKGLEXT) $(LIBS_ZLIB) $(LIBS_PANGOFT2)
-$(INSTALLDIR)/radiant.$(EXE): CPPFLAGS_EXTRA := $(CPPFLAGS_GL) $(CPPFLAGS_DL) $(CPPFLAGS_XML) $(CPPFLAGS_GLIB) $(CPPFLAGS_GTK) $(CPPFLAGS_GTKGLEXT) $(CPPFLAGS_PANGOFT2) -Ilibs -Iinclude
-$(INSTALLDIR)/radiant.$(EXE): \
+$(INSTALLDIR)/aaradiant.$(EXE): LDFLAGS_EXTRA := $(MWINDOWS)
+$(INSTALLDIR)/aaradiant.$(EXE): LIBS_EXTRA := $(LIBS_GL) $(LIBS_DL) $(LIBS_XML) $(LIBS_GLIB) $(LIBS_GTK) $(LIBS_GTKGLEXT) $(LIBS_ZLIB) $(LIBS_PANGOFT2)
+$(INSTALLDIR)/aaradiant.$(EXE): CPPFLAGS_EXTRA := $(CPPFLAGS_GL) $(CPPFLAGS_DL) $(CPPFLAGS_XML) $(CPPFLAGS_GLIB) $(CPPFLAGS_GTK) $(CPPFLAGS_GTKGLEXT) $(CPPFLAGS_PANGOFT2) -Ilibs -Iinclude
+$(INSTALLDIR)/aaradiant.$(EXE): \
 	radiant/autosave.o \
 	radiant/brushmanip.o \
 	radiant/brushmodule.o \

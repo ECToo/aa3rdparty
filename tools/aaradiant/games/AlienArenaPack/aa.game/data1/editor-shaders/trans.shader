@@ -216,3 +216,10 @@ textures/evil/e6metalfan
 	qer_editorimage textures/evil/e6metalfan.tga
 	qer_trans 0.5
 }
+
+textures/arena7/grate1
+{
+	qer_editorimage textures/arena7/grate1.tga
+	qer_trans 0.5
+}
+

@@ -12,7 +12,7 @@
 BUILD ?= RELEASE
 
 # Where programs will be installed on 'make install'
-INSTALL_DIR ?= ..
+INSTALL_DIR ?= ../install
 
 # Compiler
 CC ?= gcc

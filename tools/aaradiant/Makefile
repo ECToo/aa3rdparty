@@ -370,12 +370,8 @@ binaries-radiant-modules: \
 
 .PHONY: binaries-radiant-plugins
 binaries-radiant-plugins: \
-	$(INSTALLDIR)/plugins/bobtoolz.$(DLL) \
 	$(INSTALLDIR)/plugins/brushexport.$(DLL) \
 	$(INSTALLDIR)/plugins/prtview.$(DLL) \
-	$(INSTALLDIR)/plugins/shaderplug.$(DLL) \
-	$(INSTALLDIR)/plugins/sunplug.$(DLL) \
-	$(INSTALLDIR)/plugins/ufoaiplug.$(DLL) \
 
 .PHONY: binaries-radiant
 binaries-radiant-core: \
@@ -828,7 +824,6 @@ $(INSTALLDIR)/plugins/bobtoolz.$(DLL): \
 	contrib/bobtoolz/cportals.o \
 	contrib/bobtoolz/DBobView.o \
 	contrib/bobtoolz/DBrush.o \
-	contrib/bobtoolz/DEntity.o \
 	contrib/bobtoolz/DEPair.o \
 	contrib/bobtoolz/dialogs/dialogs-gtk.o \
 	contrib/bobtoolz/DMap.o \

@@ -27,8 +27,7 @@ Rockets (for Rocket Launcher)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 */
 
-
-/*QUAKED func_door (0 .5 .8) ? START_OPEN x CRUSHER nofunc nofunc TOGGLE
+/*QUAKED func_door (0 .5 .8) ? START_OPEN nofunc CRUSHER nofunc nofunc TOGGLE
 TOGGLE		wait in both the start and end states for a trigger event.
 START_OPEN	the door to moves to its destination when spawned, and operate in reverse.  It is used to temporarily or permanently close off an area when triggered (not useful for touch or takedamage doors).
 
@@ -194,7 +193,6 @@ The brush should have at least one surface with a current content flag enabled.
 "speed"	default 100
 */
 
-
 /*QUAKED info_player_deathmatch (1 0 1) (-16 -16 -24) (16 16 32) INITIAL
 potential spawning position for deathmatch games.
 
@@ -226,7 +224,6 @@ Only in Team games like CTF, TCA, CP.  Red players spawn here at game start.
 /*QUAKED info_player_blue (0 0 1) (-16 -16 -16) (16 16 32)
 Only in Team games like CTF, TCA, CP.  Blue players spawn here at game start.
 */
-
 
 /*QUAKED item_armor_shard (.3 .3 1) (-16 -16 -16) (16 16 16)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -342,7 +339,6 @@ position of the deathball. (for db/dm games)
 deathballtarget (for non team based db/dm games)
 */
 
-
 /*QUAKED misc_redspidernode (1 0 0) (-32 -32 -24) (32 32 32)
 Red Spider Node (for TCA games)
 */
@@ -395,7 +391,6 @@ Creates a particle splash effect. Doesn't need to be targeted.
 Makes an electricity sound.
 */
 
-
 /*QUAKED npc_deathray (0 0.5 0) (-16 -16 -16) (16 16 16)
 The deathray fires at players, except the person who triggers it.
 "angle"		determines the direction
@@ -408,7 +403,6 @@ Start position of cows in cattle prod games.
 "angle"		determines the direction the cows start
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 */
-
 
 /*QUAKED worldspawn (0 0 0) ?
 Every map should have only one worldspawn.
@@ -446,7 +440,6 @@ Train path corners.
 "wait" seconds to wait before behining move to next corner
 */
 
-
 /*QUAKED target_speaker (1 0 0) (-8 -8 -8) (8 8 8) looped-on looped-off reliable
 "noise"		wav file to play
 
@@ -480,7 +473,6 @@ Emits steam.
 /*QUAKED target_fire (1 0 0) (-8 -8 -8) (8 8 8) START_ON
 Emits fire.
 */
-
 
 /*QUAKED trigger_bluecowtarget (0 0 1) ?
 the cow-target for the blue team. only in CP games
@@ -556,7 +548,6 @@ NO_PROTECTION	*nothing* stops the damage
 "target" Name of entity to trigger
 */
 
-
 /*QUAKED weapon_shotgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Smart Gun
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -597,5 +588,4 @@ Flame Thrower
 Alien Vaporizer
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 */
-
 

@@ -104,11 +104,11 @@ ifeq ($(OS),Windows_NT)
 	OS = Win32
 endif
 
-CFLAGS_COMMON = -MMD -W -Wall -Wcast-align -Wcast-qual -Wno-unused-parameter -fno-strict-aliasing
+CFLAGS_COMMON = -MMD -w
 CPPFLAGS_COMMON =
 LDFLAGS_COMMON =
 LIBS_COMMON =
-CXXFLAGS_COMMON = -Wno-non-virtual-dtor -Wreorder -fno-exceptions -fno-rtti
+CXXFLAGS_COMMON = -w
 
 ifeq ($(BUILD),debug)
 ifeq ($(findstring $(CFLAGS),-g),)
@@ -377,11 +377,10 @@ binaries-radiant-plugins: \
 binaries-radiant-core: \
 	$(INSTALLDIR)/aaradiant.$(EXE) \
 
-
 .PHONY: clean
 clean:
 	$(RM_R) $(INSTALLDIR_BASE)/
-	$(FIND) . \( -name \*.o -o -name \*.d -o -name \*.$(DLL) -o -name \*.$(A) -o -name \*.$(EXE) \) -exec $(RM) {} \;
+	$(FIND) . -path utils3 -prune \( -name \*.o -o -name \*.d -o -name \*.$(DLL) -o -name \*.$(A) -o -name \*.$(EXE) \) -exec $(RM) {} \;
 	$(RM) icons/*.rc
 
 %.$(EXE):
@@ -824,6 +823,7 @@ $(INSTALLDIR)/plugins/bobtoolz.$(DLL): \
 	contrib/bobtoolz/cportals.o \
 	contrib/bobtoolz/DBobView.o \
 	contrib/bobtoolz/DBrush.o \
+	contrib/bobtoolz/DEntity.o \
 	contrib/bobtoolz/DEPair.o \
 	contrib/bobtoolz/dialogs/dialogs-gtk.o \
 	contrib/bobtoolz/DMap.o \

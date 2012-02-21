@@ -34,10 +34,27 @@ textures/arena2/lava
 	qer_trans 0.5
 }
 
+textures/arena2/lava_small
+{
+	qer_editorimage textures/arena2/lava_small.tga
+	qer_trans 0.5
+}
+
 textures/rage/lava
 {
 	qer_editorimage textures/rage/lava.tga
 	qer_trans 0.5
 }
 
+textures/water/blood
+{
+	qer_editorimage textures/water/blood.tga
+	qer_trans 0.5
+}
+
+textures/water/waterpx
+{
+	qer_editorimage textures/water/waterpx.tga
+	qer_trans 0.5
+}
 

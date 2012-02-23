@@ -1,0 +1,19 @@
+players/slashbot/cyrax
+{
+	{
+		map players/slashbot/default_normal.jpg
+		normalmap
+		map2 gfx/defaultslashbotfx.tga
+		glow
+	}
+}
+
+players/slashbot/sektor
+{
+	{
+		map players/slashbot/default_normal.jpg
+		normalmap
+		map2 gfx/defaultslashbotfx.tga
+		glow
+	}
+}

@@ -1,0 +1,9 @@
+players/slashbot/black
+{
+	{
+		map players/slashbot/default_normal.jpg
+		normalmap
+		map2 gfx/cyraxfx.tga
+		glow
+	}
+}

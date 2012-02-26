@@ -1,3 +1,48 @@
+players/commander/black
+{
+	{
+		map players/commander/default_normal.jpg
+		normalmap
+		map2 gfx/blackcommanderfx.tga
+		glow
+	}
+}
+players/enforcer/black
+{
+	{
+		map players/enforcer/default_normal.jpg
+		normalmap
+		map2 gfx/blackenforcerfx.tga
+		glow
+	}
+}
+players/lauren/black
+{
+	{
+		map players/lauren/default_normal.jpg
+		normalmap
+		map2 gfx/blacklaurenfx.tga
+		glow
+	}
+}
+players/martiancyborg/black
+{
+	{
+		map players/martiancyborg/default_normal.jpg
+		normalmap
+		map2 gfx/blackcyborgfx.tga
+		glow
+	}
+}
+players/martianenforcer/black
+{
+	{
+		map players/martianenforcer/default_normal.jpg
+		normalmap
+		map2 gfx/blackmartianfx.tga
+		glow
+	}
+}
 players/slashbot/black
 {
 	{

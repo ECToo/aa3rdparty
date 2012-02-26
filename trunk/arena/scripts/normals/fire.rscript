@@ -1,22 +1,54 @@
+players/commander/fire
+{
+	{
+		map players/commander/default_normal.tga
+		normalmap
+		map2 gfx/firecommanderfx.tga
+		glow
+	}	
+}
+players/enforcer/fire
+{
+	{
+		map players/enforcer/default_normal.tga
+		normalmap
+		map2 gfx/fireenforcerfx.tga
+		glow
+	}	
+}
+players/lauren/fire
+{
+	{
+		map players/lauren/default_normal.tga
+		normalmap
+		map2 gfx/firelaurenfx.tga
+		glow
+	}	
+}
 players/martiancyborg/fire
 {
 	{
-		map players/martiancyborg/fire.tga
-		nolightmap
-	}
-	{
 		map players/martiancyborg/default_normal.tga
 		normalmap
-	}
+		map2 gfx/firecyborgfx.tga
+		glow
+	}	
 }
 players/martianenforcer/fire
 {
 	{
-		map players/martianenforcer/fire.tga
-		nolightmap
-	}
-	{
 		map players/martianenforcer/default_normal.tga
 		normalmap
-	}
+		map2 gfx/firemartianfx.tga
+		glow
+	}	
+}
+players/slashbot/fire
+{
+	{
+		map players/slashbot/default_normal.tga
+		normalmap
+		map2 gfx/fireslashbotfx.tga
+		glow
+	}	
 }

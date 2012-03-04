@@ -1,22 +1,54 @@
+players/commander/ice
+{
+	{
+		map players/commander/default_normal.tga
+		normalmap
+		map2 gfx/icecommanderfx.tga
+		glow
+	}	
+}
+players/enforcer/ice
+{
+	{
+		map players/enforcer/default_normal.tga
+		normalmap
+		map2 gfx/iceenforcerfx.tga
+		glow
+	}	
+}
+players/lauren/ice
+{
+	{
+		map players/lauren/default_normal.tga
+		normalmap
+		map2 gfx/icelaurenfx.tga
+		glow
+	}	
+}
 players/martiancyborg/ice
 {
 	{
-		map players/martiancyborg/ice.tga
-		nolightmap
-	}
-	{
 		map players/martiancyborg/default_normal.tga
 		normalmap
-	}
+		map2 gfx/icecyborgfx.tga
+		glow
+	}	
 }
 players/martianenforcer/ice
 {
 	{
-		map players/martianenforcer/ice.tga
-		nolightmap
-	}
-	{
 		map players/martianenforcer/default_normal.tga
 		normalmap
-	}
+		map2 gfx/icemartianfx.tga
+		glow
+	}	
+}
+players/slashbot/ice
+{
+	{
+		map players/slashbot/default_normal.tga
+		normalmap
+		map2 gfx/iceslashbotfx.tga
+		glow
+	}	
 }

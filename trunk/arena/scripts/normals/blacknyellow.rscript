@@ -12,7 +12,7 @@ players/enforcer/blacknyellow
 	{
 		map players/enforcer/default_normal.jpg
 		normalmap
-		map2 gfx/yellowforcerfx.tga
+		map2 gfx/yellowenforcerfx.tga
 		glow
 	}
 }

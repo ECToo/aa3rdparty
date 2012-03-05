@@ -1,0 +1,54 @@
+players/commander/blacknorange
+{
+	{
+		map players/commander/default_normal.jpg
+		normalmap
+		map2 gfx/orangecommanderfx.tga
+		glow
+	}
+}
+players/enforcer/blacknorange
+{
+	{
+		map players/enforcer/default_normal.jpg
+		normalmap
+		map2 gfx/orangeenforcerfx.tga
+		glow
+	}
+}
+players/lauren/blacknorange
+{
+	{
+		map players/lauren/default_normal.jpg
+		normalmap
+		map2 gfx/orangelaurenfx.tga
+		glow
+	}
+}
+players/martiancyborg/blacknorange
+{
+	{
+		map players/martiancyborg/default_normal.jpg
+		normalmap
+		map2 gfx/orangecyborgfx.tga
+		glow
+	}
+}
+players/martianenforcer/blacknorange
+{
+	{
+		map players/martianenforcer/default_normal.jpg
+		normalmap
+		map2 gfx/orangemartianfx.tga
+		glow
+	}
+}
+players/slashbot/blacknorange
+{
+	{
+		map players/slashbot/default_normal.jpg
+		normalmap
+		map2 gfx/orangeslashbotfx.tga
+		glow
+	}
+}

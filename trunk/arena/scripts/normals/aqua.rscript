@@ -1,0 +1,54 @@
+players/commander/aqua
+{
+	{
+		map players/commander/default_normal.tga
+		normalmap
+		map2 gfx/aquacommanderfx.tga
+		glow
+	}	
+}
+players/enforcer/aqua
+{
+	{
+		map players/enforcer/default_normal.tga
+		normalmap
+		map2 gfx/aquaenforcerfx.tga
+		glow
+	}	
+}
+players/lauren/aqua
+{
+	{
+		map players/lauren/default_normal.tga
+		normalmap
+		map2 gfx/aqualaurenfx.tga
+		glow
+	}	
+}
+players/martiancyborg/aqua
+{
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+		map2 gfx/aquacyborgfx.tga
+		glow
+	}	
+}
+players/martianenforcer/aqua
+{
+	{
+		map players/martianenforcer/default_normal.tga
+		normalmap
+		map2 gfx/aquamartianfx.tga
+		glow
+	}	
+}
+players/slashbot/aqua
+{
+	{
+		map players/slashbot/default_normal.tga
+		normalmap
+		map2 gfx/aquaslashbotfx.tga
+		glow
+	}	
+}

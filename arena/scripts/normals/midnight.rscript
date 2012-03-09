@@ -1,22 +1,54 @@
+players/commander/midnight
+{
+	{
+		map players/commander/default_normal.tga
+		normalmap
+		map2 gfx/midnightcommanderfx.tga
+		glow
+	}	
+}
+players/enforcer/midnight
+{
+	{
+		map players/enforcer/default_normal.tga
+		normalmap
+		map2 gfx/midnightenforcerfx.tga
+		glow
+	}	
+}
+players/lauren/midnight
+{
+	{
+		map players/lauren/default_normal.tga
+		normalmap
+		map2 gfx/midnightlaurenfx.tga
+		glow
+	}	
+}
 players/martiancyborg/midnight
 {
 	{
-		map players/martiancyborg/midnight.tga
-		nolightmap
-	}
-	{
 		map players/martiancyborg/default_normal.tga
 		normalmap
-	}
+		map2 gfx/midnightcyborgfx.tga
+		glow
+	}	
 }
 players/martianenforcer/midnight
 {
 	{
-		map players/martianenforcer/midnight.tga
-		nolightmap
-	}
-	{
 		map players/martianenforcer/default_normal.tga
 		normalmap
-	}
+		map2 gfx/midnightmartianfx.tga
+		glow
+	}	
+}
+players/slashbot/midnight
+{
+	{
+		map players/slashbot/default_normal.tga
+		normalmap
+		map2 gfx/midnightslashbotfx.tga
+		glow
+	}	
 }

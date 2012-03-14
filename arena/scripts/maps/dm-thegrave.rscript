@@ -1,0 +1,21 @@
+textures/arena6/icerock
+{
+	{
+		map gfx/leaves1.tga
+		scale static 12 static 12
+		colormap 1 1 1
+		grass
+		grasstype 1
+	}
+}
+
+textures/arena10/cobblestone
+{
+	{
+		map gfx/grass.tga
+		scale static 4 static 4
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}

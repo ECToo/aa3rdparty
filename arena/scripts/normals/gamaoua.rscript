@@ -1,0 +1,14 @@
+players/slashbot/gamaoua
+{
+	{
+		map players/slashbot/default_normal.jpg
+		normalmap
+        }
+}
+players/enforcer/gamaoua
+{
+	{
+		map players/enforcer/default_normal.jpg
+		normalmap
+        }
+}

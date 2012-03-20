@@ -1,0 +1,8 @@
+players/slashbot/sentinel
+{
+	{
+		map players/slashbot/sentinel_normal.jpg
+		normalmap
+		map2 gfx/defaultsentinelgfx.tga
+		glow
+        }

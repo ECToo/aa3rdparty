@@ -43,6 +43,15 @@ players/martianenforcer/midnight
 		glow
 	}	
 }
+players/martianoverlord/midnight
+{
+	{
+		map players/martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/blackoverlordfx.tga
+		glow
+	}	
+}
 players/slashbot/midnight
 {
 	{

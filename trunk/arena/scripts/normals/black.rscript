@@ -43,6 +43,15 @@ players/martianenforcer/black
 		glow
 	}
 }
+players/martianoverlord/black
+{
+	{
+		map players/martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/blackoverlordfx.tga
+		glow
+	}
+}
 players/slashbot/black
 {
 	{

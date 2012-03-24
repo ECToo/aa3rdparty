@@ -43,6 +43,15 @@ players/martianenforcer/blacknyellow
 		glow
 	}
 }
+players/martianoverlord/blacknyellow
+{
+	{
+		map players/martianoverlord/default_normal.jpg
+		normalmap
+		map2 gfx/yellowoverlordfx.tga
+		glow
+	}
+}
 players/slashbot/blacknyellow
 {
 	{

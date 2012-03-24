@@ -43,6 +43,15 @@ players/martianenforcer/fire
 		glow
 	}	
 }
+players/martianoverlord/fire
+{
+	{
+		map players/martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/fireoverlordfx.tga
+		glow
+	}	
+}
 players/slashbot/fire
 {
 	{

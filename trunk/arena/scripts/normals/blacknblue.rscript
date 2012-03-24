@@ -43,6 +43,15 @@ players/martianenforcer/blacknblue
 		glow
 	}
 }
+players/martianoverlord/blacknblue
+{
+	{
+		map players/martianoverlord/default_normal.jpg
+		normalmap
+		map2 gfx/blueoverlord2fx.tga
+		glow
+	}
+}
 players/slashbot/blacknblue
 {
 	{

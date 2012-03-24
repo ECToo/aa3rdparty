@@ -1,22 +1,63 @@
+players/commander/neon
+{
+	{
+		map players/commander/default_normal.tga
+		normalmap
+		map2 gfx/neoncommanderfx.tga
+		glow
+	}	
+}
+players/enforcer/neon
+{
+	{
+		map players/enforcer/default_normal.tga
+		normalmap
+		map2 gfx/neonenforcerfx.tga
+		glow
+	}	
+}
+players/lauren/neon
+{
+	{
+		map players/lauren/default_normal.tga
+		normalmap
+		map2 gfx/neonlaurenfx.tga
+		glow
+	}	
+}
 players/martiancyborg/neon
 {
 	{
-		map players/martiancyborg/neon.tga
-		nolightmap
-	}
-	{
 		map players/martiancyborg/default_normal.tga
 		normalmap
-	}
+		map2 gfx/neoncyborgfx.tga
+		glow
+	}	
 }
 players/martianenforcer/neon
 {
 	{
-		map players/martianenforcer/neon.tga
-		nolightmap
-	}
-	{
 		map players/martianenforcer/default_normal.tga
 		normalmap
-	}
+		map2 gfx/neonmartianfx.tga
+		glow
+	}	
+}
+players/martianoverlord/neon
+{
+	{
+		map players/martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/neonoverlordfx.tga
+		glow
+	}	
+}
+players/slashbot/neon
+{
+	{
+		map players/slashbot/default_normal.tga
+		normalmap
+		map2 gfx/neonslashbotfx.tga
+		glow
+	}	
 }

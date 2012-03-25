@@ -1,0 +1,8 @@
+players/lauren/cursed
+{
+	{
+		map players/lauren/cursed_normal.tga
+		normalmap
+		map2 gfx/lauren_cursedgfx.tga
+		glow
+        }

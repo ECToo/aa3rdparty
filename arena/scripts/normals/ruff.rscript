@@ -1,10 +1,6 @@
 players/martiancyborg/ruff
 {
 	{
-		map players/martiancyborg/ruff.tga
-		nolightmap
-	}
-	{
 		map players/martiancyborg/ruff_normal.tga
 		normalmap
 	}	
@@ -12,20 +8,12 @@ players/martiancyborg/ruff
 players/martiancyborg/ruff2
 {
 	{
-		map players/martiancyborg/ruff2.tga
-		nolightmap
-	}
-	{
 		map players/martiancyborg/ruff2_normal.tga
 		normalmap
 	}	
 }
 players/martiancyborg/beaten
 {
-	{
-		map players/martiancyborg/beaten.tga
-		nolightmap
-	}
 	{
 		map players/martiancyborg/beaten_normal.tga
 		normalmap

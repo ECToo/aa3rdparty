@@ -1,10 +1,6 @@
 players/enforcer/golden
 {
 	{
-		map players/enforcer/golden.tga
-		nolightmap
-	}
-	{
 		map players/enforcer/golden_normal.tga
 		normalmap
 	}	

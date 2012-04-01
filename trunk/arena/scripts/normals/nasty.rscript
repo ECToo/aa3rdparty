@@ -1,20 +1,12 @@
 players/martianenforcer/nasty
 {
 	{
-		map players/martianenforcer/nasty.tga
-		nolightmap
-	}
-	{
 		map players/martianenforcer/nasty_normal.tga
 		normalmap
-	}	
+        }	
 }
 players/martianenforcer/nasty2
 {
-	{
-		map players/martianenforcer/nasty2.tga
-		nolightmap
-	}
 	{
 		map players/martianenforcer/nasty2_normal.tga
 		normalmap
@@ -23,10 +15,6 @@ players/martianenforcer/nasty2
 players/martianenforcer/meathead
 {
 	{
-		map players/martianenforcer/meathead.tga
-		nolightmap
-	}
-	{
 		map players/martianenforcer/meathead_normal.tga
 		normalmap
 	}	
@@ -34,20 +22,12 @@ players/martianenforcer/meathead
 players/martianenforcer/mossed
 {
 	{
-		map players/martianenforcer/mossed.tga
-		nolightmap
-	}
-	{
 		map players/martianenforcer/mossed_normal.tga
 		normalmap
 	}	
 }
 players/martianenforcer/pumpkinhead
 {
-	{
-		map players/martianenforcer/pumpkinhead.tga
-		nolightmap
-	}
 	{
 		map players/martianenforcer/pumpkinhead_normal.tga
 		normalmap

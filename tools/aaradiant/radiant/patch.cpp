@@ -21,7 +21,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 #include "patch.h"
 
-#include <glib/gslist.h>
+#include <glib.h>
 #include "preferences.h"
 #include "brush_primit.h"
 #include "signal/signal.h"

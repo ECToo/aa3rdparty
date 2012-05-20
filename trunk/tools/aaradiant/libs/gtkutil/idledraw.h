@@ -36,6 +36,7 @@ class IdleDraw
     reinterpret_cast<IdleDraw*>(data)->m_handler = 0;
     return FALSE;
   }
+
 public:
   IdleDraw(const Callback& draw) : m_draw(draw), m_handler(0)
   {

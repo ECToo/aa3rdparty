@@ -71,6 +71,7 @@ players/martiancyborg/seclan2
 	}	
 }
 players/martianenforcer/seclan1
+{
 	{
 		map players/martianenforcer/seclan_normal.tga
 		normalmap

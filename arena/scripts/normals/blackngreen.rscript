@@ -52,6 +52,15 @@ players/martianoverlord/blackngreen
 		glow
 	}
 }
+players/martianwarrior/blackngreen
+{
+	{
+		map players/martianwarrior/default_normal.jpg
+		normalmap
+		map2 gfx/greenwarriorfx.tga
+		glow
+	}
+}
 players/slashbot/blackngreen
 {
 	{

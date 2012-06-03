@@ -52,6 +52,15 @@ players/martianoverlord/aqua
 		glow
 	}	
 }
+players/martianwarrior/aqua
+{
+	{
+		map players/martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/aquawarriorfx.tga
+		glow
+	}	
+}
 players/slashbot/aqua
 {
 	{

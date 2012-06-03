@@ -52,6 +52,15 @@ players/martianoverlord/ice
 		glow
 	}	
 }
+players/martianwarrior/ice
+{
+	{
+		map players/martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/icewarriorfx.tga
+		glow
+	}	
+}
 players/slashbot/ice
 {
 	{

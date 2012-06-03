@@ -52,6 +52,15 @@ players/martianoverlord/cold
 		glow
 	}	
 }
+players/martianwarrior/cold
+{
+	{
+		map players/martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/coldwarriorfx.tga
+		glow
+	}	
+}
 players/slashbot/cold
 {
 	{

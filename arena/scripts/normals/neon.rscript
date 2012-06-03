@@ -52,6 +52,15 @@ players/martianoverlord/neon
 		glow
 	}	
 }
+players/martianwarrior/neon
+{
+	{
+		map players/martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/neonwarriorfx.tga
+		glow
+	}	
+}
 players/slashbot/neon
 {
 	{

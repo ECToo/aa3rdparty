@@ -52,6 +52,15 @@ players/martianoverlord/blacknorange
 		glow
 	}
 }
+players/martianwarrior/blacknorange
+{
+	{
+		map players/martianwarrior/default_normal.jpg
+		normalmap
+		map2 gfx/orangewarriorfx.tga
+		glow
+	}
+}
 players/slashbot/blacknorange
 {
 	{

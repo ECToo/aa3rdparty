@@ -106,6 +106,24 @@ players/martianoverlord/seclan2
 		glow
 	}	
 }
+players/martianwarrior/seclan1
+{
+	{
+		map players/martianwarrior/seclan_normal.tga
+		normalmap
+		map2 gfx/se1warriorfx.tga
+		glow
+	}	
+}
+players/martianwarrior/seclan2
+{
+	{
+		map players/martianwarrior/seclan_normal.tga
+		normalmap
+		map2 gfx/se2warriorfx.tga
+		glow
+	}	
+}
 players/slashbot/seclan1
 {
 	{

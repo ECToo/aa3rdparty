@@ -1,0 +1,2 @@
+bsp maps/ctf-atrix.bsp;
+entdef maps/ctf-atrix-aoa.entdef;

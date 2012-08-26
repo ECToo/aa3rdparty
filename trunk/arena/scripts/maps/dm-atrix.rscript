@@ -1,0 +1,122 @@
+textures/arena7/light10
+{
+	{
+		lensflare
+	}
+}
+
+textures/arena7/glass
+{
+	{		
+		map gfx/mirrorspec.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+
+textures/rage/support_beam
+{
+	{		
+		map gfx/mirrorspec.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+
+textures/arena9/trim2
+{
+	{
+		map gfx/redlightning.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 5 0.3 0.9
+		scroll static 2 static 0
+		nolightmap
+	}
+	{
+		map gfx/trim2mask.tga
+		alphamask
+	}
+}
+
+textures/blanks/blank1
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 20
+		colormap 1 1 1
+		beam
+	}
+}
+
+textures/blanks/blank2
+{
+	{
+		map gfx/beam1.tga
+		scale static 15 static 10
+		colormap 1 1 1
+		beam
+		xang -0.25
+		yang 0.25
+	}
+}
+
+textures/blanks/blank3
+{
+	{
+		map gfx/beam4.tga
+		scale static 30 static 30
+		colormap 1 1 1
+		beam
+		xang 0.25
+		yang -0.25
+	}
+}
+
+textures/blanks/blank4
+{
+	{
+		map gfx/beam4.tga
+		scale static 20 static 20
+		colormap 1 1 1
+		beam
+    xang 0.25
+	}
+}
+
+textures/blanks/blank5
+{
+	{
+		map gfx/beam4.tga
+		scale static 20 static 30
+		colormap 1 1 1
+		beam
+		yang -0.25
+	}
+}
+
+textures/evil/e8_launchpad1
+{
+	{
+		map gfx/e8_launchpad1_fx1.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 9 0 9
+		nolightmap
+	}
+	{
+		map gfx/e8_launchpad1_fx2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 3
+		nolightmap
+	}
+	{
+		map gfx/e8_launchpad1_mask2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+	}
+}

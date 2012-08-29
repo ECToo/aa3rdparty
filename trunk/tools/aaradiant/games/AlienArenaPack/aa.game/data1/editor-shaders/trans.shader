@@ -69,29 +69,21 @@ textures/blanks/blank5
 	qer_editorimage textures/blanks/blank5.tga
 	qer_trans 0.5
 }
+textures/blanks/blank6
+{
+	qer_editorimage textures/blanks/blank5.tga
+	qer_trans 0.5
+}
+
+textures/blanks/blank7
+{
+	qer_editorimage textures/blanks/blank5.tga
+	qer_trans 0.5
+}
 
 textures/arena6/ice
 {
 	qer_editorimage textures/arena6/ice.tga
-	qer_trans 0.5
-}
-
-
-textures/evil/e8xgirder
-{
-	qer_editorimage textures/evil/e8xgirder.tga
-	qer_trans 0.5
-}
-
-textures/evil/e8xgirder_small
-{
-	qer_editorimage textures/evil/e8xgirder_small.tga
-	qer_trans 0.5
-}
-
-textures/rage/support_beam
-{
-	qer_editorimage textures/rage/support_beam.tga
 	qer_trans 0.5
 }
 
@@ -119,100 +111,9 @@ textures/arena9/chainlinkfence
 	qer_trans 0.5
 }
 
-
-textures/arena9/cable1
-{
-	qer_editorimage textures/arena9/cable1.tga
-	qer_trans 0.5
-}
-
-textures/arena9/cable2
-{
-	qer_editorimage textures/arena9/cable2.tga
-	qer_trans 0.5
-}
-
-textures/arena9/cable3
-{
-	qer_editorimage textures/arena9/cable3.tga
-	qer_trans 0.5
-}
-
-textures/arena9/cable4
-{
-	qer_editorimage textures/arena9/cable4.tga
-	qer_trans 0.5
-}
-
-textures/arena9/cable4
-{
-	qer_editorimage textures/arena9/cable4.tga
-	qer_trans 0.5
-}
-
-textures/arena9/metalgrate1
-{
-	qer_editorimage textures/arena9/metalgrate1.tga
-	qer_trans 0.5
-}
-
-textures/arena9/wires1
-{
-	qer_editorimage textures/arena9/wires1.tga
-	qer_trans 0.5
-}
-
-textures/arena9/wires2
-{
-	qer_editorimage textures/arena9/wires2.tga
-	qer_trans 0.5
-}
-
-textures/arena9/wires3
-{
-	qer_editorimage textures/arena9/wires3.tga
-	qer_trans 0.5
-}
-
-textures/arena9/wires4
-{
-	qer_editorimage textures/arena9/wires4.tga
-	qer_trans 0.5
-}
-
-textures/arena9/wires5
-{
-	qer_editorimage textures/arena9/wires5.tga
-	qer_trans 0.5
-}
-
-textures/arena9/wires6
-{
-	qer_editorimage textures/arena9/wires6.tga
-	qer_trans 0.5
-}
-
-textures/arena9/wires7
-{
-	qer_editorimage textures/arena9/wires7.tga
-	qer_trans 0.5
-}
-
-textures/arena9/wires8
-{
-	qer_editorimage textures/arena9/wires8.tga
-	qer_trans 0.5
-}
-
 textures/martian/coiledwire
 {
 	qer_editorimage textures/martian/coiledwire.tga
-	qer_trans 0.5
-}
-
-textures/martian/chains
-{
-	qer_editorimage textures/martian/chains.tga
 	qer_trans 0.5
 }
 
@@ -358,30 +259,6 @@ textures/arena5/fod
 textures/arena6/fodblue
 {
 	qer_editorimage textures/arena6/fodblue.tga
-	qer_trans 0.5
-}
-
-textures/arena6/girder1
-{
-	qer_editorimage textures/arena6/girder1.tga
-	qer_trans 0.5
-}
-
-textures/arena6/girder2
-{
-	qer_editorimage textures/arena6/girder2.tga
-	qer_trans 0.5
-}
-
-textures/arena6/girder1
-{
-	qer_editorimage textures/arena6/girder1.tga
-	qer_trans 0.5
-}
-
-textures/arena7/lightgid
-{
-	qer_editorimage textures/arena7/lightgid.tga
 	qer_trans 0.5
 }
 

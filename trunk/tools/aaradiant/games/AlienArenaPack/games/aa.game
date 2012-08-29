@@ -36,6 +36,8 @@
   surf8="nodraw"
   surf9="hint"
   surf10="skip"
+  surf11="blood"
+  surf12="water"
   cont1="solid"
   cont2="window"
   cont3="aux"

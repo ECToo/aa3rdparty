@@ -1,15 +1,15 @@
-***** Atrix Station *****
+***** Bloodline *****
 
 
 *** Mapinformation ***
 
-Mapname:	Atrix
+Mapname:	Bloodline
 
 Creator:	Freaky
 
-Gametype:	AOA, CTF, CTF-AOA, DM, TCA, TCA-AOA
+Gametype:	CTF, DM
 
-Year:		08-2012
+Year:		10-2012
 
 
 *** Constructioninformation ***
@@ -27,8 +27,7 @@ just extract all files in your main Alien Arena folder.
 *** Thanks ***
 
 Thanks all beta testers
-Thanks Snowwhite for the Mapname
-Thanks Metalhead, Rigel and Max for giving me some tips to improve the map
+Thanks Rigel for the Mapname
 
 
 *** Contact ***

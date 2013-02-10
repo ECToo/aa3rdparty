@@ -23,4 +23,7 @@
 <command>[qvis3] &quot;[MapFile]&quot;</command>
 <command>[qrad3] -bounce 8 &quot;[MapFile]&quot;</command>
 </build>
+<build name="Release: Generate Lightmap">
+<command>[qrad3] -refine 8 -blur &quot;[MapFile]&quot;</command>
+</build>
 </project>

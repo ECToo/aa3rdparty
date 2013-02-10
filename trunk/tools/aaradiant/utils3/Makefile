@@ -12,7 +12,7 @@
 BUILD ?= RELEASE
 
 # Where programs will be installed on 'make install'
-INSTALL_DIR ?= /usr/local/bin
+INSTALL_DIR ?= ../install
 
 # Compiler
 CC ?= gcc
@@ -189,7 +189,7 @@ $(cmn_objs): %o : %c
 
 # link qbsp3
 $(builddir)/qbsp3: $(qbsp3_objs_all)
-	$(CC) $(CFLAGS) $(addprefix $(builddir)/, $(qbsp3_objs_all)) -o $(builddir)/qbsp3 $(LDFLAGS)
+	$(CC) $(CFLAGS) $(addprefix $(builddir)/, $(qbsp3_objs_all)) -o $(builddir)/qbsp3.x86 $(LDFLAGS)
 
 # compile qbsp3 sources
 $(qbsp3_objs): %o : %c
@@ -197,7 +197,7 @@ $(qbsp3_objs): %o : %c
 
 # link qvis3
 $(builddir)/qvis3: $(qvis3_objs_all)
-	$(CC) $(CFLAGS) $(addprefix $(builddir)/, $(qvis3_objs_all)) -o $(builddir)/qvis3 $(LDFLAGS)
+	$(CC) $(CFLAGS) $(addprefix $(builddir)/, $(qvis3_objs_all)) -o $(builddir)/qvis3.x86 $(LDFLAGS)
 
 # compile qvis3 sources
 $(qvis3_objs): %o : %c
@@ -205,7 +205,7 @@ $(qvis3_objs): %o : %c
 
 # link qrad3
 $(builddir)/qrad3: $(qrad3_objs_all)
-	$(CC) $(CFLAGS) $(addprefix $(builddir)/, $(qrad3_objs_all)) -o $(builddir)/qrad3 $(LDFLAGS)
+	$(CC) $(CFLAGS) $(addprefix $(builddir)/, $(qrad3_objs_all)) -o $(builddir)/qrad3.x86 $(LDFLAGS)
 
 # compile qrad3 sources
 $(qrad3_objs): %o : %c
@@ -217,16 +217,23 @@ subdirectories:
 
 clean:
 	rm -f $(builddir)/*.o
-	rm -f $(builddir)/qbsp3
-	rm -f $(builddir)/qvis3
-	rm -f $(builddir)/qrad3
+	rm -f $(builddir)/qbsp3.x86
+	rm -f $(builddir)/qvis3.x86
+	rm -f $(builddir)/qrad3.x86
+
+# Add these to remove executables from top level aaRadiant directory
+
+	rm -f $(INSTALL_DIR)/qbsp3.x86
+	rm -f $(INSTALL_DIR)/qvis3.x86
+	rm -f $(INSTALL_DIR)/qrad3.x86
 
 ##	rm -f $(builddir)/bspinfo
 
 install:
-	cp $(builddir)/qbsp3   $(INSTALL_DIR)
-	cp $(builddir)/qvis3   $(INSTALL_DIR)
-	cp $(builddir)/qrad3   $(INSTALL_DIR)
+	mkdir -p $(INSTALL_DIR)
+	cp $(builddir)/qbsp3.x86   $(INSTALL_DIR)
+	cp $(builddir)/qvis3.x86   $(INSTALL_DIR)
+	cp $(builddir)/qrad3.x86   $(INSTALL_DIR)
 	
 ##	cp $(builddir)/bspinfo3 $(INSTALL_DIR)
 

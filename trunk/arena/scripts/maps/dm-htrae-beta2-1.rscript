@@ -1,0 +1,273 @@
+textures/arena9/roundlight
+{
+	{
+		lensflare
+	}
+}
+textures/xempx/a3light1b
+{
+	{
+		lensflare
+	}
+}
+textures/arena7/glass
+{
+	{
+		map textures/arena7/glass.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.5 0.5
+	}
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+textures/arena10/road3
+{
+	{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 10 static 10
+		alphashift 0 0.2 0.2
+	}
+	{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static -10 static -10
+		alphashift 0 0.2 0.2
+	}
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+	{
+		map gfx/rainfxa.tga
+		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 16 .2 .3
+		scale static 1 static 1
+		anim 0.03
+			gfx/rainfxa.tga
+			gfx/rainfxb.tga
+			gfx/rainfxc.tga
+			gfx/rainfxd.tga
+			gfx/rainfxe.tga
+			gfx/rainfxf.tga
+			gfx/rainfxg.tga
+			gfx/rainfxh.tga
+		end
+	}
+}
+textures/arena10/road1
+{
+	{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 10 static 10
+		alphashift 0 0.2 0.2
+	}
+	{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static -10 static -10
+		alphashift 0 0.2 0.2
+	}
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+	{
+		map gfx/rainfxa.tga
+		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 16 .2 .3
+		scale static 1 static 1
+		anim 0.03
+			gfx/rainfxa.tga
+			gfx/rainfxb.tga
+			gfx/rainfxc.tga
+			gfx/rainfxd.tga
+			gfx/rainfxe.tga
+			gfx/rainfxf.tga
+			gfx/rainfxg.tga
+			gfx/rainfxh.tga
+		end
+	}
+}
+textures/arena10/cement1
+{
+	{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 10 static 10
+		alphashift 0 0.2 0.2
+	}
+	{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static -10 static -10
+		alphashift 0 0.2 0.2
+	}
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+	{
+		map gfx/rainfxa.tga
+		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 16 .2 .3
+		scale static 1 static 1
+		anim 0.03
+			gfx/rainfxa.tga
+			gfx/rainfxb.tga
+			gfx/rainfxc.tga
+			gfx/rainfxd.tga
+			gfx/rainfxe.tga
+			gfx/rainfxf.tga
+			gfx/rainfxg.tga
+			gfx/rainfxh.tga
+		end
+	}
+}
+textures/arena8/grass2
+{
+	{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 10 static 10
+		alphashift 0 0.2 0.2
+	}
+	{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static -10 static -10
+		alphashift 0 0.2 0.2
+	}
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+	{
+		map gfx/rainfxa.tga
+		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 16 .2 .3
+		scale static .5 static .5
+		anim 0.03
+			gfx/rainfxa.tga
+			gfx/rainfxb.tga
+			gfx/rainfxc.tga
+			gfx/rainfxd.tga
+			gfx/rainfxe.tga
+			gfx/rainfxf.tga
+			gfx/rainfxg.tga
+			gfx/rainfxh.tga
+		end
+	}
+}
+textures/arena10/neonsign16r
+{
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+textures/arena10/neonsign12
+{
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+textures/arena10/neonsign24
+{
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+env/tekcityup
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/tekcityrt
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/tekcitylf
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/tekcityft
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/tekcitybk
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/tekcitydn
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}

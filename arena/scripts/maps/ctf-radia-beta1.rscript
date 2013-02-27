@@ -1,0 +1,56 @@
+textures/arena6/flamejet
+{
+	{
+		map textures/arena6/flamejet.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 150 .2 .9
+		colormap 1 .5 0
+	}
+}
+textures/rage/trimlight_purple
+{	
+	{
+        	map gfx/flash.tga
+        	blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+        	scale static 4 static 1
+         	scroll static 10 static 0
+     	    	alphashift 20 0.05 0.5
+	}
+}
+textures/rage/trimlight_red
+{	
+	{
+        	map gfx/flash.tga
+        	blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+        	scale static 4 static 1
+         	scroll static 10 static 0
+     	    	alphashift 20 0.05 0.5
+	}
+}
+textures/arena3/ceiling2
+{
+	{
+		lensflare
+	}
+}
+textures/arena3/ceiling1
+{
+	{
+		lensflare
+	}
+}
+textures/arena8/metaltrim1
+{
+	{
+		map gfx/bluelightning2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 5 0.3 0.9
+		scale static 1 static 1
+		scroll static 5 static 0
+		nolightmap
+	}
+	{
+		map gfx/trim2mask.tga
+		alphamask
+	}
+}

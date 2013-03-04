@@ -1,0 +1,141 @@
+textures/evil/e8_launchpad1
+{
+	{
+		map gfx/bluelightning2.tga
+		blendFunc GL_ONE GL_ONE_PLUS_SRC_ALPHA
+		alphashift 5 0.3 0.9
+		scroll 5 0
+		nolightmap
+	}
+	{
+		map gfx/e8_launchpad1_mask2.tga
+		alphamask
+	}
+}
+textures/blanks/blank7
+{
+	{
+		map gfx/beam1.tga
+		scale static 10 static 10
+		colormap 1 1 1
+		beam
+		xang -.25 
+	}
+}
+textures/blanks/blank6
+{
+	{
+		map gfx/beam1.tga
+		scale static 10 static 10
+		colormap 1 1 1
+		beam
+		xang .25 
+	}
+}
+textures/dalek/floor4
+{
+	{
+		map gfx/comp1.tga
+		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 2 static 2
+		scroll static 0 static -1
+		alphashift 0 0.4 0.4
+		nolightmap
+	}
+}
+textures/arena9/metal2
+{
+	{
+		map gfx/comp1.tga
+		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 2 static 2
+		scroll static 0 static -1
+		alphashift 0 0.4 0.4
+		nolightmap
+	}
+}
+textures/rage/lava
+{
+	{
+		map textures/rage/lava.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.5 0.5
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.1 0.1
+		scale static -4 static -4
+		scroll static 0 static -1
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static -2 static -2
+		alphashift 0 0.3 0.3
+		scroll static 0 static -2
+	}
+
+}
+textures/arena7/light6
+{	
+	{
+        	map gfx/flash.tga
+        	blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+        	scale static 0 static 50
+     	    	alphashift 10 0.05 0.5
+	}
+}
+textures/arena7/light5
+{
+	{
+        	map gfx/beam2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 10 5 5
+		scroll static 4 static 1
+		nolightmap
+	}
+	{
+        	map gfx/beam2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 15
+		alphashift .9 .9 .8
+		nolightmap
+	}
+}
+textures/arena7/light1r
+{	
+	{
+        	lensflare
+	}
+}	
+textures/xempx/a7light10
+{
+	{
+		lensflare
+	}
+}
+textures/rage/light8
+{	
+	{
+        	map gfx/flash.tga
+        	blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+        	scale static 4 static 1
+         	scroll static 10 static 0
+     	    	alphashift 20 0.05 0.5
+	}
+}
+textures/metal/openfloor
+{
+	{
+		map gfx/bluelightning2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 5 0.3 0.9
+		scroll static 5 static 0
+		nolightmap
+	}
+	{
+		map gfx/trim2mask.tga
+		alphamask
+	}
+}

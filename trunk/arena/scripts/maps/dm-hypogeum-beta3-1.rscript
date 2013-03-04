@@ -1,0 +1,42 @@
+textures/martian/light2
+{
+	{
+        	map gfx/beam2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 10 5 5
+		scroll static 4 static 1
+		nolightmap
+	}
+	{
+        	map gfx/beam2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 15
+		alphashift .9 .9 .8
+		nolightmap
+	}
+}
+textures/arena10/bluetile
+{	
+	{
+        	map gfx/flash.tga
+        	blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+        	scale static 4 static 1
+         	scroll static 10 static 0
+     	    	alphashift 20 0.05 0.5
+	}
+}
+textures/evil/ex_lightpanel_01_d
+{	
+	{
+        	map gfx/flash.tga
+        	blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+        	scale static 0 static 50
+     	    	alphashift 10 0.05 0.5
+	}
+}
+textures/rage/light1
+{	
+	{
+        	lensflare
+	}
+}

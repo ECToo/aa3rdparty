@@ -1,111 +1,111 @@
 /*QUAKED ammo_shells (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Smart Grenades (for Alien Smart Gun)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/ammo/shells/medium/tris.md2"
 */
 
 
 /*QUAKED ammo_bullets (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Bullets (for Chaingun)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/ammo/bullets/medium/tris.md2"
 */
 
 
 /*QUAKED ammo_grenades (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Napalm (for Flame Thrower)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/ammo/grenades/medium/tris.md2"
 */
 
 
 /*QUAKED ammo_cells (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Cells (for Alien Beamgun, Alien Disruptor)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/ammo/cells/medium/tris.md2"
 */
 
 
 /*QUAKED ammo_rockets (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Rockets (for Rocket Launcher)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/ammo/rockets/medium/tris.md2"
 */
+
 
 /*QUAKED func_door (0 .5 .8) ? START_OPEN nofunc CRUSHER nofunc nofunc TOGGLE
-TOGGLE		wait in both the start and end states for a trigger event.
-START_OPEN	the door to moves to its destination when spawned, and operate in reverse.  It is used to temporarily or permanently close off an area when triggered (not useful for touch or takedamage doors).
+TOGGLE                  Wait in both open and closed states to be triggered.
+START_OPEN              Door starts open and operates in reverse. Should be targeted, do not set health.
 
-"angle"		determines the opening direction
-"targetname" if set, no touch field will be spawned and a remote button or trigger field activates the door.
-"speed"		movement speed (100 default)
-"wait"		wait before returning (3 default, -1 = never return)
-"lip"		lip remaining at end of move (8 default)
-"dmg"		damage to inflict when blocked (2 default)
-"message"   message upon triggering
-"killtarget" kill target
-"_minlight"	 constantLight radius
-"health"	if set, the door must be shot open
-"sounds"   (choices): 0 : Audible 1 : Silent
+"angle"                 Opening direction.
+"targetname"            A remote button or trigger activates the door.
+"speed"                 Movement speed (100 default).
+"wait"                  Wait before returning to previous state (3 default, -1 = never return).
+"lip"                   Lip remaining at end of move (8 default).
+"dmg"                   Damage to inflict when blocked (2 default).
+"message"               Display this when the door is touched if it is targeted and hasn't been triggered.
+"health"                Amount of damage before door will open.
+"sounds"                0 : Audible 1 : Silent.
 */
 
-
 /*QUAKED func_door_rotating (0 .5 .8) ? START_OPEN REVERSE CRUSHER nofunc nofunc TOGGLE X_AXIS Y_AXIS
-TOGGLE causes the door to wait in both the start and end states for a trigger event.
-START_OPEN	the door to moves to its destination when spawned, and operates in reverse.  It is used to temporarily or permanently close off an area when triggered (not useful for touch or takedamage doors).
-REVERSE will cause the door to rotate in the opposite direction.
+TOGGLE                  Wait in both open and closed states to be triggered.
+START_OPEN              Door starts open and operates in reverse. Should be targeted, do not set health.
+REVERSE                 Will cause the door to rotate in the opposite direction.
 
 You need to have an origin brush as part of this entity.  The center of that brush will be
 the point around which it is rotated. It will rotate around the Z axis by default.  You can
 check either the X_AXIS or Y_AXIS box to change that.
 
-"distance" is how many degrees the door will be rotated.
-"speed" determines how fast the door moves; default value is 100.
-"message"	is printed when the door is touched if it is a trigger door and it hasn't been fired yet
-"angle"		determines the opening direction
-"targetname" if set, no touch field will be spawned and a remote button or trigger field activates the door.
-"health"	if set, door must be shot open
-"speed"		movement speed (100 default)
-"wait"		wait before returning (3 default, -1 = never return)
-"dmg"		damage to inflict when blocked (2 default)
-"sounds"   (choices): 0 : Audible 1 : Silent
+"distance"              Set how many degrees the door will be rotated.
+"speed"                 Movement speed (100 default).
+"message"               Display this when the door is touched if it is targeted and hasn't been triggered.
+"angle"                 Opening direction.
+"targetname"            A remote button or trigger activates the door.
+"health"                Amount of damage before door will open.
+"speed"                 Movement speed (100 default).
+"wait"                  Wait before returning to previous state (3 default, -1 = never return).
+"dmg"                   Damage to inflict when blocked. (2 default).
+"sounds"                0 : Audible 1 : Silent.
 */
 
 
 /*QUAKED func_door_secret (0 .5 .8) ? always_shoot 1st_left 1st_down
-A secret door.  Slide back and then to the side.
+A secret door.  Slides back and then angle.
 
-open_once		doors never closes
-1st_left		1st move is left of arrow
-1st_down		1st move is down from arrow
-always_shoot	door is shootebale even if targeted
+always_shoot            Door is shootable even if targeted.
+1st_left                1st move is left of arrow.
+1st_down                1st move is down from arrow.
 
-"angle"		determines the direction
-"dmg"		damage to inflic when blocked (default 2)
-"wait"		how long to hold in the open position (default 5, -1 means hold)
+"targetname"            A remote button or trigger activates the door.
+"angle"                 Opening direction.
+"dmg"                   Damage to inflict when blocked (2 default).
+"wait"                  Wait before returning to previous state (5 default, -1 = never return).
 */
 
 
 /*QUAKED func_plat (0 .5 .8) ? PLAT_LOW_TRIGGER
 Plats are always drawn in the extended position so they will light correctly.
 
-"targetname" name of this plat
-"lip"		default 8, protrusion above rest position
-"height"	total height of movement, defaults to model height
-"speed"		overrides default 200.
-"accel"		acceleration
-"dmg"		overrides default 2
-"_minlight" constantLight radius
+"targetname"            A remote button or trigger activates the door.
+"lip"                   Lip remaining at end of move (8 default).
+"height"                Total height of movement, defaults to model height.
+"speed"                 Movement speed (100 default).
+"accel"                 Acceleration.
+"dmg"                   Damage to inflict when blocked (2 default).
 */
 
 
 /*QUAKED func_button (0 .5 .8) ?
 When a button is touched, it moves some distance in the direction of it's angle, triggers all of it's targets, waits some time, then returns to it's original position where it can be triggered again.
 
-"targetname" name of this button
-"angle"		determines the opening direction
-"target"	all entities with a matching targetname will be used
-"speed"		override the default 40 speed
-"wait"		override the default 1 second wait (-1 = never return)
-"lip"		override the default 4 pixel lip remaining at end of move
-"health"	if set, the button must be killed instead of touched
-"delay"	 	enter here the delay time
-"_minlight"		constantLight radius
+"angle"                 Opening direction.
+"target"                Name of remote target to trigger.
+"speed"		        Movement speed (100 default).
+"wait"                  Wait before returning to previous state. (3 default, -1 = never return).
+"lip"                   Lip remaining at end of move (8 default).
+"health"                Amount of damage before door will open.
+"delay"                 Delay amount before target is triggered.
 */
 
 
@@ -113,19 +113,17 @@ When a button is touched, it moves some distance in the direction of it's angle,
 A train is a mover that moves between path_corner target points.
 Trains MUST HAVE AN ORIGIN BRUSH.
 The train spawns at the first target it is pointing at.
-"targetname" name of this train
-"speed"		default 100
-"dmg"		default	2
-"noise"		looping sound to play when the train is in motion
-"target"	next path corner
-"model" 	Define a model as a train.
-"_minlight"		constantLight radius
+
+"speed"		        Movement speed (100 default).
+"dmg"                   Damage to inflict when blocked (2 default).
+"noise"                 Sound to play when the train is in motion.
+"target"                Name of next path corner.
+"model"                 Define a model as a train.
 */
 
 
 /*QUAKED func_wall (0 .5 .8) ?
-A bmodel that just sits there, doing nothing.  Can be used for conditional walls and models.
-"_minlight"		constantLight radius
+Can be used for conditional walls and models.
 */
 
 
@@ -134,49 +132,41 @@ You need to have an origin brush as part of this entity.  The center of that bru
 the point around which it is rotated. It will rotate around the Z axis by default.  You can
 check either the X_AXIS or Y_AXIS box to change that.
 
-"speed"	determines how fast it moves; default value is 100.
-"dmg"	damage to inflict when blocked (2 default)
-"model" Define a model to rotate.
-"_minlight"	constantLight radius
+"speed"		        Movement speed (100 default).
+"dmg"                   Damage to inflict when blocked (2 default).
+"model"                 Define a model to rotate.
 */
 
 
 /*QUAKED func_timer (0.3 0.1 0.6) (-8 -8 -8) (8 8 8) START_ON
-This should be renamed trigger_timer...
-Repeatedly fires its targets.
-Can be turned on or off by using.
+Toggled to repeatedly trigger its targets.
 
-"wait"			base time between triggering all targets, default is 1
-"random"		wait variance, default is 0
-so, the basic time between firing is a random time between
-(wait - random) and (wait + random)
+"wait"                  Delay amount before target is triggered.
+"random"                Wait variance.
 */
 
 
 /*QUAKED func_explosive (0 .5 .8) ?
 Any brush that you want to explode or break apart.
 
-"health"	health of the brush (default 100)
-"targetname"	name of this explosion
-"mass"		This determines how much debris is emitted when it explodes (default 75, max 800)
-"dmg"		damage of the explosion
+"health"                Amount of damage before door will open.
+"targetname"            A remote button or trigger activates the explosion.
+"mass"                  This determines how much debris is emitted (default 75, max 800).
+"dmg"                   Damage inflicted by explosion
 */
 
 
 /*QUAKED func_water (0 .5 .8) ? START_OPEN 
-A moveable water brush. Must be targeted to operate.
+A moveable water brush. Must be targeted to operate. 
 
-START_OPEN causes the water to move to its destination
-when spawned and operate in reverse.
+START_OPEN              Water starts open and operates in reverse. Should be targeted, do not set health.
 
-"angle" determines the opening direction (up or down only)
-"speed" movement speed (25 default)
-"wait" wait before returning (-1 default, -1 = TOGGLE)
-"lip" lip remaining at end of move (0 default)
-"sounds" (yes, these need to be changed)
-0) no sound
-1) water
-2) lava
+
+"angle"                 Opening direction (up or down only).
+"speed"                 Movement speed (25 default).
+"wait"                  Wait before returning to previous state (-1 default, -1 = toggle).
+"lip"                   Lip remaining at end of move (0 default).
+"sounds"                0) No sound 1) Water 2) Lava
 */
 
 
@@ -190,200 +180,252 @@ Usually enclosed in the middle of a door.
 /*QUAKED func_conveyor (0 .5 .8) ? START_ON TOGGLE
 Conveyors are stationary brushes that move what's on them.
 The brush should have at least one surface with a current content flag enabled.
-"speed"	default 100
 */
 
-/*QUAKED info_player_deathmatch (1 0 1) (-16 -16 -24) (16 16 32) INITIAL
-potential spawning position for deathmatch games.
 
-The first time a player enters the game, they will spawn at 'initial' spot.
+/*QUAKED info_player_deathmatch (1 0 1) (-16 -16 -24) (16 16 32) INITIAL
+Spawn point for DM.
+
+If set to 'INITIAL' it will be the first spawn point. It Will also be 
+used as an info_player_intermission if one is not present in the map. 
+
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="players/martianenforcer/tris.md2"
+*/
+
+
+/*QUAKED info_player_red (1 0 0) (-16 -16 -16) (16 16 32)
+Spawn point. Used for team games.
+*/
+
+
+/*QUAKED info_player_blue (0 0 1) (-16 -16 -16) (16 16 32)
+Spawn point. Used for team games.
 */
 
 
 /*QUAKED info_player_intermission (1 0 1) (-16 -16 -24) (16 16 32)
 Podium position at the end of the round.
+
+"angle"                 Sets the direction the podium will face.
+"angles"                Sets Pitch/Yaw/Roll.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/objects/dmspot/tris.md2"
 */
 
 
 /*QUAKED info_null (0 0.5 0) (-4 -4 -4) (4 4 4)
-Used as a positional target for spotlights, 
+Primarily used as a directional target for spotlights. 
 */
 
 
 /*QUAKED info_notnull (0 0.5 0) (-4 -4 -4) (4 4 4)
-This is the same as info_null except some entities require info_notnull
+This is similar to info_null, some entities require it.
 */
 
-
-/*QUAKED info_player_red (1 0 0) (-16 -16 -16) (16 16 32)
-Only in Team games like CTF, TCA, CP.  Red players spawn here at game start.
-*/
-
-
-/*QUAKED info_player_blue (0 0 1) (-16 -16 -16) (16 16 32)
-Only in Team games like CTF, TCA, CP.  Blue players spawn here at game start.
-*/
 
 /*QUAKED item_armor_shard (.3 .3 1) (-16 -16 -16) (16 16 16)
+2 points of armour.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-*/
-
-
-/*QUAKED item_armor_combat (.3 .3 1) (-16 -16 -16) (16 16 16)
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-*/
-
-
-/*QUAKED item_armor_body (.3 .3 1) (-16 -16 -16) (16 16 16)
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/armor/shard/tris.md2"
 */
 
 
 /*QUAKED item_armor_jacket (.3 .3 1) (-16 -16 -16) (16 16 16)
+25 points of armour.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/armor/jacket/tris.md2"
+*/
+
+
+/*QUAKED item_armor_combat (.3 .3 1) (-16 -16 -16) (16 16 16)
+50 points of armour.
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/armor/combat/tris.md2"  
+*/
+
+
+/*QUAKED item_armor_body (.3 .3 1) (-16 -16 -16) (16 16 16)
+100 points of armour.
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/armor/body/tris.md2"
 */
 
 
 /*QUAKED item_health_small (.3 .3 1) (-16 -16 -16) (16 16 16)
+5 points of health.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-+5 healthpoints
+model="models/items/healing/small/tris.md2"  
 */
 
 
 /*QUAKED item_health (.3 .3 1) (-16 -16 -16) (16 16 16) 
-+10 healthpoints
+10 points of health.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-*/
-
-
-/*QUAKED item_health_mega (.3 .3 1) (-16 -16 -16) (16 16 16) 
-+100 healthpoints
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/healing/medium/tris.md2"
 */
 
 
 /*QUAKED item_health_large (.3 .3 1) (-16 -16 -16) (16 16 16) 
-+25 healthpoints
+25 points of health.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/healing/large/tris.md2"
+*/
+
+
+/*QUAKED item_health_mega (.3 .3 1) (-16 -16 -16) (16 16 16) 
+100 points of health.
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/mega_h/tris.md2"
 */
 
 
 /*QUAKED item_quad (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Quad Damage
+Quad Damage.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/quaddama/tris.md2"
 */
 
 
 /*QUAKED item_invulnerability (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Invulnerability
+Alien Force. 
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/invulner/tris.md2"
 */
 
 
 /*QUAKED item_haste (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Players can jump forward quickly
+Haste.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/haste/tris.md2"
 */
 
 
 /*QUAKED item_adrenaline (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Gives 100% health
+Adrenaline.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/adrenaline/tris.md2"
 */
 
 
 /*QUAKED item_sproing (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Players can jump high
+Sproing.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/sproing/tris.md2"
 */
 
 
 /*QUAKED item_strafer (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Strafing vehicle
+Strafer. AOA space ship.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="vehicles/strafer/tris.md2"
 */
 
 
 /*QUAKED item_bomber (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Bombing vehicle
+Bomber. AOA space ship.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="vehicles/bomber/tris.md2"
 */
 
 
 /*QUAKED item_hover (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Hovering vehicle
+Hover. AOA space ship.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="vehicles/hover/tris.md2"
 */
 
 
 /*QUAKED item_flag_red (1 0 0) (-16 -16 -16) (16 16 16)
-Only in CTF games
+Red flag for CTF.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/flags/flag1.md2"
 */
 
 
 /*QUAKED item_flag_blue (0 0 1) (-16 -16 -16) (16 16 16)
-Only in CTF games
+Blue flag for CTF.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/items/flags/flag2.md2"
 */
 
 
 /*QUAKED item_deathball (.3 .3 1) (-16 -16 -16) (16 16 16) 
-position of the deathball. (for db/dm games)
+Deathball position.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="vehicles/deathball/deathball.md2"
 */
 
 
 /*QUAKED item_dbtarget (.3 .3 1) (-16 -16 -16) (16 16 16) 
-deathballtarget (for non team based db/dm games)
+Deathball target.
 */
 
+/*QUAKED item_blue_dbtarget (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Blue deathball target for team play.
+*/
+
+/*QUAKED item_red_dbtarget (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Red deathball target for team play.
+*/
+
+
 /*QUAKED misc_redspidernode (1 0 0) (-32 -32 -24) (32 32 32)
-Red Spider Node (for TCA games)
+Red Spider Node for TCA.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/misc/spiderpod/tris.md2"
 */
 
 
 /*QUAKED misc_bluespidernode (0 0 1) (-32 -32 -24) (32 32 32)
-Blue Spider Node (for TCA games)
+Blue Spider Node for TCA.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/misc/spiderpod/tris.md2"
 */
 
 
 /*QUAKED misc_teleporter_dest (1 0 0) (-32 -32 -24) (32 32 -16)
-Point teleporters at these.
-"targetname" Name of this item
+
+"targetname"            Name of teleporter origin.
 */
 
 
 /*QUAKED misc_teleporter (1 0 0) (-32 -32 -24) (32 32 -16)
-Point these at misc_teleporter_dest
-"target" Teleport Destination
+
+"target"                Name of teleporter destination.
 */
 
 
 /*QUAKED misc_spiderpod (1 0 0) (-32 -32 -24) (32 32 -16)
-Giant spider contraption that kills
+Spider Pod. Fires electricity at players.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/misc/spiderpod/tris.md2"
 */
 
 
 /*QUAKED misc_rednode (1 0 0) (-32 -32 -24) (32 32 -16)
-Red Power Node (for TCA games)
+Red Power Node for TCA.
 */
 
 
 /*QUAKED misc_bluenode (0 0 1) (-32 -32 -24) (32 32 -16)
-Blue Power Node (for TCA games)
+Blue Power Node for TCA.
 */
 
 
 /*QUAKED misc_mapmodel (0 0.5 0) (-8 -8 -8) (8 8 8)
-adds a mapmodel
-"model"		Select a mesh/model
+Add a model/mesh.
+
+"model"                 Select a model.
 */
 
 
 /*QUAKED misc_watersplash (1 0 0) (-8 -8 -8) (8 8 8)
-Creates a particle splash effect. Doesn't need to be targeted.
+Creates a particle splash effect.
 */
 
 
@@ -391,67 +433,73 @@ Creates a particle splash effect. Doesn't need to be targeted.
 Makes an electricity sound.
 */
 
+
 /*QUAKED npc_deathray (0 0.5 0) (-16 -16 -16) (16 16 16)
 The deathray fires at players, except the person who triggers it.
-"angle"		determines the direction
+"angle"                 Sets the direction the deathray will face.
+
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/misc/deathray/deathray.md2"
 */
 
 
 /*QUAKED npc_cow (0 0.5 0) (-16 -16 -16) (16 16 16)
 Start position of cows in cattle prod games.
-"angle"		determines the direction the cows start
+"angle"                 Sets the direction the cow will face.
+
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/cow/tris.md2"
 */
+
 
 /*QUAKED worldspawn (0 0 0) ?
 Every map should have only one worldspawn.
 
-"gravity"	800 is default gravity
-"message"	Text to print during loading screen.
-"sky"		Sky to render (can also be defined in rscript).
+"gravity"               800 is default gravity
+"message"               Text to print during loading screen.
+"sky"                   Sky to render (can also be defined in rscript).
 
 These are options use during compile by qrad.
 
-"_sun"		Defines the targetname of the light entity which will act as the sun.
-"_sun_ambient"	Amount of ambient lighting emitted by the sun.
-_sun_color"	RGB color value of the sun.
-_sun_light"	Amount of direct light emitted by the sun.
+"_sun"                  Defines the targetname of the light entity which will act as the sun.
+"_sun_ambient"          Amount of ambient lighting emitted by the sun.
+_sun_color"             RGB color value of the sun.
+_sun_light"             Amount of direct light emitted by the sun.
 */
 
 
 /*QUAKED light (0 1 0) (-8 -8 -8) (8 8 8) LINEAR
-Non-displayed light.
-"_color" color of light
-"_cone" default is 10
-"light" overrides the default 300 intensity.
-Linear checkbox gives linear fall off instead of inverse square.
 Lights pointed at a target will be spotlights.
-"radius" overrides the default 64 unit radius of a spotlight at the target point.
+Linear checkbox gives linear fall off instead of inverse square.
+
+"_color"                Color of light, defined in RGB. Example: 1 0 0 would make the light red.
+"_cone"                 Default 10.
+"light"                 Amount of light.
+"radius"                Radius of spotlight (default 64).
 */
 
 
 /*QUAKED path_corner (.5 .3 0) (-8 -8 -8) (8 8 8)
 Train path corners.
-"targetname" name of this path
-"target" next path corner and other targets to fire
-"pathtarget" name of event to trigger
-"speed" speed to move to the next corner
-"wait" seconds to wait before behining move to next corner
+
+"targetname"            Name of this target.
+"target"                Name of next path corner.
+"pathtarget"            Name of target to trigger
+"speed"                 Movement speed (100 default).
+"wait"                  Wait at this point before moving to next target.
 */
 
-/*QUAKED target_speaker (1 0 0) (-8 -8 -8) (8 8 8) looped-on looped-off reliable
-"noise"		wav file to play
 
-A global sound will play full volume throughout the level.
-Activator sounds will play on the player that activated the target.
-Global and activator sounds can't be combined with looping.
-Normal sounds play each time the target is used.
-Looped sounds will be toggled by use functions.
+/*QUAKED target_speaker (1 0 0) (-8 -8 -8) (8 8 8) looped-on looped-off reliable
+Normal sounds play each time the target is used.  The reliable flag can be set for crucial voiceovers.
+Looped sounds are always attenuation 3 / vol 1, targetting toggles sound on/off.
 Multiple identical looping sounds will just increase volume without any speed cost.
-"wait" : Seconds between auto triggerings, 0 = don't auto trigger
-"random"	wait variance, default is 0
-"volume"	0-1
+
+"targetname"            A remote button or trigger activates the door.
+"noise"                 Sound file to play.
+"sounds"                0) No sound 1) Water 2) Lava.
+"attenuation"           -1) None, whole map. 1) Normal 2) Idle sound 3) Ambient.
+"volume"                0.0 to 1.0
 */
 
 
@@ -459,14 +507,14 @@ Multiple identical looping sounds will just increase volume without any speed co
 When triggered, fires a laser. Target an info_notnull for direction. 
 
 Notes: 
-The beam doesn't end at the info_notnull.
+The beam doesn't end at the info_notnull. Using lightning and vaporbeam causes strange 
+behaviour in brushes.
 */
-
 
 
 /*QUAKED target_steam (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON
 Emits steam.
-"angle"		determines the steam direction
+"angle"                 Sets the direction of the steam.
 */
 
 
@@ -474,118 +522,126 @@ Emits steam.
 Emits fire.
 */
 
+
 /*QUAKED trigger_bluecowtarget (0 0 1) ?
-the cow-target for the blue team. only in CP games
+The cow target for the blue team. Only used in cattle prod.
 */
 
 
 /*QUAKED trigger_redcowtarget (1 0 0) ?
-the cow-target for the red team. only in CP games
+The cow target for the red team. Only used in cattle prod.
 */
 
 
 /*QUAKED trigger_reddeathballtarget (1 0 0) ?
-deathballtarget for the red team (for team based db/dm games)
+The deathball target for the red team. Only used in team based deathball.
 */
 
 
 /*QUAKED trigger_bluedeathballtarget (0 0 1) ?
-deathballtarget for the blue team (for team based db/dm games)
+The deathball target for the blue team. Only used in team based deathball.
 */
 
 
 /*QUAKED trigger_always (.5 .5 .5) (-8 -8 -8) (8 8 8)
 This trigger will always fire.  It is activated by the world.
-"target" Name of entity to trigger"
+"target"                Name of the target to trigger.
 */
 
 
 /*QUAKED trigger_relay (.5 .5 .5) (-8 -8 -8) (8 8 8)
 This fixed size trigger cannot be touched, it can only be fired by other events.
 
-"target"	Name of entity to trigger
-"targetname"	Name of this entity
+"target"                Name of the target to trigger.
+"targetname"            Name of this target.
 */
 
 /*QUAKED trigger_multiple (.5 .5 .5) ?
-"wait" : Seconds between triggerings, 0.5 default, -1 = one time only.
-"target" Name of entity to trigger
-"delay"	 enter here the delay time
-"sounds" 0: Beep 1: Secret 2: F1 Prompt 3: Silent
-Variable sized repeatable trigger.  Must be targeted at one or more entities.
-so, the basic time between firing is a random time between
-(wait - random) and (wait + random)
+Variable sized repeatable trigger.
+
+"wait"                  Time between triggerings (0.5 default, -1 = Only trigger once).
+"target"                Name of the target to trigger.
+"delay"                 Delay amount before target is triggered.
+"sounds"                0) Beep 1) Secret 2) F1 Prompt 3) Silent
 */
 
 
 /*QUAKED trigger_push (.5 .5 .5) ?
-"speed"		Speed of push
-"angle"		determines the direction
+"speed"		        Push speed.
+"angle"                 Direction of push.
+"angles"                Sets Pitch/Yaw/Roll.
 */
 
 
 /*QUAKED trigger_monsterjump (.5 .5 .5) ?
-"speed"		speed thrown forward
-"height" 	speed thrown upward
-"angle"		determines the direction
+"speed"                 Speed forward.
+"height"                Speed upward.
+"angle"                 Direction of jump.
 */
 
 
 /*QUAKED trigger_hurt (.5 .5 .5) ? START_OFF TOGGLE SILENT NO_PROTECTION SLOW
-Any entity that touches this will be hurt.
-It does dmg points of damage each server frame
-Targeting the trigger will toggle its on / off state.
+Any entity that touches this will be hurt. Targeting the trigger will toggle it on/off.
 
-SILENT			supresses playing the sound
-SLOW			changes the damage rate to once per second
-NO_PROTECTION	*nothing* stops the damage
+SILENT			Supresses noise.
+SLOW			Changes the damage rate to once per second.
+NO_PROTECTION	        Nothing will stop the damage.
 
-"dmg"			default 5 (whole numbers only)
+"dmg"                   Damage to inflict. (5 default).
 */
 
 
 /*QUAKED trigger_once (.5 .5 .5) ?
-"target" Name of entity to trigger
+
+"target"                Name of entity to trigger.
 */
 
 /*QUAKED weapon_shotgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Smart Gun
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_shotg2/tris.md2"
 */
 
 
 /*QUAKED weapon_supershotgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Chaingun
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_shotg2/tris.md2"
 */
 
 
 /*QUAKED weapon_rocketlauncher (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Rocket Launcher
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_rocket/tris.md2"
 */
 
 
 /*QUAKED weapon_hyperblaster (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Disruptor
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_hyperb/tris.md2"
 */
 
 
 /*QUAKED weapon_railgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Beamgun
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_rail/tris.md2"
 */
 
 
 /*QUAKED weapon_chaingun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Flame Thrower
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_chain/tris.md2"
 */
 
 
 /*QUAKED weapon_bfg (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Vaporizer
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_bfg/tris.md2"
 */
+
 

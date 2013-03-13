@@ -1,0 +1,48 @@
+/*QUAKED weapon_shotgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Smart Gun
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_shotg2/tris.md2"
+*/
+
+
+/*QUAKED weapon_supershotgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Chaingun
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_shotg2/tris.md2"
+*/
+
+
+/*QUAKED weapon_rocketlauncher (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Rocket Launcher
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_rocket/tris.md2"
+*/
+
+
+/*QUAKED weapon_hyperblaster (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Disruptor
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_hyperb/tris.md2"
+*/
+
+
+/*QUAKED weapon_railgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Beamgun
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_rail/tris.md2"
+*/
+
+
+/*QUAKED weapon_chaingun (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Flame Thrower
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_chain/tris.md2"
+*/
+
+
+/*QUAKED weapon_bfg (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Vaporizer
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/weapons/g_bfg/tris.md2"
+*/
+

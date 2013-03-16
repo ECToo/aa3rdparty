@@ -11,6 +11,7 @@ START_OPEN              Door starts open and operates in reverse. Should be targ
 "message"               Display this when the door is touched if it is targeted and hasn't been triggered.
 "health"                Amount of damage before door will open.
 "sounds"                0 : Audible 1 : Silent.
+"team"			Use this to group different parts of a door.
 */
 
 /*QUAKED func_door_rotating (0 .5 .8) ? START_OPEN REVERSE CRUSHER nofunc nofunc TOGGLE X_AXIS Y_AXIS

@@ -1,0 +1,78 @@
+textures/arena6/flamejet
+{
+	{
+		map textures/arena6/flamejet.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 150 .2 .9
+		scale static 1 static 1
+		colormap 1 .5 0
+	}
+	{
+		map textures/arena6/flamejet.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 175 .3 .8
+		scale static 1 static 1
+		colormap 1 .5 0
+	}
+}
+textures/xempx/a7light2
+{
+	{
+		lensflare
+	}
+}
+textures/arena8/metaltrim1
+{
+	{
+		map gfx/bluelightning2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 5 0.3 0.9
+		scale static .5 static 1
+		scroll static 5 static 0
+		nolightmap
+		colormap .0 .984314 .0
+	}
+	{
+		map gfx/trim2mask.tga
+		alphamask
+	}
+}
+textures/arena10/ivy1
+{
+	{
+		map textures/arena10/ivy1.tga
+		scale static 25 static 10
+		colormap 1 1 1
+		grass
+		grasstype 1
+	}
+	{
+		map textures/arena10/ivy2.tga
+		scale static 15 static 15
+		colormap 1 1 1
+		grass
+		grasstype 1
+	}
+
+}
+textures/blanks/blank2
+{
+	{
+		map gfx/beam3.tga
+		scale static 10 static 20
+		colormap .38 .50 .12
+		beam
+	}
+}
+textures/arena10/bluetile
+{
+	{
+		cube
+	}
+}
+textures/arena10/redtile
+{
+	{
+		cube
+	}
+}

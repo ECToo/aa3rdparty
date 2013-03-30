@@ -1,10 +1,9 @@
-Version 1.33
+Fixes for glib.
+Included AA compiler source.
+Simple installer for windows version.
 
-Fixes for glib - Thanks Strat.
-New splash screen - Thanks [VP]Cheney.
 Working build menu.
-Included AA compiler source for linux users.
 Shaders for transparent textures.
 Updated entity definitions.
-New icons.
-Simple installer for windows version.
+
+New splash screen and icons.

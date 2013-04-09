@@ -471,8 +471,8 @@ newlist:
 
 			sub = NULL;
 			sub2 = NULL;
-			c1 = BOGUS_RANGE;
-			c2 = BOGUS_RANGE;
+			c1 = 999999;
+			c2 = 999999;
 
 			if ( BrushGE (b2, b1) )
 			{

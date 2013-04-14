@@ -2,9 +2,9 @@
 <game
   type="q2"
   name="Alien Arena"
-  enginepath_win32=""
-  enginepath_linux=""
-  enginepath_macos=""
+  enginepath_win32="c:\badpath"
+  enginepath_linux="/badpath"
+  enginepath_macos="/badpath"
   engine_win32="alienarena.exe"
   engine_linux="alienarena"
   engine_macos="alienarena.app"

@@ -6,17 +6,17 @@
 <build name="Structure: Low light, Normal VIS">
 <command>[qbsp3] &quot;[MapFile]&quot;</command>
 <command>[qvis3] &quot;[MapFile]&quot;</command>
-<command>[qrad3] -bounce 0 -subdiv 1024 &quot;[MapFile]&quot;</command>
+<command>[qrad3] -bounce 0 -subdiv 128 &quot;[MapFile]&quot;</command>
 </build>
 <build name="Texture: Medium Light, Fast VIS">
 <command>[qbsp3] &quot;[MapFile]&quot;</command>
 <command>[qvis3] -fast &quot;[MapFile]&quot;</command>
-<command>[qrad3] -bounce 2 -subdiv 512 &quot;[MapFile]&quot;</command>
+<command>[qrad3] -bounce 2 -subdiv 128 &quot;[MapFile]&quot;</command>
 </build>
 <build name="Lighting: Good Light, Fast VIS">
 <command>[qbsp3] &quot;[MapFile]&quot;</command>
 <command>[qvis3] -fast &quot;[MapFile]&quot;</command>
-<command>[qrad3] -bounce 4 -subdiv 512 &quot;[MapFile]&quot;</command>
+<command>[qrad3] -bounce 4 -subdiv 128 &quot;[MapFile]&quot;</command>
 </build>
 <build name="Release: Best Light, Normal VIS">
 <command>[qbsp3] &quot;[MapFile]&quot;</command>

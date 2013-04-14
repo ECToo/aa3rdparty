@@ -600,7 +600,7 @@ NO_PROTECTION	        Nothing will stop the damage.
 /*QUAKED weapon_shotgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Smart Gun
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_shotg2/tris.md2"
+model="models/weapons/g_shotg/tris.md2"
 */
 
 

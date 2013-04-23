@@ -1,0 +1,17 @@
+textures/arena6/flamejet
+{
+	{
+		map textures/arena6/flamejet.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 150 .2 .9
+		scale static 1 static 1
+		colormap 1 .5 0
+	}
+	{
+		map textures/arena6/flamejet.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 175 .3 .8
+		scale static 1 static 1
+		colormap 1 .5 0
+	}
+}

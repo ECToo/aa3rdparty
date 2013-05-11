@@ -1,0 +1,110 @@
+players/martiancyborg/aqua
+{
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+		map2 gfx/aquacyborgfx.tga
+		glow
+	}	
+}
+
+players/martiancyborg/black
+{
+	{
+		map players/martiancyborg/default_normal.jpg
+		normalmap
+		map2 gfx/blackcyborgfx.tga
+		glow
+	}
+}
+
+players/martiancyborg/blacknblue
+{
+	{
+		map players/martiancyborg/default_normal.jpg
+		normalmap
+		map2 gfx/bluecyborg2fx.tga
+		glow
+	}
+}
+
+players/martiancyborg/blackngreen
+{
+	{
+		map players/martiancyborg/default_normal.jpg
+		normalmap
+		map2 gfx/greencyborgfx.tga
+		glow
+	}
+}
+
+players/martiancyborg/blacknorange
+{
+	{
+		map players/martiancyborg/default_normal.jpg
+		normalmap
+		map2 gfx/orangecyborgfx.tga
+		glow
+	}
+}
+
+players/martiancyborg/blacknyellow
+{
+	{
+		map players/martiancyborg/default_normal.jpg
+		normalmap
+		map2 gfx/yellowcyborgfx.tga
+		glow
+	}
+}
+
+players/martiancyborg/cold
+{
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+		map2 gfx/coldcyborgfx.tga
+		glow
+	}	
+}
+
+players/martiancyborg/fire
+{
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+		map2 gfx/firecyborgfx.tga
+		glow
+	}	
+}
+
+players/martiancyborg/ice
+{
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+		map2 gfx/icecyborgfx.tga
+		glow
+	}	
+}
+
+players/martiancyborg/midnight
+{
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+		map2 gfx/midnightcyborgfx.tga
+		glow
+	}	
+}
+
+players/martiancyborg/neon
+{
+	{
+		map players/martiancyborg/default_normal.tga
+		normalmap
+		map2 gfx/neoncyborgfx.tga
+		glow
+	}	
+}
+

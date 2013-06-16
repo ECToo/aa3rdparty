@@ -1,0 +1,182 @@
+textures/freaky/brushedmetal
+{
+	{
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 1 0.05 0.05
+		envmap
+	}	
+}
+textures/freaky/airduct1
+{
+	{
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 1 0.05 0.05
+		envmap
+	}	
+}
+textures/freaky/airduct2
+{
+	{
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 1 0.05 0.05
+		envmap
+	}	
+}
+textures/blanks/blank2
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 20
+		colormap 1 1 1
+		beam
+	}
+}
+textures/metal/fade2
+{
+	{
+		map gfx/beam3.tga
+		scale static 45 static 80
+		colormap 1 1 1
+		beam
+	}
+}
+textures/arena9/roundlight
+{
+	{
+		map gfx/beam1.tga
+		scale static 20 static 20
+		colormap .1 .1 .1
+		beam
+		lensflare
+	}
+}
+textures/arena8/grass2
+{
+	{
+		map gfx/grass.tga
+		scale static 8 static 8
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/arena10/cobblestone
+{
+	{
+		map gfx/grass.tga
+		scale static 4 static 4
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+	{
+		map gfx/grass.tga
+		scale static 6 static 6
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/arena6/icerock
+{
+	{
+		map gfx/leaves1.tga
+		scale static 12 static 12
+		colormap 1 1 1
+		grass
+		grasstype 1
+	}
+}
+maps/meshes/freaky/shoppingcart1
+{
+  {
+   map maps/meshes/freaky/shoppingcart1_normal.tga
+   normalmap
+   map3 gfx/chrome2.tga
+   cube
+  }
+}
+maps/meshes/freaky/washbasin1
+{
+  {
+   map maps/meshes/freaky/washbasin1_normal.tga
+   normalmap
+   map3 gfx/chrome2.tga
+   cube 
+  }
+}
+maps/meshes/freaky/dumpster
+{
+  {
+   map maps/meshes/freaky/dumpster1_normal.jpg
+   normalmap
+  }
+}
+maps/meshes/freaky/toilet1
+{
+  {
+   map maps/meshes/freaky/toilet1_normal.tga
+   normalmap
+   map3 gfx/chrome2.tga
+   cube
+  }
+}
+maps/meshes/freaky/toiletpaperholder1
+{
+  {
+   map maps/meshes/freaky/toiletpaperholder1_normal.tga
+   normalmap
+   map3 gfx/chrome2.tga
+   cube 
+  }
+}
+maps/meshes/freaky/eizo1a
+{
+	{
+		map maps/meshes/freaky/eizo1_normal.jpg
+		normalmap
+	}
+}
+maps/meshes/freaky/eizo1b
+{
+	{
+		map maps/meshes/freaky/eizo1_normal.jpg
+		normalmap
+		map2 maps/meshes/freaky/eizo1b_fx.tga
+		glow
+	}
+}
+maps/meshes/freaky/eizo1c
+{
+	{
+		map maps/meshes/freaky/eizo1_normal.jpg
+		normalmap
+		map2 maps/meshes/freaky/eizo1c_fx.tga
+		glow
+	}
+}
+maps/meshes/freaky/eizo1d
+{
+	{
+		map maps/meshes/freaky/eizo1_normal.jpg
+		normalmap
+		map2 maps/meshes/freaky/eizo1d_fx.tga
+		glow
+	}
+}
+maps/meshes/freaky/stalls1
+{
+	{
+		map maps/meshes/freaky/stalls1_normal.jpg
+		normalmap
+	}
+}

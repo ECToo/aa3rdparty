@@ -1,0 +1,93 @@
+textures/arena6/ice
+{
+	{
+		map gfx/grchrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.2 0.2
+		envmap
+	}
+}
+textures/rage/metallight_2
+{
+	{
+		map gfx/beam1.tga
+		scale static 20 static 20
+		colormap .6 .4 .2
+		beam
+		xang 0.25
+		yang 0.25
+		rotating 160
+		lensflare
+		flaretype 1
+	}
+}
+textures/blanks/blank7
+{
+	{
+		map gfx/leaves1.tga
+		scale static 10 static 5
+		colormap 1 1 1
+		grass
+		grasstype 1
+	}
+}
+textures/arena8/grass2
+{
+	{
+		map gfx/grass.tga
+		scale static 4 static 4
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/arena10/vinewall1
+{
+	{
+		map gfx/grass.tga
+		scale static 4 static 20
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}		
+}
+textures/arena6/plate5
+{
+	{
+		map gfx/plate5fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 5 0.05 0.4
+		nolightmap
+	}
+}
+textures/arena9/lightwhite
+{
+
+	{
+        	map gfx/flash.tga
+        	blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+        	scale static 4 static 1
+         	scroll static 20 static 0
+     	    	alphashift 60 0.8 0.80
+	}
+}
+textures/rage/rimlightpurple
+{	
+	{
+        	map gfx/flash.tga
+        	blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+        	scale static 4 static 4
+         	scroll static .2 static 0
+     	    	alphashift .5 0.05 0.5
+	}
+}
+textures/metal/ceiling1
+{
+	{
+		map gfx/leaves1.tga
+		scale static 20 static 20
+		colormap 1 1 1
+		grass
+		grasstype 1
+	}
+}

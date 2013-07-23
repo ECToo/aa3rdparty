@@ -39,6 +39,13 @@ Thanks Irritant for the fast help when i had a problem and for giving me a lot o
 Thanks Eizo for supporting Alien Arena
 
 
+*** Copyright Information ***
+
+The data in this map cannot be redistributed in any form other than it's original.
+Any modifications are for personal use only.
+Violation of the above, will lead to legal actions by any means.
+
+
 *** Contact ***
 
 For Questions and Suggestions contact me under

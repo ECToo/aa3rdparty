@@ -1,0 +1,30 @@
+textures/arena5/cave
+{
+	{
+		map textures/arena10/ivy2
+		scale static 12 static 10
+		colormap 1 1 1
+		grass
+		grasstype 1
+	}
+}
+textures/arena8/grass2
+{
+	{
+		map gfx/grass.tga
+		scale static 8 static 5
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/arena10/stonewall1
+{
+	{
+		map textures/arena10/ivy2
+		scale static 12 static 10
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}

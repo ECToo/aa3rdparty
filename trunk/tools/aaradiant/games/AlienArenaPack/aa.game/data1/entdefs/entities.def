@@ -491,6 +491,39 @@ Train path corners.
 */
 
 
+/*QUAKED misc_alienammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Ammunition Generator  (Tactical mode only)
+*/
+
+/*QUAKED misc_alienbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Backup Generator (Tactical mode only)
+*/
+
+/*QUAKED misc_aliencomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Computer (Tactical only)
+*/
+
+/*QUAKED misc_alienpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Power Source (Tactical only)
+*/
+
+/*QUAKED misc_humanammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Ammunition Generator  (Tactical mode only)
+*/
+
+/*QUAKED misc_humanbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Backup Generator (Tactical mode only)
+*/
+
+/*QUAKED misc_humancomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Computer (Tactical only)
+*/
+
+/*QUAKED misc_humanpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Power Source (Tactical only)
+*/
+
+
 /*QUAKED target_speaker (1 0 0) (-8 -8 -8) (8 8 8) looped-on looped-off reliable
 Normal sounds play each time the target is used.  The reliable flag can be set for crucial voiceovers.
 Looped sounds are always attenuation 3 / vol 1, targetting toggles sound on/off.

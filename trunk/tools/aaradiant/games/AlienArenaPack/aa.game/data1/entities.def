@@ -46,6 +46,7 @@ START_OPEN              Door starts open and operates in reverse. Should be targ
 "message"               Display this when the door is touched if it is targeted and hasn't been triggered.
 "health"                Amount of damage before door will open.
 "sounds"                0 : Audible 1 : Silent.
+"team"			Use this to group different parts of a door.
 */
 
 /*QUAKED func_door_rotating (0 .5 .8) ? START_OPEN REVERSE CRUSHER nofunc nofunc TOGGLE X_AXIS Y_AXIS
@@ -386,6 +387,13 @@ Blue Spider Node for TCA.
 model="models/misc/spiderpod/tris.md2"
 */
 
+/*QUAKED misc_laser (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON nofunc nofunc Lightning Vaporbeam
+When triggered, fires a laser. Target an info_notnull for direction. 
+
+Notes: 
+The beam doesn't end at the info_notnull. Using lightning and vaporbeam causes strange 
+behaviour in brushes.
+*/
 
 /*QUAKED misc_teleporter_dest (1 0 0) (-32 -32 -24) (32 32 -16)
 
@@ -487,6 +495,45 @@ Train path corners.
 "pathtarget"            Name of target to trigger
 "speed"                 Movement speed (100 default).
 "wait"                  Wait at this point before moving to next target.
+*/
+
+
+/*QUAKED misc_alienammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Ammunition Generator  (Tactical mode only)
+*/
+
+/*QUAKED misc_alienbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Backup Generator (Tactical mode only)
+*/
+
+/*QUAKED misc_aliencomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Computer (Tactical only)
+
+"angles"                Sets Pitch/Yaw/Roll.
+
+*/
+
+/*QUAKED misc_alienpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Power Source (Tactical only)
+*/
+
+/*QUAKED misc_humanammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Ammunition Generator  (Tactical mode only)
+*/
+
+/*QUAKED misc_humanbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Backup Generator (Tactical mode only)
+*/
+
+/*QUAKED misc_humancomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Computer (Tactical only)
+
+"angles"                Sets Pitch/Yaw/Roll.
+
+*/
+
+/*QUAKED misc_humanpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Power Source (Tactical only)
 */
 
 
@@ -599,7 +646,7 @@ NO_PROTECTION	        Nothing will stop the damage.
 /*QUAKED weapon_shotgun (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Alien Smart Gun
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_shotg2/tris.md2"
+model="models/weapons/g_shotg/tris.md2"
 */
 
 

@@ -30,7 +30,7 @@ textures/arena6/rimlight
      	    	alphashift 20 0.05 0.5
 	}
 }
-textures/alien/support5
+textures/arena9/trim2
 {
 	{
 		map gfx/bluelightning2.tga

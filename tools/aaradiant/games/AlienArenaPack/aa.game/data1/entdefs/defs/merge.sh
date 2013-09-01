@@ -8,4 +8,5 @@ for f in *.def;
 	echo -e "\r" >> ../entities.def;
 	done
 grep -v "model=" ../entities.def | grep -v "MODEL" >> ../nomodels.def
+cp ../entities.def ../../entities.def
 

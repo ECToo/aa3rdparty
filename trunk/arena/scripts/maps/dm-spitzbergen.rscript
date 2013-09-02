@@ -1,0 +1,56 @@
+textures/arena10/rockdirt1ng
+{
+	{
+		map textures/arena10/ivy2
+		scale static 12 static 10
+		colormap 1 1 1
+		grass
+		grasstype 1
+	}
+}
+textures/arena10/rockdirt1ns
+{
+	{
+		map gfx/grass.tga
+		scale static 7 static 7
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/xenos/rrock19
+{
+	{
+		map gfx/grass.tga
+		scale static 4 static 4
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/arena7/light10
+{
+	{
+		lensflare
+	}
+}
+textures/rage/metallight_2
+{
+	{
+		map gfx/beam1.tga
+		scale static 10 static 10
+		colormap 1 1 1
+		beam
+		lensflare
+	}
+}
+textures/arena9/roundlight
+{
+	{
+		map gfx/beam1.tga
+		scale static 6 static 6
+		colormap 1 1 0
+		beam
+		lensflare
+	}
+}

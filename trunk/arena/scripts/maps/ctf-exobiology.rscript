@@ -1,0 +1,127 @@
+textures/arena7/light5
+{
+	{
+		lensflare
+	}
+}
+textures/arena7/light9
+{
+	{
+		lensflare
+	}
+}
+textures/arena3/ceiling1
+{
+	{
+		lensflare
+	}
+}
+textures/arena3/ceiling2
+{
+	{
+		lensflare
+	}
+}
+textures/evil/e8tinylightblue
+{
+	{
+		lensflare
+	}
+}
+textures/arena7/light14
+{
+	{
+		map gfx/purpleline.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static .25
+		scroll static 0 static 1
+		alphashift 10 0.02 0.5
+		nolightmap
+	}
+}
+textures/arena6/plate5
+{
+	{
+		map gfx/plate5fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 5 0.05 0.4
+		nolightmap
+	}
+}
+textures/arena7/glass
+{
+	{
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.2 0.2
+		envmap
+	}
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+textures/evil/e8_launchpad1
+{
+	{
+		map gfx/e8_launchpad1_fx1.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 9 0 9
+		nolightmap
+	}
+	{
+		map gfx/e8_launchpad1_fx2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 3
+		nolightmap
+	}
+	{
+		map gfx/e8_launchpad1_mask2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+	}
+}
+textures/bg/wanted
+{
+	{
+		scale static 1 static 1
+		anim 1
+			textures/BG/wanted.tga
+			textures/BG/wanteda.tga
+		end
+	}
+}
+textures/bg/doskin
+{
+	{
+		scale static 1 static 1
+		anim 0.5
+			textures/BG/doskin.tga
+			textures/BG/doskina.tga
+		end
+	}
+}
+//blank 1 is in the blue grate things
+textures/blanks/blank1
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 20
+		colormap .19 .38 .7
+		beam
+	}
+}
+//blank 2 is in the red grate things
+textures/blanks/blank2
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 20
+		colormap 1 0 0
+		beam
+	}
+}

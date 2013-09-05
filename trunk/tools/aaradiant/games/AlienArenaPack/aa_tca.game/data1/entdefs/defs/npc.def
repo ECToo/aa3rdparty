@@ -6,12 +6,3 @@ The deathray fires at players, except the person who triggers it.
 model="models/misc/deathray/deathray.md2"
 */
 
-
-/*QUAKED npc_cow (0 0.5 0) (-16 -16 -16) (16 16 16)
-Start position of cows in cattle prod games.
-"angle"                 Sets the direction the cow will face.
-
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/cow/tris.md2"
-*/
-

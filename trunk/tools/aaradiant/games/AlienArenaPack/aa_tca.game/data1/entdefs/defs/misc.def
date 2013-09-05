@@ -13,13 +13,6 @@ Blue Spider Node for TCA.
 model="models/misc/spiderpod/tris.md2"
 */
 
-/*QUAKED misc_laser (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON nofunc nofunc Lightning Vaporbeam
-When triggered, fires a laser. Target an info_notnull for direction. 
-
-Notes: 
-The beam doesn't end at the info_notnull. Using lightning and vaporbeam causes strange 
-behaviour in brushes.
-*/
 
 /*QUAKED misc_teleporter_dest (1 0 0) (-32 -32 -24) (32 32 -16)
 

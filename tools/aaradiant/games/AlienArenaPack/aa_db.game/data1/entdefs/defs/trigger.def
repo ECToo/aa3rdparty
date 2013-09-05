@@ -1,13 +1,3 @@
-/*QUAKED trigger_bluecowtarget (0 0 1) ?
-The cow target for the blue team. Only used in cattle prod.
-*/
-
-
-/*QUAKED trigger_redcowtarget (1 0 0) ?
-The cow target for the red team. Only used in cattle prod.
-*/
-
-
 /*QUAKED trigger_reddeathballtarget (1 0 0) ?
 The deathball target for the red team. Only used in team based deathball.
 */

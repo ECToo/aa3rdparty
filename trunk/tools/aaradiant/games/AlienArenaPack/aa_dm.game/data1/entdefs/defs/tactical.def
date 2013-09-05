@@ -1,0 +1,38 @@
+/*QUAKED misc_alienammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Ammunition Generator  (Tactical mode only)
+*/
+
+/*QUAKED misc_alienbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Backup Generator (Tactical mode only)
+*/
+
+/*QUAKED misc_aliencomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Computer (Tactical only)
+
+"angles"                Sets Pitch/Yaw/Roll.
+
+*/
+
+/*QUAKED misc_alienpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Power Source (Tactical only)
+*/
+
+/*QUAKED misc_humanammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Ammunition Generator  (Tactical mode only)
+*/
+
+/*QUAKED misc_humanbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Backup Generator (Tactical mode only)
+*/
+
+/*QUAKED misc_humancomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Computer (Tactical only)
+
+"angles"                Sets Pitch/Yaw/Roll.
+
+*/
+
+/*QUAKED misc_humanpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Power Source (Tactical only)
+*/
+

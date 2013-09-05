@@ -174,15 +174,6 @@ The brush should have at least one surface with a current content flag enabled.
 */
 
 
-/*QUAKED info_player_deathmatch (1 0 1) (-16 -16 -24) (16 16 32) INITIAL
-Spawn point for DM.
-
-If set to 'INITIAL' it will be the first spawn point. It Will also be 
-used as an info_player_intermission if one is not present in the map. 
-
-*/
-
-
 /*QUAKED info_player_red (1 0 0) (-16 -16 -16) (16 16 32)
 Spawn point. Used for team games.
 */
@@ -276,61 +267,6 @@ Adrenaline.
 Sproing.
 */
 
-
-/*QUAKED item_strafer (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Strafer. AOA space ship.
-*/
-
-
-/*QUAKED item_bomber (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Bomber. AOA space ship.
-*/
-
-
-/*QUAKED item_hover (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Hover. AOA space ship.
-*/
-
-
-/*QUAKED item_flag_red (1 0 0) (-16 -16 -16) (16 16 16)
-Red flag for CTF.
-*/
-
-
-/*QUAKED item_flag_blue (0 0 1) (-16 -16 -16) (16 16 16)
-Blue flag for CTF.
-*/
-
-
-/*QUAKED item_deathball (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Deathball position.
-*/
-
-
-/*QUAKED item_dbtarget (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Deathball target.
-*/
-
-/*QUAKED item_blue_dbtarget (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Blue deathball target for team play.
-*/
-
-/*QUAKED item_red_dbtarget (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Red deathball target for team play.
-*/
-
-
-/*QUAKED misc_redspidernode (1 0 0) (-32 -32 -24) (32 32 32)
-Red Spider Node for TCA.
-
-*/
-
-
-/*QUAKED misc_bluespidernode (0 0 1) (-32 -32 -24) (32 32 32)
-Blue Spider Node for TCA.
-
-*/
-
 /*QUAKED misc_laser (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON nofunc nofunc Lightning Vaporbeam
 When triggered, fires a laser. Target an info_notnull for direction. 
 
@@ -357,16 +293,6 @@ Spider Pod. Fires electricity at players.
 */
 
 
-/*QUAKED misc_rednode (1 0 0) (-32 -32 -24) (32 32 -16)
-Red Power Node for TCA.
-*/
-
-
-/*QUAKED misc_bluenode (0 0 1) (-32 -32 -24) (32 32 -16)
-Blue Power Node for TCA.
-*/
-
-
 /*QUAKED misc_mapmodel (0 0.5 0) (-8 -8 -8) (8 8 8)
 Add a model/mesh.
 
@@ -387,13 +313,6 @@ Makes an electricity sound.
 /*QUAKED npc_deathray (0 0.5 0) (-16 -16 -16) (16 16 16)
 The deathray fires at players, except the person who triggers it.
 "angle"                 Sets the direction the deathray will face.
-
-*/
-
-
-/*QUAKED npc_cow (0 0.5 0) (-16 -16 -16) (16 16 16)
-Start position of cows in cattle prod games.
-"angle"                 Sets the direction the cow will face.
 
 */
 
@@ -488,15 +407,6 @@ Multiple identical looping sounds will just increase volume without any speed co
 */
 
 
-/*QUAKED target_laser (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON nofunc nofunc Lightning Vaporbeam
-When triggered, fires a laser. Target an info_notnull for direction. 
-
-Notes: 
-The beam doesn't end at the info_notnull. Using lightning and vaporbeam causes strange 
-behaviour in brushes.
-*/
-
-
 /*QUAKED target_steam (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON
 Emits steam.
 "angle"                 Sets the direction of the steam.
@@ -505,26 +415,6 @@ Emits steam.
 
 /*QUAKED target_fire (1 0 0) (-8 -8 -8) (8 8 8) START_ON
 Emits fire.
-*/
-
-
-/*QUAKED trigger_bluecowtarget (0 0 1) ?
-The cow target for the blue team. Only used in cattle prod.
-*/
-
-
-/*QUAKED trigger_redcowtarget (1 0 0) ?
-The cow target for the red team. Only used in cattle prod.
-*/
-
-
-/*QUAKED trigger_reddeathballtarget (1 0 0) ?
-The deathball target for the red team. Only used in team based deathball.
-*/
-
-
-/*QUAKED trigger_bluedeathballtarget (0 0 1) ?
-The deathball target for the blue team. Only used in team based deathball.
 */
 
 

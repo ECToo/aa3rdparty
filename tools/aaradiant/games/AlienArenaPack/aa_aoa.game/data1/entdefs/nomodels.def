@@ -292,53 +292,6 @@ Hover. AOA space ship.
 */
 
 
-/*QUAKED item_flag_red (1 0 0) (-16 -16 -16) (16 16 16)
-Red flag for CTF.
-*/
-
-
-/*QUAKED item_flag_blue (0 0 1) (-16 -16 -16) (16 16 16)
-Blue flag for CTF.
-*/
-
-
-/*QUAKED item_deathball (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Deathball position.
-*/
-
-
-/*QUAKED item_dbtarget (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Deathball target.
-*/
-
-/*QUAKED item_blue_dbtarget (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Blue deathball target for team play.
-*/
-
-/*QUAKED item_red_dbtarget (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Red deathball target for team play.
-*/
-
-
-/*QUAKED misc_redspidernode (1 0 0) (-32 -32 -24) (32 32 32)
-Red Spider Node for TCA.
-
-*/
-
-
-/*QUAKED misc_bluespidernode (0 0 1) (-32 -32 -24) (32 32 32)
-Blue Spider Node for TCA.
-
-*/
-
-/*QUAKED misc_laser (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON nofunc nofunc Lightning Vaporbeam
-When triggered, fires a laser. Target an info_notnull for direction. 
-
-Notes: 
-The beam doesn't end at the info_notnull. Using lightning and vaporbeam causes strange 
-behaviour in brushes.
-*/
-
 /*QUAKED misc_teleporter_dest (1 0 0) (-32 -32 -24) (32 32 -16)
 
 "targetname"            Name of teleporter origin.
@@ -355,17 +308,6 @@ behaviour in brushes.
 Spider Pod. Fires electricity at players.
 
 */
-
-
-/*QUAKED misc_rednode (1 0 0) (-32 -32 -24) (32 32 -16)
-Red Power Node for TCA.
-*/
-
-
-/*QUAKED misc_bluenode (0 0 1) (-32 -32 -24) (32 32 -16)
-Blue Power Node for TCA.
-*/
-
 
 /*QUAKED misc_mapmodel (0 0.5 0) (-8 -8 -8) (8 8 8)
 Add a model/mesh.
@@ -389,14 +331,6 @@ The deathray fires at players, except the person who triggers it.
 "angle"                 Sets the direction the deathray will face.
 
 */
-
-
-/*QUAKED npc_cow (0 0.5 0) (-16 -16 -16) (16 16 16)
-Start position of cows in cattle prod games.
-"angle"                 Sets the direction the cow will face.
-
-*/
-
 
 /*QUAKED worldspawn (0 0 0) ?
 Every map should have only one worldspawn.
@@ -436,45 +370,6 @@ Train path corners.
 */
 
 
-/*QUAKED misc_alienammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Alien Ammunition Generator  (Tactical mode only)
-*/
-
-/*QUAKED misc_alienbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Alien Backup Generator (Tactical mode only)
-*/
-
-/*QUAKED misc_aliencomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Alien Computer (Tactical only)
-
-"angles"                Sets Pitch/Yaw/Roll.
-
-*/
-
-/*QUAKED misc_alienpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Alien Power Source (Tactical only)
-*/
-
-/*QUAKED misc_humanammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Human Ammunition Generator  (Tactical mode only)
-*/
-
-/*QUAKED misc_humanbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Human Backup Generator (Tactical mode only)
-*/
-
-/*QUAKED misc_humancomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Human Computer (Tactical only)
-
-"angles"                Sets Pitch/Yaw/Roll.
-
-*/
-
-/*QUAKED misc_humanpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Human Power Source (Tactical only)
-*/
-
-
 /*QUAKED target_speaker (1 0 0) (-8 -8 -8) (8 8 8) looped-on looped-off reliable
 Normal sounds play each time the target is used.  The reliable flag can be set for crucial voiceovers.
 Looped sounds are always attenuation 3 / vol 1, targetting toggles sound on/off.
@@ -505,26 +400,6 @@ Emits steam.
 
 /*QUAKED target_fire (1 0 0) (-8 -8 -8) (8 8 8) START_ON
 Emits fire.
-*/
-
-
-/*QUAKED trigger_bluecowtarget (0 0 1) ?
-The cow target for the blue team. Only used in cattle prod.
-*/
-
-
-/*QUAKED trigger_redcowtarget (1 0 0) ?
-The cow target for the red team. Only used in cattle prod.
-*/
-
-
-/*QUAKED trigger_reddeathballtarget (1 0 0) ?
-The deathball target for the red team. Only used in team based deathball.
-*/
-
-
-/*QUAKED trigger_bluedeathballtarget (0 0 1) ?
-The deathball target for the blue team. Only used in team based deathball.
 */
 
 

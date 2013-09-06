@@ -305,6 +305,50 @@ Sproing.
 model="models/items/sproing/tris.md2"
 */
 
+/*QUAKED misc_alienammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Ammunition Generator  (Tactical mode only)
+*/
+
+
+/*QUAKED misc_alienbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Backup Generator (Tactical mode only)
+*/
+
+
+/*QUAKED misc_aliencomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Computer (Tactical only)
+
+"angles"                Sets Pitch/Yaw/Roll.
+*/
+
+
+/*QUAKED misc_alienpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Alien Power Source (Tactical only)
+*/
+
+
+/*QUAKED misc_humanammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Ammunition Generator  (Tactical mode only)
+*/
+
+
+/*QUAKED misc_humanbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Backup Generator (Tactical mode only)
+*/
+
+
+/*QUAKED misc_humancomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Computer (Tactical only)
+
+"angles"                Sets Pitch/Yaw/Roll.
+*/
+
+
+/*QUAKED misc_humanpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
+Human Power Source (Tactical only)
+*/
+
+
 /*QUAKED misc_laser (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON nofunc nofunc Lightning Vaporbeam
 When triggered, fires a laser. Target an info_notnull for direction. 
 
@@ -394,45 +438,6 @@ Train path corners.
 "pathtarget"            Name of target to trigger
 "speed"                 Movement speed (100 default).
 "wait"                  Wait at this point before moving to next target.
-*/
-
-
-/*QUAKED misc_alienammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Alien Ammunition Generator  (Tactical mode only)
-*/
-
-/*QUAKED misc_alienbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Alien Backup Generator (Tactical mode only)
-*/
-
-/*QUAKED misc_aliencomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Alien Computer (Tactical only)
-
-"angles"                Sets Pitch/Yaw/Roll.
-
-*/
-
-/*QUAKED misc_alienpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Alien Power Source (Tactical only)
-*/
-
-/*QUAKED misc_humanammodepot (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Human Ammunition Generator  (Tactical mode only)
-*/
-
-/*QUAKED misc_humanbackupgen (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Human Backup Generator (Tactical mode only)
-*/
-
-/*QUAKED misc_humancomputer (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Human Computer (Tactical only)
-
-"angles"                Sets Pitch/Yaw/Roll.
-
-*/
-
-/*QUAKED misc_humanpowersrc (.3 .3 1) (-16 -16 -16) (16 16 16) 
-Human Power Source (Tactical only)
 */
 
 

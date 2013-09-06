@@ -3,7 +3,7 @@
 <var name="qbsp3">&quot;[RadiantPath]qbsp3.[ExecutableType]&quot;</var>
 <var name="qrad3">&quot;[RadiantPath]qrad3.[ExecutableType]&quot;</var>
 <var name="qvis3">&quot;[RadiantPath]qvis3.[ExecutableType]&quot;</var>
-<build name="Structure: Low light, Normal VIS">
+<build name="Structure: Low Light, Normal VIS">
 <command>[qbsp3] &quot;[MapFile]&quot;</command>
 <command>[qvis3] &quot;[MapFile]&quot;</command>
 <command>[qrad3] -bounce 0 -subdiv 128 &quot;[MapFile]&quot;</command>

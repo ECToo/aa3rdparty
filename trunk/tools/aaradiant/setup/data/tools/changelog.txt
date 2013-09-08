@@ -1,3 +1,6 @@
+Initial release - Rev:185
+=========================
+
 Fixes for glib.
 Included AA compiler source.
 Simple installer for windows version.
@@ -7,3 +10,13 @@ Shaders for transparent textures.
 Updated entity definitions.
 
 New splash screen and icons.
+
+Version 1.1 - Rev:??
+=====================
+
+Alien Arena Tactical support. Preliminary.
+Entities are now separated into game types. Choose game type in global perferences.
+
+Updated compiler source and windows binaries.
+Updated editor shaders have now been moved to the Alien Arena repo.
+

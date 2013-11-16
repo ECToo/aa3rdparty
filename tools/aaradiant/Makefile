@@ -291,9 +291,9 @@ dependencies-check:
 	checkbinary binutils "$(AR)"; \
 	checkbinary pkg-config "$(PKGCONFIG)"; \
 	checkbinary unzip "$(UNZIPPER)"; \
-	checkbinary git-core "$(GIT)"; \
-	checkbinary subversion "$(SVN)"; \
-	checkbinary wget "$(WGET)"; \
+	#checkbinary git-core "$(GIT)"; \
+	#checkbinary subversion "$(SVN)"; \
+	#checkbinary wget "$(WGET)"; \
 	[ "$(OS)" = "Win32" ] && checkbinary mingw32 "$(WINDRES)"; \
 	[ -n "$(LDD)" ] && checkbinary libc6 "$(LDD)"; \
 	[ -n "$(OTOOL)" ] && checkbinary xcode "$(OTOOL)"; \

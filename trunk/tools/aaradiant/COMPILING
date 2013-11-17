@@ -17,7 +17,6 @@ Linux(using X-windows)
 environment:
 - gcc >= version 3.1
 - GNU make
-- svn, wget, git (no longer required)
 
 dependencies: These are only a guide, some packages may be named differently between distributions.
 
@@ -54,28 +53,38 @@ Switch into the install folder, and run NetRadiant.app
 
 Win32 (2000, XP, Vista or Windows 7)
 ==================
-
 environment:
 - MinGW and Prepackaged Radiant dependencies (Gtk and other stuff):
   http://aa3rdparty.googlecode.com/svn/trunk/tools/aaradiant/windows_build_tools.zip
 
-  Install this to c:\mingw, and select the components C compiler, C++ compiler
+  Run mingw-get-inst-20111118.exe and install to c:\mingw, and select the components C compiler, C++ compiler
   and MSYS Basic System
 - Start the MSYS shell once, then exit it
--   Extract this one to
+-   Extract aaradiant-dependencies-mingw32-20101211.zip to
   c:\mingw\msys\1.0\home\username
-  (if you do this with 7zip, keep the "netradiant-dependencies-mingw32" folder
-  name of the contents)
-- now download the source from the MSYS shell, if you don't already have it:
-  ~/netradiant-dependencies-mingw32/util/bin/git clone git://git.icculus.org/divverent/netradiant.git
+- Start the MSYS shell and get the source: svn checkout http://aa3rdparty.googlecode.com/svn/trunk/tools/aaradiant aaradiant
 
 build:
-- Start the MSYS shell
-- Switch to the directory with NetRadiant source
+
+- Switch to the directory with aaRadiant source
 - make MAKEFILE_CONF=mingw-Makefile.conf
 
 run:
 - in the "install" directory, double click netradiant.exe
 - if you get a DLL not found error, copy the DLL from either c:\mingw\bin or
   from c:\mingw\msys\1.0\bin to the "install" directory
+
+Map Compilers for Linux/OSX
+===========================
+I suggest using the included compiler source in the utils3 directory, this is
+made to work with the build menus. It is not necessary to rebuild these if you 
+rebuild aaradiant, changing to the utils3 directory and running 'make install' 
+will do the trick.
+
+environment:
+- gcc >= version 3.1
+- GNU make
+
+build:
+run 'make clean all install'
 

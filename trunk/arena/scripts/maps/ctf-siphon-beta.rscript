@@ -1,0 +1,121 @@
+textures/xempx/a7light2
+{
+	{
+		map gfx/grchrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 .8 .8
+		envmap
+	}
+}
+textures/phillipk/pk02_light01b
+{
+	{
+		map gfx/grchrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 .6 .6
+		envmap
+	}
+}
+textures/arena7/glass
+{
+	{
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 .2 .2
+		envmap
+	}
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 .1 .1
+		envmap
+	}
+}
+textures/phillipk/pk01_door01a_d
+{
+	{
+		map textures/phillipk/pk01_door01_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		alphashift 0 .6 .6
+		nolightmap		
+	}
+}
+textures/phillipk/pk01_door01b_d
+{
+	{
+		map textures/phillipk/pk01_door01_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		alphashift 0 .6 .6
+		nolightmap		
+	}
+}
+textures/phillipk/pk01_panel03a
+{
+	{
+		map textures/phillipk/pk01_panel03a_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		alphashift 0 .4 .4
+		nolightmap
+	}
+}
+textures/phillipk/pk01_panel03b
+{
+	{
+		map textures/phillipk/pk01_panel03a_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		alphashift 0 .4 .4
+		nolightmap
+	}
+}
+textures/phillipk/pk01_panel02_d
+{
+	{
+		map textures/phillipk/pk01_panel02_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		alphashift 0 .4 .4
+		nolightmap
+	}
+}
+textures/phillipk/pk01_panel_small02_d
+{
+	{
+		map textures/phillipk/pk01_panel_small02_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		alphashift 0 .4 .4
+		nolightmap
+	}
+}
+textures/phillipk/pk02_computer01c
+{
+	{
+		map textures/phillipk/pk02_computer01c_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		alphashift 0 .4 .4
+		nolightmap
+	}
+}
+textures/evil/confllrtile2pad
+{
+	{
+		map textures/rage/floor2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		alphashift 0 .4 .4
+		nolightmap
+	}
+}
+textures/evil/e6horzlight
+{
+	{
+		lensflare
+	}
+}

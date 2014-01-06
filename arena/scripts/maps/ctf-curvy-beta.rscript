@@ -1,0 +1,86 @@
+textures/xempx/a3light1b
+{
+	{
+		map gfx/grchrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.8 0.8
+		envmap
+	}
+}
+textures/arena7/glass
+{
+	{
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.2 0.2
+		envmap
+	}
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+//blank 1 is blue glow
+textures/blanks/blank1
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 20
+		colormap .19 .38 .7
+		beam
+	}
+}
+//blank 2 is red glow
+textures/blanks/blank2
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 20
+		colormap 1 0 0
+		beam
+	}
+}
+//blank 3 is green glow
+textures/blanks/blank3
+{
+	{
+		map gfx/beam3.tga
+		scale static 30 static 20
+		colormap .38 .50 .12
+		beam
+	}
+}
+textures/phillipk/pk02_ceiling02
+{
+	{
+		map textures/phillipk/pk02_ceiling02_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 3 0 .4
+		nolightmap
+	}
+}
+textures/phillipk/pk02_ceiling02r
+{
+	{
+		map textures/phillipk/pk02_ceiling02_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 3 0 .4
+		nolightmap
+	}
+}
+textures/arena7/light10
+{
+	{
+		lensflare
+	}
+}
+textures/arena7/light14
+{
+	{
+		lensflare
+	}
+}

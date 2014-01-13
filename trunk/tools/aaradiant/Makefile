@@ -364,6 +364,7 @@ binaries-radiant-modules: \
 	$(INSTALLDIR)/modules/mapq3.$(DLL) \
 	$(INSTALLDIR)/modules/mapxml.$(DLL) \
 	$(INSTALLDIR)/modules/md3model.$(DLL) \
+	$(INSTALLDIR)/modules/iqmmodel.$(DLL) \
 	$(INSTALLDIR)/modules/model.$(DLL) \
 	$(INSTALLDIR)/modules/shaders.$(DLL) \
 	$(INSTALLDIR)/modules/vfspk3.$(DLL) \
@@ -795,6 +796,12 @@ $(INSTALLDIR)/modules/md3model.$(DLL): \
 	plugins/md3model/mdlimage.o \
 	plugins/md3model/mdl.o \
 	plugins/md3model/plugin.o \
+
+$(INSTALLDIR)/modules/iqmmodel.$(DLL): CPPFLAGS_EXTRA := -Ilibs -Iinclude
+$(INSTALLDIR)/modules/iqmmodel.$(DLL): \
+	plugins/iqmmodel/iqm.o \
+	plugins/iqmmodel/plugin.o \
+
 
 $(INSTALLDIR)/modules/model.$(DLL): CPPFLAGS_EXTRA := -Ilibs -Iinclude
 $(INSTALLDIR)/modules/model.$(DLL): \

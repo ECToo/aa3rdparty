@@ -16,7 +16,7 @@
   no_bsp_monitor="1"
   archivetypes="pak"
   texturetypes="tga jpg"
-  modeltypes="md2"
+  modeltypes="iqm md2"
   maptypes="mapq2"
   shaders="quake3"
   shaderpath="scripts"

@@ -5,7 +5,7 @@ If set to 'INITIAL' it will be the first spawn point. It Will also be
 used as an info_player_intermission if one is not present in the map. 
 
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="players/martianenforcer/tris.md2"
+model="players/martianenforcer/lod1.iqm"
 */
 
 

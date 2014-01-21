@@ -1,8 +1,0 @@
-players/slashbot/viper
-{
-	{
-		map players/slashbot/viper_normal.jpg
-		normalmap
-		map2 gfx/defaultvipergfx.tga
-		glow
-        }

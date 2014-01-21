@@ -1,7 +1,0 @@
-players/enforcer/munster
-{
-	{
-		map players/enforcer/munster_normal.tga
-		normalmap
-	}	
-}

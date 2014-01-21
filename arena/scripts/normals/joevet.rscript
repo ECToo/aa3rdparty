@@ -1,7 +1,0 @@
-players/enforcer/joevet
-{
-	{
-		map players/enforcer/joevet_normal.tga
-		normalmap
-	}	
-}

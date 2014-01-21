@@ -1,7 +1,0 @@
-players/enforcer/panther
-{
-	{
-		map players/enforcer/panther_normal.tga
-		normalmap
-	}	
-}

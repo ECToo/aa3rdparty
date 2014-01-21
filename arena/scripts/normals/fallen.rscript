@@ -1,7 +1,0 @@
-players/enforcer/fallen
-{
-	{
-		map players/enforcer/fallen_normal.tga
-		normalmap
-	}	
-}

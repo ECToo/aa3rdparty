@@ -1,9 +1,0 @@
-players/martiancyborg/corroded
-{
-	{
-		map players/martiancyborg/corroded_normal.tga
-		normalmap
-		map2 gfx/corrodedgfx.tga
-		glow
-        }
-}

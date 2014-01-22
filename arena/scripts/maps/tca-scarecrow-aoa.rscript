@@ -1,0 +1,56 @@
+textures/chang/light01a
+{
+	{
+		lensflare
+	}
+}
+textures/chang/light02ba
+{
+	{
+		map gfx/beam1.tga
+		scale static 10 static 10
+		colormap 0.8 0.8 0.8
+		beam
+		lensflare
+	}
+}
+textures/chang/light02ca
+{
+	{
+		map gfx/beam1.tga
+		scale static 10 static 10
+		colormap 0.8 0.0 0.0
+		beam
+		lensflare
+	}
+}
+textures/chang/light02da
+{
+	{
+		map gfx/beam1.tga
+		scale static 10 static 10
+		colormap 0.2 0.2 0.8
+		beam
+		lensflare
+	}
+}
+textures/chang/snow01
+{
+	{
+		map gfx/chang/grass5s.tga
+		scale static 2 static 2
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/chang/snow02
+{
+	{
+		map gfx/chang/grass4s.tga
+		scale static 2 static 2
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}

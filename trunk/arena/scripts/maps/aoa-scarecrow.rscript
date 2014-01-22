@@ -1,0 +1,29 @@
+textures/chang/snow01
+{
+	{
+		map gfx/chang/grass5s.tga
+		scale static 2 static 2
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/chang/snow02
+{
+	{
+		map gfx/chang/grass4s.tga
+		scale static 2 static 2
+		colormap 1 1 1
+		grass
+		grasstype 0
+	}
+}
+textures/chang/light02a
+{
+	{
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 1 0.3 0.3
+		envmap
+	}	
+}

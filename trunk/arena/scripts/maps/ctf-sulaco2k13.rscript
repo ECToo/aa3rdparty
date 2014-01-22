@@ -1,0 +1,39 @@
+textures/evil/e8_jumppad02
+{
+	{
+		map gfx/e8_jumppad02_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 9 0 9
+		nolightmap
+	}
+	{
+		map gfx/e8_jumppad02_mask.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+	}
+}
+textures/xempx/a3light1b
+{
+	{
+		map gfx/grchrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.8 0.8
+		envmap
+	}
+}
+textures/arena7/glass
+{
+	{
+		map gfx/chrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.2 0.2
+		envmap
+	}
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}

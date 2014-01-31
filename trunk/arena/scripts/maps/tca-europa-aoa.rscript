@@ -31,7 +31,6 @@ textures/arena2/grid2
 	{
 		map gfx/comp2.tga
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
-		origin -32 -96 -544
 		rotate 10
 		alphashift 0 0.2 0.2	
 		nolightmap

@@ -1,0 +1,58 @@
+players/g2commander/blue
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultcommanderfx.tga
+		glow
+	}	
+}
+players/g2commander/red
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2redcommanderfx.tga
+		glow
+	}	
+}
+players/g2commander/default
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultcommanderfx.tga
+		glow
+	}	
+}
+
+players/g2commander/tron
+{
+	{
+		map players/g2commander/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron_commanderfx.tga
+		glow
+	}	
+}
+
+players/g2commander/tron2
+{
+	{
+		map players/g2commander/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron2_commanderfx.tga
+		glow
+	}	
+}
+
+players/g2commander/tron3
+{
+	{
+		map players/g2commander/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron3_commanderfx.tga
+		glow
+	}	
+}
+

@@ -1,0 +1,64 @@
+players/g2enforcer/default
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultenforcerfx.tga
+		glow
+	}	
+}
+players/g2enforcer/red
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultenforcerfx.tga
+		glow
+	}	
+}
+players/g2enforcer/blue
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultenforcerfx.tga
+		glow
+	}	
+}
+players/g2enforcer/stryker
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultenforcerfx.tga
+		glow
+	}	
+}
+players/g2enforcer/tron
+{
+	{
+		map players/g2enforcer/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron_enforcerfx.tga
+		glow
+	}	
+}
+players/g2enforcer/tron2
+{
+	{
+		map players/g2enforcer/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron2_enforcerfx.tga
+		glow
+	}	
+}
+players/g2enforcer/tron3
+{
+	{
+		map players/g2enforcer/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron3_enforcerfx.tga
+		glow
+	}	
+}
+

@@ -1,0 +1,71 @@
+players/g2martianenforcer/red
+{
+	{
+		map players/g2martianenforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultmartianfx.tga
+		glow
+	}
+}
+
+players/g2martianenforcer/default
+{
+	{
+		map players/g2martianenforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultmartianfx.tga
+		glow
+	}
+}
+
+players/g2martianenforcer/blue
+{
+	{
+		map players/g2martianenforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2bluemartianfx.tga
+		glow
+	}	
+}
+
+players/g2martianenforcer/gamara
+{
+	{
+		map players/g2martianenforcer/gamara_normal.tga
+		normalmap
+		map2 gfx/g2gamarafx.tga
+		glow
+	}
+}
+
+players/g2martianenforcer/tron
+{
+	{
+		map players/g2martianenforcer/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron_martianfx.tga
+		glow
+	}	
+}
+
+players/g2martianenforcer/tron2
+{
+	{
+		map players/g2martianenforcer/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron2_martianfx.tga
+		glow
+	}	
+}
+
+players/g2martianenforcer/tron3
+{
+	{
+		map players/g2martianenforcer/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron3_martianfx.tga
+		glow
+	}	
+}
+
+

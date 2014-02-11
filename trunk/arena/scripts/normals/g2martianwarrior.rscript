@@ -1,0 +1,60 @@
+players/g2martianwarrior/red
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultwarriorfx.tga
+		glow
+	}
+}
+
+players/g2martianwarrior/default
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultwarriorfx.tga
+		glow
+	}
+}
+
+players/g2martianwarrior/blue
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2bluewarriorfx.tga
+		glow
+	}	
+}
+
+players/g2martianwarrior/tron
+{
+	{
+		map players/g2martianwarrior/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron_warriorfx.tga
+		glow
+	}	
+}
+
+players/g2martianwarrior/tron2
+{
+	{
+		map players/g2martianwarrior/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron2_warriorfx.tga
+		glow
+	}	
+}
+
+players/g2martianwarrior/tron3
+{
+	{
+		map players/g2martianwarrior/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron3_warriorfx.tga
+		glow
+	}	
+}
+

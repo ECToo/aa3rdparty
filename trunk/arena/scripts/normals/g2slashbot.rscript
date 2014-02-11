@@ -1,0 +1,54 @@
+players/g2slashbot/red
+{
+	{
+		map players/g2slashbot/default_normal.jpg
+		normalmap
+		map2 gfx/g2defaultslashbotfx.tga
+		glow
+	}
+}
+players/g2slashbot/default
+{
+	{
+		map players/g2slashbot/default_normal.jpg
+		normalmap
+		map2 gfx/g2defaultslashbotfx.tga
+		glow
+	}
+}
+players/g2slashbot/blue
+{
+	{
+		map players/g2slashbot/default_normal.jpg
+		normalmap
+		map2 gfx/g2defaultslashbotfx.tga
+		glow
+	}	
+}
+players/g2slashbot/tron
+{
+	{
+		map players/g2slashbot/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron_slashbotfx.tga
+		glow
+	}	
+}
+players/g2slashbot/tron2
+{
+	{
+		map players/g2slashbot/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron2_slashbotfx.tga
+		glow
+	}	
+}
+players/g2slashbot/tron3
+{
+	{
+		map players/g2slashbot/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron3_slashbotfx.tga
+		glow
+	}	
+}

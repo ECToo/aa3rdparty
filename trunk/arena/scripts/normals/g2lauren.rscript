@@ -1,0 +1,55 @@
+players/g2lauren/blue
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultlaurenfx.tga
+		glow
+	}	
+}
+players/g2lauren/red
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultlaurenfx.tga
+		glow
+	}	
+}
+players/g2lauren/default
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultlaurenfx.tga
+		glow
+	}	
+}
+players/g2lauren/tron
+{
+	{
+		map players/g2lauren/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron_laurenfx.tga
+		glow
+	}	
+}
+players/g2lauren/tron2
+{
+	{
+		map players/g2lauren/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron2_laurenfx.tga
+		glow
+	}	
+}
+players/g2lauren/tron3
+{
+	{
+		map players/g2lauren/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron3_laurenfx.tga
+		glow
+	}	
+}
+

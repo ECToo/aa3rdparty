@@ -1,0 +1,55 @@
+players/g2martianoverlord/red
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultoverlordfx.tga
+		glow
+	}
+}
+players/g2martianoverlord/default
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultoverlordfx.tga
+		glow
+	}
+}
+players/g2martianoverlord/blue
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2blueoverlordfx.tga
+		glow
+	}	
+}
+players/g2martianoverlord/tron
+{
+	{
+		map players/g2martianoverlord/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron_overlordfx.tga
+		glow
+	}	
+}
+players/g2martianoverlord/tron2
+{
+	{
+		map players/g2martianoverlord/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron2_overlordfx.tga
+		glow
+	}	
+}
+
+players/g2martianoverlord/tron3
+{
+	{
+		map players/g2martianoverlord/tron_normal.tga
+		normalmap
+		map2 gfx/g2tron3_overlordfx.tga
+		glow
+	}	
+}

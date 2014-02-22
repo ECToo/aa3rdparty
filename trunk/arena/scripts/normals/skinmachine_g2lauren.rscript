@@ -1,0 +1,111 @@
+players/g2lauren/aqua
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2aqualaurenfx.tga
+		glow
+	}	
+}
+
+players/g2lauren/black
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2blacklaurenfx.tga
+		glow
+	}
+}
+
+players/g2lauren/blacknblue
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2bluelaurenfx.tga
+		glow
+	}
+}
+
+players/g2lauren/blackngreen
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2greenlaurenfx.tga
+		glow
+	}
+}
+
+players/g2lauren/blacknorange
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2orangelaurenfx.tga
+		glow
+	}
+}
+
+players/g2lauren/blacknyellow
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2yellowlaurenfx.tga
+		glow
+	}
+}
+
+players/g2lauren/cold
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2coldlaurenfx.tga
+		glow
+	}	
+}
+
+players/g2lauren/fire
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2firelaurenfx.tga
+		glow
+	}	
+}
+
+players/g2lauren/ice
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2icelaurenfx.tga
+		glow
+	}	
+}
+
+players/g2lauren/midnight
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2midnightlaurenfx.tga
+		glow
+	}	
+}
+
+players/g2lauren/neon
+{
+	{
+		map players/g2lauren/default_normal.tga
+		normalmap
+		map2 gfx/g2neonlaurenfx.tga
+		glow
+	}	
+}
+
+

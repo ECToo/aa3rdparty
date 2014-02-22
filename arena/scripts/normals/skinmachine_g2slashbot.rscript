@@ -1,0 +1,131 @@
+players/g2slashbot/aqua
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2aquaslashbotfx.tga
+		glow
+	}	
+}
+
+players/g2slashbot/black
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2blackslashbotfx.tga
+		glow
+	}
+}
+
+players/g2slashbot/blacknblue
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2blueslashbotfx.tga
+		glow
+	}
+}
+
+players/g2slashbot/blackngreen
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2greenslashbotfx.tga
+		glow
+	}
+}
+
+players/g2slashbot/blacknorange
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2orangeslashbotfx.tga
+		glow
+	}
+}
+
+players/g2slashbot/blacknyellow
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2yellowslashbotfx.tga
+		glow
+	}
+}
+
+players/g2slashbot/cold
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2coldslashbotfx.tga
+		glow
+	}	
+}
+
+players/g2slashbot/cyrax
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultslashbotfx.tga
+		glow
+	}
+}
+
+players/g2slashbot/sektor
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2defaultslashbotfx.tga
+		glow
+	}
+}
+
+players/g2slashbot/fire
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2fireslashbotfx.tga
+		glow
+	}	
+}
+
+players/g2slashbot/ice
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2iceslashbotfx.tga
+		glow
+	}	
+}
+
+players/g2slashbot/midnight
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2midnightslashbotfx.tga
+		glow
+	}	
+}
+
+players/g2slashbot/neon
+{
+	{
+		map players/g2slashbot/default_normal.tga
+		normalmap
+		map2 gfx/g2neonslashbotfx.tga
+		glow
+	}	
+}
+
+

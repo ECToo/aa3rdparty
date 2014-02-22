@@ -1,0 +1,110 @@
+players/g2martianwarrior/aqua
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2aquawarriorfx.tga
+		glow
+	}	
+}
+
+players/g2martianwarrior/black
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2blackwarriorfx.tga
+		glow
+	}
+}
+
+players/g2martianwarrior/blacknblue
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2bluewarrior2fx.tga
+		glow
+	}
+}
+
+players/g2martianwarrior/blackngreen
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2greenwarriorfx.tga
+		glow
+	}
+}
+
+players/g2martianwarrior/blacknorange
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2orangewarriorfx.tga
+		glow
+	}
+}
+
+players/g2martianwarrior/blacknyellow
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2yellowwarriorfx.tga
+		glow
+	}
+}
+
+players/g2martianwarrior/cold
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2coldwarriorfx.tga
+		glow
+	}	
+}
+
+players/g2martianwarrior/fire
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2firewarriorfx.tga
+		glow
+	}	
+}
+
+players/g2martianwarrior/ice
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2icewarriorfx.tga
+		glow
+	}	
+}
+
+players/g2martianwarrior/midnight
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2midnightwarriorfx.tga
+		glow
+	}	
+}
+
+players/g2martianwarrior/neon
+{
+	{
+		map players/g2martianwarrior/default_normal.tga
+		normalmap
+		map2 gfx/g2neonwarriorfx.tga
+		glow
+	}	
+}
+

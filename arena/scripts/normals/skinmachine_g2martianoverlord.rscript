@@ -1,0 +1,110 @@
+players/g2martianoverlord/aqua
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2aquaoverlordfx.tga
+		glow
+	}	
+}
+
+players/g2martianoverlord/black
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2blackoverlordfx.tga
+		glow
+	}
+}
+
+players/g2martianoverlord/blacknblue
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2blueoverlord2fx.tga
+		glow
+	}
+}
+
+players/g2martianoverlord/blackngreen
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2greenoverlordfx.tga
+		glow
+	}
+}
+
+players/g2martianoverlord/blacknorange
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2orangeoverlordfx.tga
+		glow
+	}
+}
+
+players/g2martianoverlord/blacknyellow
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2yellowoverlordfx.tga
+		glow
+	}
+}
+
+players/g2martianoverlord/cold
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2coldoverlordfx.tga
+		glow
+	}	
+}
+
+players/g2martianoverlord/fire
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2fireoverlordfx.tga
+		glow
+	}	
+}
+
+players/g2martianoverlord/ice
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2iceoverlordfx.tga
+		glow
+	}	
+}
+
+players/g2martianoverlord/midnight
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2midnightoverlordfx.tga
+		glow
+	}	
+}
+
+players/g2martianoverlord/neon
+{
+	{
+		map players/g2martianoverlord/default_normal.tga
+		normalmap
+		map2 gfx/g2neonoverlordfx.tga
+		glow
+	}	
+}
+

@@ -1,0 +1,111 @@
+players/g2commander/aqua
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2aquacommanderfx.tga
+		glow
+	}	
+}
+
+players/g2commander/black
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2blackcommanderfx.tga
+		glow
+	}
+}
+
+players/g2commander/blacknblue
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2bluecommanderfx.tga
+		glow
+	}
+}
+
+players/g2commander/blackngreen
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2greencommanderfx.tga
+		glow
+	}
+}
+
+players/g2commander/blacknorange
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2orangecommanderfx.tga
+		glow
+	}
+}
+
+players/g2commander/blacknyellow
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2yellowcommanderfx.tga
+		glow
+	}
+}
+
+players/g2commander/cold
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2coldcommanderfx.tga
+		glow
+	}	
+}
+
+players/g2commander/fire
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2firecommanderfx.tga
+		glow
+	}	
+}
+
+players/g2commander/ice
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2icecommanderfx.tga
+		glow
+	}	
+}
+
+players/g2commander/midnight
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2midnightcommanderfx.tga
+		glow
+	}	
+}
+
+players/g2commander/neon
+{
+	{
+		map players/g2commander/default_normal.tga
+		normalmap
+		map2 gfx/g2neoncommanderfx.tga
+		glow
+	}	
+}
+
+

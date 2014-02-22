@@ -1,0 +1,111 @@
+players/g2enforcer/aqua
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2aquaenforcerfx.tga
+		glow
+	}	
+}
+
+players/g2enforcer/black
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2blackenforcerfx.tga
+		glow
+	}
+}
+
+players/g2enforcer/blacknblue
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2blueenforcerfx.tga
+		glow
+	}
+}
+
+players/g2enforcer/blackngreen
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2greenenforcerfx.tga
+		glow
+	}
+}
+
+players/g2enforcer/blacknorange
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2orangeenforcerfx.tga
+		glow
+	}
+}
+
+players/g2enforcer/blacknyellow
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2yellowenforcerfx.tga
+		glow
+	}
+}
+
+players/g2enforcer/cold
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2coldenforcerfx.tga
+		glow
+	}	
+}
+
+players/g2enforcer/fire
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2fireenforcerfx.tga
+		glow
+	}	
+}
+
+players/g2enforcer/ice
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2iceenforcerfx.tga
+		glow
+	}	
+}
+
+players/g2enforcer/midnight
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2midnightenforcerfx.tga
+		glow
+	}	
+}
+
+players/g2enforcer/neon
+{
+	{
+		map players/g2enforcer/default_normal.tga
+		normalmap
+		map2 gfx/g2neonenforcerfx.tga
+		glow
+	}	
+}
+
+

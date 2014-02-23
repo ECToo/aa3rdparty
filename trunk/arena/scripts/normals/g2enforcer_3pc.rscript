@@ -1,0 +1,64 @@
+players/g2enforcer/america
+{
+	{
+		map players/g2enforcer/america_normal.tga
+		normalmap
+	}	
+}
+players/g2enforcer/exploited
+{
+	{
+		map players/g2enforcer/exploited_normal.tga
+		normalmap
+	}	
+}
+players/g2enforcer/fallen
+{
+	{
+		map players/g2enforcer/fallen_normal.tga
+		normalmap
+	}	
+}
+players/g2enforcer/francenstein
+{
+	{
+		map players/g2enforcer/francenstein_normal.tga
+		normalmap
+	}	
+}
+players/g2enforcer/golden
+{
+	{
+		map players/g2enforcer/golden_normal.tga
+		normalmap
+	}	
+}
+players/g2enforcer/joevet
+{
+	{
+		map players/g2enforcer/joevet_normal.tga
+		normalmap
+	}	
+}
+players/g2enforcer/munster
+{
+	{
+		map players/g2enforcer/munster_normal.tga
+		normalmap
+	}	
+}
+players/g2enforcer/panther
+{
+	{
+		map players/g2enforcer/panther_normal.tga
+		normalmap
+	}	
+}
+players/g2enforcer/punisher
+{
+	{
+		map players/g2enforcer/punisher_normal.tga
+		normalmap
+	}	
+}
+

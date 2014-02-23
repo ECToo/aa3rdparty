@@ -1,0 +1,7 @@
+players/g2lauren/cursed
+{
+	{
+		map players/g2lauren/cursed_normal.tga
+		normalmap
+	}	
+}

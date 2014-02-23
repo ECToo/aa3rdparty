@@ -1,0 +1,57 @@
+players/g2martianenforcer/flames
+{
+	{
+		map players/g2martianenforcer/flames_normal.tga
+		normalmap
+        }	
+}
+players/g2martianenforcer/flamesred
+{
+	{
+		map players/g2martianenforcer/flamesred_normal.tga
+		normalmap
+	}	
+}
+players/g2martianenforcer/flamesgreen
+{
+	{
+		map players/g2martianenforcer/flamesgreen_normal.tga
+		normalmap
+	}	
+}
+
+players/g2martianenforcer/nasty
+{
+	{
+		map players/g2martianenforcer/nasty_normal.tga
+		normalmap
+        }	
+}
+players/g2martianenforcer/nasty2
+{
+	{
+		map players/g2martianenforcer/nasty2_normal.tga
+		normalmap
+	}	
+}
+players/g2martianenforcer/meathead
+{
+	{
+		map players/g2martianenforcer/meathead_normal.tga
+		normalmap
+	}	
+}
+players/g2martianenforcer/mossed
+{
+	{
+		map players/g2martianenforcer/mossed_normal.tga
+		normalmap
+	}	
+}
+players/g2martianenforcer/pumpkinhead
+{
+	{
+		map players/g2martianenforcer/pumpkinhead_normal.tga
+		normalmap
+	}	
+}

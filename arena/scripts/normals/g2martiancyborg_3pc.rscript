@@ -1,0 +1,44 @@
+players/g2martiancyborg/corroded
+{
+	{
+		map players/g2martiancyborg/corroded_normal.tga
+		normalmap
+		map2 gfx/corrodedgfx.tga
+		glow
+        }
+}
+players/g2martiancyborg/ruff
+{
+	{
+		map players/g2martiancyborg/ruff_normal.tga
+		normalmap
+	}	
+}
+players/g2martiancyborg/ruff2
+{
+	{
+		map players/g2martiancyborg/ruff2_normal.tga
+		normalmap
+	}	
+}
+players/g2martiancyborg/beaten
+{
+	{
+		map players/g2martiancyborg/beaten_normal.tga
+		normalmap
+	}	
+}
+players/g2martiancyborg/steel
+{
+	{
+		map players/g2martiancyborg/steel_normal.tga
+		normalmap
+	}
+}
+players/g2martiancyborg/roughsteel
+{
+	{
+		map players/g2martiancyborg/roughsteel_normal.tga
+		normalmap
+	}
+}

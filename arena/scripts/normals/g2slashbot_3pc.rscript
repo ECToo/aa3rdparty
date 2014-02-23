@@ -1,0 +1,74 @@
+players/g2slashbot/ripper
+{
+	{
+		map players/g2slashbot/ripper_normal.tga
+		normalmap
+	}	
+}
+players/g2slashbot/ripper2
+{
+	{
+		map players/g2slashbot/ripper_normal.tga
+		normalmap
+	}	
+}
+players/g2slashbot/ripper3
+{
+	{
+		map players/g2slashbot/ripper_normal.tga
+		normalmap
+	}	
+}
+players/g2slashbot/ripper4
+{
+	{
+		map players/g2slashbot/ripper_normal.tga
+		normalmap
+	}	
+}
+players/g2slashbot/reaper
+{
+	{
+		map players/g2slashbot/ripper_normal.tga
+		normalmap
+	}	
+}
+players/g2slashbot/reptile
+{
+	{
+		map players/g2slashbot/reptile_normal.tga
+		normalmap
+	}	
+}
+players/g2slashbot/bloodreaper
+{
+	{
+		map players/g2slashbot/ripper_normal.tga
+		normalmap
+	}	
+}
+players/g2slashbot/icereaper
+{
+	{
+		map players/g2slashbot/ripper_normal.tga
+		normalmap
+	}	
+}
+players/g2slashbot/sentinel
+{
+	{
+		map players/g2slashbot/sentinel_normal.tga
+		normalmap
+		map2 gfx/defaultsentinelgfx.tga
+		glow
+        }
+}
+players/g2slashbot/viper
+{
+	{
+		map players/g2slashbot/viper_normal.tga
+		normalmap
+		map2 gfx/defaultvipergfx.tga
+		glow
+        }
+}

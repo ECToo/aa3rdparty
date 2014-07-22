@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE project SYSTEM "dtds/project.dtd">
+<!--
+$TEMPLATEapppath: Path to GtkRadiant (e.g. C:\Program Files\GtkRadiant\)
+$TEMPLATEenginepath: Path to the game engine (e.g. C:\Program Files\Quake II\)
+$TEMPLATEexecpath: Path to the tools directory (e.g C:\Program Files\Quake2World\bin\)
+$TEMPLATEuserhomepath: Path to the per-user directory (e.g. ~/.quake2)
+$TEMPLATEbasedir: base game dir (e.g. default\)
+-->
+<project>
+  <key name="version" value="2"/>
+  <key name="basepath" value="$TEMPLATEenginepath$TEMPLATEbasedir/"/>
+  <key name="rshcmd" value=""/>
+  <key name="remotebasepath" value="$TEMPLATEenginepath$TEMPLATEbasedir/"/>
+  <key name="entitypath" value="$TEMPLATEenginepath$TEMPLATEbasedir/scripts/entities.def"/>
+  <key name="texturepath" value="$TEMPLATEenginepath$TEMPLATEbasedir/textures/"/>
+  <key name="autosave" value="$TEMPLATEuserhomepath$TEMPLATEbasedir/maps/autosave.map"/>
+  <key name="mapspath" value="$TEMPLATEuserhomepath$TEMPLATEbasedir/maps/"/>
+
+  <key name="bsp_Q2Wmap BSP"
+    value="! &quot;$TEMPLATEexecpath/q2wmap&quot;
+	-p &quot;$TEMPLATEenginepath$TEMPLATEbasedir&quot;
+	-w &quot;$TEMPLATEuserhomepath$TEMPLATEbasedir&quot;
+	-legacy # -t3 -bsp $"/>
+
+  <key name="bsp_Q2Wmap BSP, Fast VIS"
+    value="! &quot;$TEMPLATEexecpath/q2wmap&quot;
+	-p &quot;$TEMPLATEenginepath$TEMPLATEbasedir&quot;
+	-w &quot;$TEMPLATEuserhomepath$TEMPLATEbasedir&quot;
+	-legacy # -t3 -bsp -vis -fast $"/>
+
+  <key name="bsp_Q2Wmap BSP, Fast VIS, Light"
+    value="! &quot;$TEMPLATEexecpath/q2wmap&quot;
+    -p &quot;$TEMPLATEenginepath$TEMPLATEbasedir&quot;
+    -w &quot;$TEMPLATEuserhomepath$TEMPLATEbasedir&quot;
+   	-legacy # -t3 -bsp -vis -fast -light $"/>
+
+  <key name="bsp_Q2Wmap BSP, Full VIS, Extra Light"
+    value="! &quot;$TEMPLATEexecpath/q2wmap&quot;
+    -p &quot;$TEMPLATEenginepath$TEMPLATEbasedir&quot;
+    -w &quot;$TEMPLATEuserhomepath$TEMPLATEbasedir&quot;
+    -legacy # -t3 -bsp -vis -light -extra $"/>
+
+  <key name="bsp_Q2Wmap Entities"
+    value="! &quot;$TEMPLATEexecpath/q2wmap&quot;
+    -p &quot;$TEMPLATEenginepath$TEMPLATEbasedir&quot;
+    -w &quot;$TEMPLATEuserhomepath$TEMPLATEbasedir&quot;
+    -legacy # -t3 -bsp -onlyents $"/>
+
+  <key name="bsp_Q2Wmap Relight"
+    value="! &quot;$TEMPLATEexecpath/q2wmap&quot;
+    -p &quot;$TEMPLATEenginepath$TEMPLATEbasedir&quot;
+	-w &quot;$TEMPLATEuserhomepath$TEMPLATEbasedir&quot;
+	-legacy # -t3 -bsp -onlyents -light $"/>
+
+  <!-- Surface and contents keys used by the idTech2 Shaders API -->
+  <key name="surf1" value="light" />
+  <key name="surf2" value="slick" />
+  <key name="surf3" value="sky" />
+  <key name="surf4" value="warp" />
+  <key name="surf5" value="trans33" />
+  <key name="surf6" value="trans66" />
+  <key name="surf7" value="flow" />
+  <key name="surf8" value="nodraw" />
+  <key name="surf9" value="hint" />
+  <key name="surf10" value="skip" />
+  <key name="surf11" value="blood" />
+  <key name="surf12" value="water" />
+  <key name="surf13" value="shiny" />
+  <key name="cont1" value="solid" />
+  <key name="cont2" value="window" />
+  <key name="cont3" value="aux" />
+  <key name="cont4" value="lava" />
+  <key name="cont5" value="slime" />
+  <key name="cont6" value="water" />
+  <key name="cont7" value="mist" />
+  <key name="cont8" value="" />
+  <key name="cont9" value="" />
+  <key name="cont10" value="" />
+  <key name="cont11" value="" />
+  <key name="cont12" value="" />
+  <key name="cont13" value="" />
+  <key name="cont14" value="" />
+  <key name="cont15" value="" />
+  <key name="cont16" value="" />
+  <key name="cont17" value="playerclip"/>
+  <key name="cont18" value="monsterclip" />
+  <key name="cont19" value="current_0" />
+  <key name="cont20" value="current_90" />
+  <key name="cont21" value="current_180" />
+  <key name="cont22" value="current_270" />
+  <key name="cont23" value="current_up" />
+  <key name="cont24" value="current_down" />
+  <key name="cont25" value="origin" />
+  <key name="cont26" value="monster" />
+  <key name="cont27" value="corpse" />
+  <key name="cont28" value="detail" />
+  <key name="cont29" value="translucent" />
+  <key name="cont30" value="ladder" />
+</project>
+

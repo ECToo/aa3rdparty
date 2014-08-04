@@ -381,7 +381,7 @@ binaries-radiant-core: \
 .PHONY: clean
 clean:
 	$(RM_R) $(INSTALLDIR_BASE)/
-	$(FIND)  ./  -prune -o  \( -name \*.o -o -name \*.d -o -name \*.$(DLL) -o -name \*.$(A) -o -name \*.$(EXE) \) -exec $(RM) {} \;
+	$(FIND) ./ -path ./utils3 -prune -o \( -name \*.o -o -name \*.d -o -name \*.$(DLL) -o -name \*.$(A) -o -name \*.$(EXE) \) -exec $(RM) {} \;
 	$(RM) icons/*.rc
 
 %.$(EXE):

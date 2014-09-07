@@ -421,7 +421,7 @@ behaviour in brushes.
 */
 
 
-/*QUAKED target_steam (0 .5 .8) (-8 -8 -8) (8 8 8) START_ON
+/*QUAKED target_steam (0 .5 .8) (-8 -8 -8) (8 8 8)
 Emits steam.
 "angle"                 Sets the direction of the steam.
 */

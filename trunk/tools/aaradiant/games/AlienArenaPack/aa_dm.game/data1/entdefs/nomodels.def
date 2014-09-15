@@ -168,11 +168,6 @@ Usually enclosed in the middle of a door.
 */
 
 
-/*QUAKED func_conveyor (0 .5 .8) ? START_ON TOGGLE
-Conveyors are stationary brushes that move what's on them.
-The brush should have at least one surface with a current content flag enabled.
-*/
-
 
 /*QUAKED info_player_deathmatch (1 0 1) (-16 -16 -24) (16 16 32) INITIAL
 Spawn point for DM.

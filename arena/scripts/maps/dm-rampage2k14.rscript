@@ -1,0 +1,31 @@
+textures/evil/ex_trim_psimple_05_d
+{
+	{
+		map textures/evil/ex_trim_psimple_05_d.tga
+		scroll static 0 static -1
+	}
+}
+
+textures/arena9/greenglass
+{
+	{
+		map textures/arena9/greenglass.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.5 0.5
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.3 0.3
+		scale static -3 static -3
+		scroll static 0 static -1
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.1 0.1
+		scale static -7 static -7
+		scroll static 0 static -4
+	}
+}
+

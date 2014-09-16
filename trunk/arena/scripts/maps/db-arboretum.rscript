@@ -1,0 +1,43 @@
+textures/arena7/glass
+{
+	{		
+		map gfx/mirrorspec.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+textures/arena7/redgrid
+{
+	{
+		map textures/arena7/redgrid.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.66 0.66
+		nolightmap
+	}
+	{
+		map gfx/redlightning.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scroll static 0 static 2
+		alphashift 10 0.05 0.66
+		nolightmap
+	}
+}
+textures/arena7/bluegrid
+{
+	{
+		map textures/arena7/bluegrid.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.66 0.66
+		nolightmap
+	}
+	{
+		map gfx/bluelightning.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scroll static 0 static 2
+		alphashift 10 0.05 0.66
+		nolightmap
+	}
+}

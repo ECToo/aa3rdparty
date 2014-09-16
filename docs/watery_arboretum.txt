@@ -1,0 +1,5 @@
+-----------------------------------------------------------------
+Map Name:		Watery Arboretum/Watery Arboretum Miniature Version
+Gamemodes supported:	DM/AOA/CTF/CTF-AOA/TCA/TCA-AOA/DB and DM/AOA
+Mapper:			{CBMP}METROIDHunter
+-----------------------------------------------------------------

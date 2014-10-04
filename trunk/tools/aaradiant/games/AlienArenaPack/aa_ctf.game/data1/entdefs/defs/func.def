@@ -88,8 +88,12 @@ The train spawns at the first target it is pointing at.
 */
 
 
-/*QUAKED func_wall (0 .5 .8) ?
-Can be used for conditional walls and models.
+/*QUAKED func_wall (0 .5 .8) ? TRIGGER_SPAWN TOGGLE START_ON
+This is just a solid wall if not targeted.
+
+TRIGGER_SPAWN   	The wall will not be present until triggered. Anything in its way will be killed.
+TOGGLE                  Valid for TRIGGER_SPAWN walls only, turns the wall on and off.
+START_ON                Valid for TRIGGER_SPAWN walls only, determines whether the wall will initially be present
 */
 
 

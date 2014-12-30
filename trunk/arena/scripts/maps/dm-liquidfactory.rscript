@@ -1,0 +1,186 @@
+textures/blanks/blank1
+{
+	{
+		map gfx/beam1.tga
+		scale static 30 static 5
+		colormap 1 1 1
+		beam
+	}
+}
+textures/blanks/blank2
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 30
+		colormap 1 1 1
+		beam
+	}
+}
+textures/blanks/blank3
+{
+	{
+		map gfx/beam1.tga
+		scale static 15 static 10
+		colormap 1 1 1
+		beam
+		xang -0.25
+		yang 0.0
+	}
+}
+textures/blanks/blank4
+{
+  {
+		map gfx/greenline.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 2
+		scroll static 0 static 8
+		alphashift 0 0.2 0.2
+	}
+}
+textures/blanks/blank5
+{
+	{
+		map gfx/beam1.tga
+		scale static 15 static 10
+		colormap 1 1 1
+		beam
+		xang 0.0
+		yang -0.25
+	}
+}
+textures/blanks/blank6
+{
+	{
+		map gfx/beam3.tga
+		scale static 40 static 60
+		colormap 1 1 1
+		beam
+	}
+}
+textures/arena9/chainlinkfence
+{
+	{
+		map textures/arena5/lighta.tga
+		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static .06 static .06
+		scroll sin 0.5 sin 0.07
+		anim .05
+			textures/arena5/lighta.tga
+			textures/arena5/lightb.tga
+			textures/arena5/lightc.tga
+			textures/arena5/lightd.tga
+			textures/arena5/lighte.tga
+			textures/arena5/lightf.tga
+		end
+	}
+	{
+		map textures/arena9/chainlinkfence.tga
+		alphamask
+	}
+}
+textures/arena7/glass
+{
+	{		
+		map gfx/mirrorspec.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+textures/arena7/light10
+{
+	{	
+		lensflare
+	}
+}
+textures/freaky/a9_roundlightg
+{
+	{
+		map gfx/beam1.tga
+		scale static 25 static 25
+		colormap .1 .5 .2
+		beam
+		xang 0.25
+		yang 0.25
+		rotating 1
+		lensflare
+		flaretype 1
+	}
+}
+env/greenup
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/greenrt
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/greenlf
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/greenft
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/greenbk
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+maps/meshes/freaky/barrel1_biohazard
+{
+	{
+		map maps/meshes/toxicbarrell_normal.jpg
+		normalmap
+	}
+}
+maps/meshes/freaky/barrel1_expolosive
+{
+	{
+		map maps/meshes/toxicbarrell_normal.jpg
+		normalmap
+	}
+}
+maps/meshes/freaky/barrel1_flammable
+{
+	{
+		map maps/meshes/toxicbarrell_normal.jpg
+		normalmap
+	}
+}
+maps/meshes/freaky/barrel1_harmful
+{
+	{
+		map maps/meshes/toxicbarrell_normal.jpg
+		normalmap
+	}
+}
+maps/meshes/freaky/barrel1_radioactive
+{
+	{
+		map maps/meshes/toxicbarrell_normal.jpg
+		normalmap
+	}
+}

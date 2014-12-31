@@ -294,7 +294,11 @@ Spider Pod. Fires electricity at players.
 */
 
 
-/*QUAKED misc_mapmodel (0 0.5 0) (-8 -8 -8) (8 8 8)
+/*QUAKED misc_mapmodel (0 0.5 0) (-8 -8 -8) (8 8 8) NO_SHADOW nofunc nofunc nofunc INVISIBLE ANIMATED
+NO_SHADOW		The mesh won't cast a shadow
+INVISIBLE		Applies the invisibility powerup visual effect to the mesh
+ANIMATED		If mesh contains animation frames use them, otherwise the mesh will be static
+
 Add a model/mesh.
 
 "model"                 Select a model.
